@@ -5,9 +5,7 @@ type: tricks
 canonical: https://any.digital/tricks/ruby/
 ---
 
-### Install and build Slate Docs locally on macOS w/o breaking system's Ruby
-
-Assuming you already have Homebrew and Node installed:
+### Per-folder Ruby setup
 
 ```sh
 brew install rbenv
@@ -15,7 +13,15 @@ brew install rbenv
 rbenv install -l
 # Then install:
 rbenv install 3.2.10
+# Optionally:
 gem install bundler
+```
+
+#### Install and build Slate Docs locally on macOS w/o breaking system's Ruby
+
+Assuming you already have Homebrew, Node and per-folder Ruby installed:
+
+```sh
 bundle install
 bundle exec middleman build
 ```
