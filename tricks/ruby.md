@@ -5,7 +5,7 @@ type: tricks
 canonical: https://any.digital/tricks/ruby/
 ---
 
-### Per-folder Ruby setup
+## Per-folder Ruby setup
 
 ```sh
 brew install rbenv
@@ -17,7 +17,7 @@ rbenv install 3.2.10
 gem install bundler
 ```
 
-#### Install and build Slate Docs locally on macOS w/o breaking system's Ruby
+### Install and build Slate Docs locally on macOS w/o breaking system's Ruby
 
 Assuming you already have Homebrew, Node and per-folder Ruby installed:
 
