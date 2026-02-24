@@ -15,6 +15,7 @@ A curated list of awesome Bootstrap 4 resources:
 - [Bootstrap Kit](https://bootstrap-kit.com/) - All you want from Bootstrap 4 but don't have in Bootstrap 4 (yet).
 - [Material Design for Bootstrap](http://mdbootstrap.com/material-design-for-bootstrap/) - Powerful and free UI KIT for Bootstrap 4. ([source](https://github.com/mdbootstrap/bootstrap-material-design))
 - [Anchor Bootstrap KIT](https://wowthemesnet.github.io/Anchor-Bootstrap-UI-Kit/index.html) - Anchor is a free Bootstrap UI Kit with flexible, ready to use UI components which will hep you build websites faster.
+- [AdminKit](https://adminkit.io/) - AdminKit is a premium UI Kit & Dashboard Template that comes with hundreds of UI components, forms, tables, charts, pages and icons.
 
 ## Integrations
 - [ng-bootstrap](https://ng-bootstrap.github.io/) - Bootstrap 4 components, powered by Angular 2 and written by the angular-ui Team. ([source](https://github.com/ng-bootstrap/ng-bootstrap))
