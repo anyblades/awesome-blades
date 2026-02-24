@@ -15,6 +15,8 @@ A curated list of awesome Bootstrap 4 resources:
 - [Bootstrap Kit](https://bootstrap-kit.com/) - All you want from Bootstrap 4 but don't have in Bootstrap 4 (yet).
 - [Material Design for Bootstrap](http://mdbootstrap.com/material-design-for-bootstrap/) - Powerful and free UI KIT for Bootstrap 4. ([source](https://github.com/mdbootstrap/bootstrap-material-design))
 - [Anchor Bootstrap KIT](https://wowthemesnet.github.io/Anchor-Bootstrap-UI-Kit/index.html) - Anchor is a free Bootstrap UI Kit with flexible, ready to use UI components which will hep you build websites faster.
+- [Pixel Lite UI Kit](https://github.com/themesberg/pixel-bootstrap-ui-kit) - Premium and open source Bootstrap 4 UI Kit featuring 80 components and 4 example pages (MIT License)
+- [Windows 95 Bootstrap](https://github.com/themesberg/windows-95-ui-kit) - Awesome retro Windows 95 elements written in Bootstrap (MIT License)
 - [AdminKit](https://adminkit.io/) - AdminKit is a premium UI Kit & Dashboard Template that comes with hundreds of UI components, forms, tables, charts, pages and icons.
 
 ## Integrations
