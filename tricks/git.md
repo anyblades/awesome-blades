@@ -8,8 +8,6 @@ includes:
   - path: https://raw.githubusercontent.com/anydigital/git-commit-email-privacy/refs/heads/main/README.md
 ---
 
-## GitHub Tricks
-
 ### Shame on GitHub
 
 https://httpie.io/blog/stardust
@@ -40,6 +38,12 @@ git restore PATH_TO_FILE --source=HEAD~N
 
 ```sh
 git clean -i
+```
+
+### Delete tag locally and remotely at once
+
+```sh
+DEL_TAG=v1.0.0; git tag -d $DEL_TAG && git push origin --delete $DEL_TAG
 ```
 
 ---
