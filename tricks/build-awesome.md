@@ -49,13 +49,9 @@ includes:
   - text: |-
       ## [Awesome Build Awesome](https://github.com/anydigital/awesome-build-awesome) <sub>![](https://awesome.re/badge.svg)</sub> {#awesome}
 
-      - https://11tybundle.dev/
-      - https://github.com/anydigital/bladeswitch 2-in-1 starter
-      - https://github.com/anydigital/sveleven starter
       - https://github.com/anydigital/eleventy-bricks utilities
       - https://github.com/uncenter/eleventy-plugin-toc
       - https://github.com/11ty/eleventy-fetch
-      - https://sveltiacms.app/en/docs/frameworks/eleventy CMS
       - https://any.digital/tricks/11ty/
       - https://any.digital/tricks/njk-liquid/ templating
       - https://eleventy-explorer.netlify.app/ for more
@@ -69,14 +65,6 @@ includes:
       - https://11tybundle.dev/blog/11ty-bundle-83/
       - https://11tybundle.dev/categories/nunjucks-macros/
       - https://11tybundle.dev/categories/getting-started/
+      - https://github.com/anydigital/awesome-build-awesome
 revised: 2026-02-28
 ---
-
-## Getting Started <small>Tricks</small>
-
-- Curated list of starters: https://11tybundle.dev/starters/
-- Community starters: https://www.11ty.dev/docs/starter/
-- Sveltia CMS starters: https://sveltiacms.app/en/docs/frameworks/eleventy#starter-templates
-- Custom start: https://www.11ty.dev/docs/
-
-Not sure where to begin? Start with a minimal template:
