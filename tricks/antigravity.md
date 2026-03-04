@@ -1,5 +1,5 @@
 ---
-title: "Antigravity Tricks <sub>& VS Code~editors (Cursor, Windsurf etc.)</sub>"
+title: "Antigravity Tricks <sub>for VS Code~editors (Cursor, Windsurf etc.)</sub>"
 site: tricks
 type: tricks
 canonical: https://any.digital/tricks/antigravity/
@@ -108,15 +108,15 @@ Done! Now you can quickly toggle Zen Mode with `Shift + Esc` w/o fullscreen and 
 
 ## Editing <small>Tricks</small>
 
-| Command                 | Description                |
-| ----------------------- | -------------------------- |
-| `Opt + Up/Down`         | move code                  |
-| `Shift + Opt + Up/Down` | duplicate code             |
-| `Cmd + P`               | jump to file               |
-| `Shift + Opt + I`       | activate multi-line cursor |
-| `Shift + Cmd + V`       | open Markdown Preview      |
-| <kbd>Shift + *</kbd>    | make selected text italic  |
-| <kbd>Shift + *</kbd>&nbsp;+&nbsp;<kbd>Shift + *</kbd> | make selected text bold    |
+| Command                                               | Description                |
+| ----------------------------------------------------- | -------------------------- |
+| `Opt + Up/Down`                                       | move code                  |
+| `Shift + Opt + Up/Down`                               | duplicate code             |
+| `Cmd + P`                                             | jump to file               |
+| `Shift + Opt + I`                                     | activate multi-line cursor |
+| `Shift + Cmd + V`                                     | open Markdown Preview      |
+| <kbd>Shift + \*</kbd>                                 | make selected text italic  |
+| <kbd>Shift + _</kbd>&nbsp;+&nbsp;<kbd>Shift + _</kbd> | make selected text bold    |
 
 ### Auto-formatting with Prettier
 
