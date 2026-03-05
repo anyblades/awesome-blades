@@ -47,15 +47,7 @@ includes:
     # path: ../node_modules/@anydigital/eleventy-bricks/README.md
     section: filters-h2
   - text: |-
-      ## [Awesome Build Awesome](https://github.com/anydigital/awesome-build-awesome) <sub>![](https://awesome.re/badge.svg)</sub> {#awesome}
-
-      - https://github.com/anydigital/eleventy-bricks utilities
-      - https://github.com/uncenter/eleventy-plugin-toc
-      - https://github.com/11ty/eleventy-fetch
-      - https://any.digital/tricks/11ty/
-      - https://any.digital/tricks/njk-liquid/ templating
-      - https://eleventy-explorer.netlify.app/ for more
-      - https://any.digital/insights/ssg/
+      ## ![](https://awesome.re/badge.svg)<br> [Eleventy Build Awesome](https://github.com/anydigital/eleventy-build-awesome) {#awesome}
   - path: https://raw.githubusercontent.com/anydigital/eleventy-build-awesome/refs/heads/master/README.md
     section: content
   - text: |-
