@@ -12,7 +12,7 @@ includes:
   - text: |-
       Featured in:
       - https://11tybundle.dev/blog/11ty-bundle-83/
-      - https://github.com/anydigital/awesome-build-awesome
+      - https://github.com/anydigital/eleventy-build-awesome
 revised: 2026-02-28
 ---
 
