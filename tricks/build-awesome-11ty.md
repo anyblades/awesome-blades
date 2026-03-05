@@ -1,9 +1,9 @@
 ---
-title: Build Awesome Tricks <sub>for Eleventy (11ty) & Nunjucks</sub>
+title: Build Awesome / 11ty Tricks <sub>for Eleventy & Nunjucks</sub>
 description: A curated collection of Eleventy (11ty) tricks, starters, command line tips, configuration snippets, and templating techniques.
 site: tricks
 type: tricks
-canonical: https://any.digital/tricks/build-awesome/
+canonical: https://any.digital/tricks/build-awesome-11ty/
 includes:
   - path: tricks/_11ty-starters.md
   - text: |-
@@ -47,8 +47,8 @@ includes:
     # path: ../node_modules/@anydigital/eleventy-bricks/README.md
     section: filters-h2
   - text: |-
-      ## ![](https://awesome.re/badge.svg)<br> [Eleventy Build Awesome](https://github.com/anydigital/eleventy-build-awesome) {#awesome}
-  - path: https://raw.githubusercontent.com/anydigital/eleventy-build-awesome/refs/heads/master/README.md
+      ## ![](https://awesome.re/badge.svg)<br> [Awesome 11ty / Build Awesome](https://github.com/anydigital/awesome-11ty-build-awesome) {#awesome}
+  - path: https://raw.githubusercontent.com/anydigital/awesome-11ty-build-awesome/refs/heads/master/README.md
     section: content
   - text: |-
       <small>This page follows a similar structure to https://www.11ty.dev/docs/projects/</small>
@@ -57,6 +57,6 @@ includes:
       - https://11tybundle.dev/blog/11ty-bundle-83/
       - https://11tybundle.dev/categories/nunjucks-macros/
       - https://11tybundle.dev/categories/getting-started/
-      - https://github.com/anydigital/eleventy-build-awesome
+      - https://github.com/anydigital/awesome-11ty-build-awesome
 revised: 2026-02-28
 ---

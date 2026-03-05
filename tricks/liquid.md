@@ -1,5 +1,5 @@
 ---
-title: Liquid Tricks <sub>for Build Awesome (Eleventy [11ty]), Jekyll, Shopify etc.</sub>
+title: Liquid Tricks <sub>for Build Awesome / 11ty (Eleventy), Jekyll, Shopify etc.</sub>
 description: A collection of useful Liquid templating tips & tricks.
 site: tricks
 type: tricks
@@ -12,7 +12,7 @@ includes:
   - text: |-
       Featured in:
       - https://11tybundle.dev/blog/11ty-bundle-83/
-      - https://github.com/anydigital/eleventy-build-awesome
+      - https://github.com/anydigital/awesome-11ty-build-awesome
 revised: 2026-02-28
 ---
 
