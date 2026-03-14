@@ -6,7 +6,7 @@ includes:
   - #
     # path: ../node_modules/@anydigital/blades/_includes/blades/html.njk
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/_includes/blades/html.njk
-    section: docs
+    section: docs,code
   - text: |-
       Liquid version is nearly identical:
 
@@ -14,5 +14,5 @@ includes:
   - #
     # path: ../node_modules/@anydigital/blades/_includes/blades/html.liquid
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/_includes/blades/html.liquid
-    section: docs
+    section: docs,code
 ---
