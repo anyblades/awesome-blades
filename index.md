@@ -24,4 +24,6 @@ includes:
     # path: ../node_modules/@anydigital/blades/README.md
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
     section: index
+  - path: README.md
+    section: index
 ---

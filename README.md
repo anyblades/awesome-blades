@@ -1,7 +1,20 @@
-Welcome to:
+<!--section:index-->
+<hgroup><small><img src="https://awesome.re/badge.svg"></small>
 
-# <sub>![](https://awesome.re/badge.svg)</sub><br> Awesome Blades 🥷 <br><sub>open-source wiki by *Any*digital <br><sup>(formerly "Tricks for Geeks")</sup></sub>
+## Awesome blades <sup class="faded">[<i>↗</i>](https://github.com/anydigital/awesome-blades)</sup>
 
-- content: [`./tricks/*.md`](https://github.com/anydigital/awesome-tricks-for-geeks/tree/main/tricks)
-- deployed to: [any.digital/tricks/](https://any.digital/tricks/)
-- using: [11ty](https://www.11ty.dev/) (see [how](https://any.digital/tricks/11ty/))
+formerly "Tricks for Geeks" wiki
+
+</hgroup>
+<!--section:gh-only-->
+
+- https://github.com/anydigital/blades all-in
+
+<!--section:index-->
+
+- https://blades.ninja/css/float-label/
+- https://buildexcellentwebsit.es/
+- https://blog.jim-nielsen.com/2025/lots-of-little-html-pages/
+- https://micah.torcellini.org/2026/03/17/simple-timeline/
+
+{.columns}
