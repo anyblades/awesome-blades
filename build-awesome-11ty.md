@@ -5,7 +5,7 @@ site: tricks
 type: tricks
 canonical: https://any.digital/tricks/build-awesome-11ty/
 includes:
-  - path: tricks/_11ty-starters.md
+  - path: _11ty-starters.md
   - text: |-
       ## Command Line <small>Tricks</small>
 
@@ -37,7 +37,7 @@ includes:
     path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/README.md
     # path: ../node_modules/@anydigital/eleventy-blades/README.md
     section: data&processors-h3
-  - path: tricks/_njk.md
+  - path: _njk.md
   - #
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
     # path: ../node_modules/@anydigital/blades/README.md
