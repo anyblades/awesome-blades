@@ -4,9 +4,9 @@
 
 ## Awesome blades <small>[<i>↗</i>](https://github.com/anydigital/awesome-blades)</small>
 
-backlog of tricks & ideas for Blades
+<p></p></hgroup>
 
-</hgroup>
+Backlog of awesome tricks & ideas for Blades.
 <!--section:gh-only-->
 
 - https://blades.ninja/ all-in
