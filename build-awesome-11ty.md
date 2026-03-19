@@ -7,7 +7,7 @@ canonical: https://any.digital/tricks/build-awesome-11ty/
 includes:
   - path: _11ty-starters.md
   - text: |-
-      ## Command Line <small>Tricks</small>
+      ## Command Line & Configuration <small>Tricks</small>
 
       ### Find and kill <small>11ty processes</small>
 
@@ -26,11 +26,10 @@ includes:
   - #
     # path: ../node_modules/@anydigital/eleventy-blades/src/do/README.md
     path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/do/README.md
-  - text: "## Configuration <small>Tricks</small>"
   - #
-    path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/README.md
-    # path: ../node_modules/@anydigital/eleventy-blades/README.md
-    section: config-h3
+    # path: ../node_modules/@anydigital/eleventy-blades/src/eleventy.config.js
+    path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/eleventy.config.js
+    section: docs,code
   - text: "## Data & Processing <small>Tricks</small>"
   - #
     path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/README.md
