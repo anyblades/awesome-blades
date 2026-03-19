@@ -1,10 +1,10 @@
 <img src="https://awesome.re/badge.svg">
 <!--section:index-->
-<hgroup id="awesome"><small>Backlog of</small>
+<hgroup id="awesome"><small>Appendix:</small>
 
 ## Awesome blades <small>[<i>↗</i>](https://github.com/anydigital/awesome-blades)</small>
 
-formerly "Tricks for Geeks" wiki
+backlog of tricks & ideas for Blades
 
 </hgroup>
 <!--section:gh-only-->
