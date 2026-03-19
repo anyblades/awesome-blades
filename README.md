@@ -1,6 +1,6 @@
 <img src="https://awesome.re/badge.svg">
 <!--section:index-->
-<hgroup><small>Backlog of</small>
+<hgroup id="awesome"><small>Backlog of</small>
 
 ## Awesome blades <small>[<i>↗</i>](https://github.com/anydigital/awesome-blades)</small>
 
