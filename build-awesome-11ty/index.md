@@ -1,11 +1,12 @@
 ---
+permalink: /build-awesome-11ty/
 title: Build Awesome / 11ty Tricks <sub>for Eleventy & Nunjucks</sub>
 description: A curated collection of Eleventy (11ty) tricks, starters, command line tips, configuration snippets, and templating techniques.
 site: tricks
 type: tricks
 canonical: https://any.digital/tricks/build-awesome-11ty/
 includes:
-  - path: _11ty-starters.md
+  - path: build-awesome-11ty/_starters.md
   - text: |-
       ## Command Line & Configuration <small>Tricks</small>
 
@@ -43,29 +44,7 @@ includes:
     # path: ../node_modules/@anydigital/eleventy-blades/src/processors/autoLinkFavicons.js
     path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/processors/autoLinkFavicons.js
     section: docs,code
-  - path: _njk.md
-  - text: |-
-      ## Filters
-  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/attr_concat.js
-    section: docs,code
-  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/attr_includes.js
-    section: docs,code
-  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/attr_set.js
-    section: docs,code
-  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/fetch.js
-    section: docs,code
-  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/if.js
-    section: docs,code
-  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/merge.js
-    section: docs,code
-  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/remove_tag.js
-    section: docs,code
-  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/section.js
-    section: docs,code
-  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/strip_tag.js
-    section: docs,code
-  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/unindent.js
-    section: docs,code
+  - path: build-awesome-11ty/_njk.md
   - text: |-
       ## ![](https://awesome.re/badge.svg)&nbsp; 11ty / Build Awesome <small>[<i>↗</i>](https://github.com/anydigital/awesome-11ty-build-awesome)</small> {#awesome}
   - path: https://raw.githubusercontent.com/anydigital/awesome-11ty-build-awesome/refs/heads/master/README.md
