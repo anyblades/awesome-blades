@@ -6,7 +6,7 @@ header_links:
   - url: https://github.com/anydigital/blades
     title: <img src="https://img.shields.io/github/stars/anydigital/blades?label=">
   - url: https://github.com/anydigital/eleventy-blades
-    title: <i class="fa-brands fa-github"></i>
+    title: <i class="fa-brands fa-eleventy"></i>
   - url: https://github.com/anydigital/awesome-blades
     title: <i>🕶️</i>
 footer_links:
