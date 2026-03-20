@@ -18,4 +18,10 @@ includes:
   - text: "### [🥷 Breakout elements →](/css/breakout/){role=button .outline}"
   - section: docs
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_layout.css
+
+  - text: "## Utilities"
+  - section: docs
+    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_utilities.css
+  - section: docs
+    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_unreduce-motion.css
 ---
