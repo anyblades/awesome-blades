@@ -1,6 +1,6 @@
 <img src="https://awesome.re/badge.svg">
 <!--section:index-->
-<hgroup id="awesome"><small>More</small>
+<hgroup id="awesome"><small>Explore</small>
 
 ## Awesome blades <small>[<i>↗</i>](https://github.com/anydigital/awesome-blades)</small>
 
