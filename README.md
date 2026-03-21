@@ -6,12 +6,15 @@
 
 <p></p></hgroup>
 
-Backlog of awesome tricks & ideas for Blades:
 <!--section:gh-only-->
 
 - https://blades.ninja/ all-in
+- https://blades.ninja/css/
+- https://blades.ninja/html/
+- https://blades.ninja/build-awesome-11ty/
 
 <!--section:index-->
+Backlog of awesome tricks & ideas for Blades:
 
 - https://blades.ninja/antigravity/ tricks
 - https://blades.ninja/git/ tricks
