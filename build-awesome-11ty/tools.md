@@ -4,8 +4,11 @@ includes:
   - section: docs,code
     path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/eleventy.config.js
   - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/do/README.md
+  - section: docs,code
+    path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/siteData.js
   - text: |-
-      ### Find and kill <small>11ty processes</small>
+      ### Appendix
+      #### Find and kill <small>11ty processes</small>
 
       ```sh
       ps aux | grep eleventy
@@ -19,6 +22,4 @@ includes:
       pkill -f tailwind
       pkill -f .bin/serve
       ```
-  - section: docs,code
-    path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/siteData.js
 ---
