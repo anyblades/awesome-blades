@@ -1,5 +1,5 @@
 ---
-title: Xcode Tricks
+title: Mobile Developmentr <small>tricks</small>
 site: tricks+
 type: tricks
 includes:
