@@ -11,9 +11,9 @@ includes:
       ## Usage
       <nav class="grid">
 
-      ## [🥷 Filters →](/build-awesome-11ty/filters/){role=button .outline}
-      ## [🥷 Processors →](/build-awesome-11ty/processors/){role=button .outline}
-      ## [🥷 Power tools →](/build-awesome-11ty/tools/){role=button .outline}
+      ### [🥷 Filters →](/build-awesome-11ty/filters/){role=button .outline}
+      ### [🥷 Processors →](/build-awesome-11ty/processors/){role=button .outline}
+      ### [🥷 Power tools →](/build-awesome-11ty/tools/){role=button .outline}
       </nav>
       <hr>
   - text: |-
