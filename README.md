@@ -15,7 +15,7 @@
 
 <!--section:index-->
 
-Backlog of awesome tricks & ideas for Blades:
+Awesome tools, tricks & ideas [to be] used in Blades:
 
 <!-- blades.ninja pages are simply sorted -->
 
