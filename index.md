@@ -20,18 +20,15 @@ eleventyComputed:
       echo _ | fetch | section: 'hero' | replace: 'hgroup>', 'h1>' | replace: '<wbr>', '<br>'
     %}
 includes:
-  - #
-    # path: ../node_modules/@anydigital/blades/README.md
+  - section: index
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
-    section: index
-  - #
-    # path: ../node_modules/@anydigital/eleventy-blades/README.md
+    # path: ../node_modules/@anydigital/blades/README.md
+  - section: index
     path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/README.md
-    section: index
-  - #
-    # path: ../node_modules/@anydigital/blades/README.md
+    # path: ../node_modules/@anydigital/eleventy-blades/README.md
+  - section: appendix
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
-    section: appendix
+    # path: ../node_modules/@anydigital/blades/README.md
   - path: README.md
     section: index
 ---
