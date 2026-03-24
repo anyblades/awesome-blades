@@ -8,6 +8,8 @@
 
 <!--section:gh-only-->
 
+Blades docs:
+
 - https://blades.ninja/ all-in
 - https://blades.ninja/css/
 - https://blades.ninja/html/
@@ -15,7 +17,7 @@
 
 <!--section:index-->
 
-Awesome tools, tricks and ideas [to be] used in Blades:
+Awesome tools, tricks and ideas for Blades:
 
 <!-- blades.ninja pages are simply sorted -->
 
