@@ -1,4 +1,5 @@
 ---
+permalink: /css/
 title: Class-light CSS <small>blades</small> <sub>inspired by Pico.css</sub>
 includes:
   - text: "## Install"
