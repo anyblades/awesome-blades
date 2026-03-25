@@ -5,11 +5,13 @@ includes:
   - text: "## Install"
   - section: install-css
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
+
   - text: |-
-      ## Table
-      ### [🥷 Responsive table without wrapper →](/css/responsive-table/){role=button .outline}
+      ## Layout
+      ### [🥷 Breakout elements →](/css/breakout/){role=button .outline}
+      <div><hr></div>
   - section: docs
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_table.css
+    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_layout.css
 
   - text: "## Content"
   - section: docs
@@ -19,10 +21,11 @@ includes:
   - section: docs
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_code.css
 
-  - text: "## Layout"
-  - text: "### [🥷 Breakout elements →](/css/breakout/){role=button .outline}"
+  - text: |-
+      ## Table
+      ### [🥷 Responsive table without wrapper →](/css/responsive-table/){role=button .outline}
   - section: docs
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_layout.css
+    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_table.css
 
   - text: "## Utilities"
   - section: docs
