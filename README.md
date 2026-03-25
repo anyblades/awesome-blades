@@ -32,6 +32,7 @@ Awesome tools, tricks and ideas for Blades:
 - https://blades.ninja/symbols/
 - https://blog.jim-nielsen.com/2025/lots-of-little-html-pages/
 - https://micah.torcellini.org/2026/03/17/simple-timeline/
+- https://kittygiraudel.com/2026/03/21/heading-anchors-with-11ty/
 
 <!--{.columns}-->
 
