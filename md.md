@@ -1,11 +1,11 @@
 ---
 title: Markdown Tricks
-site: tricks
-type: tricks
-canonical: https://any.digital/tricks/md/
+canonical: https://blades.ninja/md/
 ---
 
 ## `markdown-it-attrs`
+
+https://github.com/arve0/markdown-it-attrs
 
 ### Long-long link with many-many CSS classes, and still readable!
 
