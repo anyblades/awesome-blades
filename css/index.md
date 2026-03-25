@@ -8,7 +8,6 @@ includes:
   - text: |-
       ## Table
       ### [🥷 Responsive table without wrapper →](/css/responsive-table/){role=button .outline}
-      ---
   - section: docs
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_table.css
 
