@@ -12,7 +12,7 @@ Blades docs:
 - https://blades.ninja/ index
 - https://blades.ninja/css/
 - https://blades.ninja/html/
-- https://blades.ninja/build-awesome-11ty/
+- https://blades.ninja/11ty/
 
 Backlog:
 - https://blades.ninja/css/float-label/
