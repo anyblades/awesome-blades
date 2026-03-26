@@ -38,7 +38,7 @@ includes:
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/blades.theme.css
 
   - text: |-
-      ## Awesome Appendix
+      ## <small>PS:</small> Awesome
       - https://buildexcellentwebsit.es/
       - https://github.com/picocss/pico
       - https://github.com/kevquirk/simple.css
