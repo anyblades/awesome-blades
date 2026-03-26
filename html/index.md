@@ -36,7 +36,7 @@ includes:
       - https://github.com/anydigital/awesome-11ty-build-awesome
 
   - text: |-
-      ## Awesome Appendix
+      ## <small>PS:</small> Awesome
       - https://buildexcellentwebsit.es/
       - https://blog.jim-nielsen.com/2025/lots-of-little-html-pages/
 ---
