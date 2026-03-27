@@ -1,10 +1,7 @@
 <img src="https://awesome.re/badge.svg">
 <!--section:index-->
-<hgroup id="awesome"><small>Explore</small>
 
-## Awesome blades <small>[<i>↗</i>](https://github.com/anydigital/awesome-blades)</small>
-
-<p></p></hgroup>
+## <sup>Explore</sup><br> Awesome blades <small>[<i>↗</i>](https://github.com/anydigital/awesome-blades)</small> <!--{#awesome}-->
 
 <!--section:gh-only-->
 
