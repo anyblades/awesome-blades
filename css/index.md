@@ -1,6 +1,6 @@
 ---
 permalink: /css/
-title: Class-light CSS <small>blades</small> <sub>inspired by Pico.css</sub>
+title: <sup>Class-light</sup> CSS blades <sub>inspired by Pico.css</sub>
 includes:
   - text: "## Install"
   - section: install-css

@@ -1,5 +1,5 @@
 ---
-title: <a href="/build-awesome-11ty/">Build Awesome / 11ty</a> Processors
+title: <a href="/build-awesome-11ty/"><sup>Build Awesome /</sup> Eleventy</a> Processors
 description: A collection of useful Eleventy processors via Eleventy Blades plugin.
 includes:
   - text: "### Install"

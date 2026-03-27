@@ -1,5 +1,5 @@
 ---
-title: <a href="/build-awesome-11ty/">Build Awesome / 11ty</a> Power Tools
+title: <a href="/build-awesome-11ty/"><sup>Build Awesome /</sup> Eleventy</a> Power Tools
 includes:
   - text: |-
       ### Blades starters {#starters}

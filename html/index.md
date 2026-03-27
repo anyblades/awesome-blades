@@ -1,6 +1,6 @@
 ---
 permalink: /html/
-title: HTML <small>blades</small> <sub>for 11ty/Build Awesome, Jekyll, etc.</sub>
+title: <sup>Nunjucks / Liquid</sup> HTML blades <sub>for 11ty/Build Awesome, Jekyll, etc.</sub>
 includes:
   - text: "## Install"
   - section: install-html
