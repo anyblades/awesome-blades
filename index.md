@@ -1,16 +1,14 @@
 ---
 permalink: /
 site:
-  inline_styles: |-
-    @media (max-width: 767px) {
-      h1 {
-        font-size: 1.75em;
-
-        br {
-          display: none;
+  inline_styles:
+    - |-
+      @media (max-width: 767px) {
+        h1 {
+          font-size: 1.75em;
+          br { display: none }
         }
       }
-    }
 eleventyComputed:
   hero: |-
     {% liquid
