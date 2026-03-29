@@ -1,5 +1,8 @@
 ---
 permalink: /build-awesome-11ty/
+eleventyNavigation:
+  key: <i class="fa-brands fa-eleventy"></i>
+  order: 3
 title: <sup>Build Awesome /</sup> Eleventy blades
 summary: A curated collection of Eleventy (11ty) tricks, starters, command line tips, configuration snippets, and templating techniques.
 canonical: https://blades.ninja/build-awesome-11ty/
