@@ -1,5 +1,6 @@
 ---
 permalink: /
+summary: Framework-agnostic, class-light CSS⁺ blade kit. Use with Pico, Simple, Tailwind, or any other CSS reset/framework.
 site:
   inline_styles:
     - |-
