@@ -42,7 +42,7 @@ includes:
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/blades.theme.css
 
   - text: |-
-      ## <small>PS:</small> Awesome
+      See also:
       - https://buildexcellentwebsit.es/
       - https://github.com/picocss/pico
       - https://github.com/kevquirk/simple.css
@@ -52,4 +52,6 @@ includes:
       - https://kittygiraudel.com/2026/03/21/heading-anchors-with-11ty/
       - https://micah.torcellini.org/2026/03/17/simple-timeline/
       - https://blog.frankmtaylor.com/2026/03/05/you-dont-know-html-tables/
+
+      {.columns}
 ---
