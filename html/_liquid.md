@@ -1,4 +1,4 @@
-### Liquid <small>tricks</small> {#liquid}
+## <sup>PS:</sup> Liquid <small>tricks</small> {#liquid}
 
 - https://shopify.github.io/liquid/basics/introduction/
 - https://shopify.github.io/liquid/#filters-section

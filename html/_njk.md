@@ -1,4 +1,4 @@
-### Nunjucks <small>tricks</small> {#njk}
+## <sup>PS:</sup> Nunjucks <small>tricks</small> {#njk}
 
 - https://mozilla.github.io/nunjucks/templating.html
 - https://mozilla.github.io/nunjucks/templating.html#builtin-filters

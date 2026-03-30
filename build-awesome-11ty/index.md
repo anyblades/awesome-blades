@@ -4,36 +4,33 @@ eleventyNavigation:
   key: <i class="fa-brands fa-eleventy"></i>
   order: 3
 title: <sup>Build Awesome /</sup> Eleventy blades
-summary: A curated collection of Eleventy (11ty) tricks, starters, command line tips, configuration snippets, and templating techniques.
+summary: |-
+  Ultimate blade kit for 11ty (Build Awesome).  
+  <small>https://github.com/anydigital/eleventy-blades &nbsp;![](https://img.shields.io/github/v/release/anydigital/eleventy-blades?label=&color=white&include_prereleases)</small>
 canonical: https://blades.ninja/build-awesome-11ty/
 includes:
   - text: "## Install"
   - section: install
     path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/README.md
-  - text: |-
-      ## Usage
-      <nav class="grid">
 
-      ### [🥷 Filters →](/build-awesome-11ty/filters/){role=button .outline}
-      ### [🥷 Processors →](/build-awesome-11ty/processors/){role=button .outline}
-      ### [🥷 Power tools →](/build-awesome-11ty/tools/){role=button .outline}
-      </nav>
-      <hr>
-  - text: |-
-      ## Appendix
-      <nav class="grid">
+  - text: "## Usage"
+  - section: toc
+    path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/README.md
 
-      ### [🥷 Nunjucks tricks →](/html/#njk){role=button .outline}
-      ### [🥷 Liquid tricks →](/html/#liquid){role=button .outline}
-      </nav>
-      <hr>
+  - text: "## [Templating](/html/)"
+  - section: toc
+    path: https://blades.ninja/html/
+
   - path: build-awesome-11ty/_starters.md
+
   - section: index
     path: https://raw.githubusercontent.com/anydigital/awesome-11ty-build-awesome/refs/heads/master/README.md
+
   - text: |-
       Featured by:
       - https://11tybundle.dev/blog/11ty-bundle-83/
       - https://11tybundle.dev/categories/getting-started/
       - https://github.com/anydigital/awesome-11ty-build-awesome
+
 revised: 2026-02-28
 ---

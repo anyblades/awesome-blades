@@ -1,4 +1,4 @@
-### Best Minimal Starters <sub>for Build Awesome / 11ty <small>as of Mar 2026</small></sub> {#min-starters}
+## <sup>PS:</sup> Best Minimal Starters <sub>for Build Awesome / 11ty <small>as of Mar 2026</small></sub> {#min-starters}
 
 Awesome Eleventy ecosystem offers a [wide variety of starters](https://github.com/anydigital/awesome-11ty-build-awesome#starter-projects).
 
