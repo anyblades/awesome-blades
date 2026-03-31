@@ -19,7 +19,11 @@ includes:
 
   - text: |-
       ## [Templating](/html/)
+
       <!--https://bsky.app/profile/any.digital/post/3mdjvepwr7k2w-->{#njk-vscode}
+
+      {#njk-vscode}
+      <!--https://bsky.app/profile/any.digital/post/3mdjvepwr7k2w-->
   - section: toc
     path: https://blades.ninja/html/
 
