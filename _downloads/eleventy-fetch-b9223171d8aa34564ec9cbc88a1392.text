@@ -1,0 +1,659 @@
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥷</text></svg>">
+    <title>Nunjucks / Liquid HTML blades for 11ty/Build Awesome, Jekyll, etc. | Blades CSS⁺ Kit</title>
+    <meta name="description" content="">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7/css/all.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism-tomorrow.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1/plugins/treeview/prism-treeview.min.css">
+      <link rel="stylesheet" href="/styles.css">
+    <style>
+      
+    </style>
+      <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-core.min.js" defer></script>
+      <script src="https://cdn.jsdelivr.net/npm/prismjs@1/plugins/autoloader/prism-autoloader.min.js" defer></script>
+      <script src="https://cdn.jsdelivr.net/npm/prismjs@1/plugins/treeview/prism-treeview.min.js" defer></script>
+    <script type="module">
+      
+    </script>
+
+    
+  
+
+    
+
+  
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WNHMRQZ');</script>
+<!-- End Google Tag Manager -->
+
+<!--prettier-ignore-->
+
+
+  </head>
+
+  <body>
+    
+
+  
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNHMRQZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!--prettier-ignore-->
+
+
+
+    
+
+<header class="dark-auto">
+  <div class="container">
+    <nav>
+      <big><big><a href="/" class="dark-auto"><i>🥷</i> Blades</a></big></big>
+      &nbsp;
+      
+      
+      <ul><li><a href="/css/">CSS <i class="fa-brands fa-css3-alt"></i></a></li>
+<li><a href="/html/" aria-current="page">HTML <i class="fa-brands fa-html5"></i></a></li>
+<li><a href="/build-awesome-11ty/"><i class="fa-brands fa-eleventy"></i></a></li></ul>
+      &nbsp;
+      
+<ul>
+    <li>
+      
+      <a href="https://github.com/anydigital/blades" ><i class="fa-brands fa-github"></i></a>
+    </li>
+</ul>
+
+
+
+    </nav>
+    
+  </div>
+</header>
+
+
+
+
+  <main>
+    <div class="container breakout-all">
+      
+
+      
+        <h1><sup>Nunjucks / Liquid</sup> HTML blades <sub>for 11ty/Build Awesome, Jekyll, etc.</sub></h1>
+      
+      
+
+      
+      
+        <h6><sup>Table of Contents</sup></h6>
+        <!--section:toc-->
+        <div data-is-toc><ul><li><a href="#install">Install</a></li>
+<li><a href="#base">Base HTML</a></li>
+<li><a href="#links">Links</a></li>
+<li><a href="#sitemap">Sitemap 🆕</a></li>
+<li><a href="#gtm">Google Tag Manager (GTM)</a></li>
+<li><a href="#njk">PS: Nunjucks tricks</a></li>
+<li><a href="#liquid">PS: Liquid tricks</a></li></ul></div>
+        <!--section-->
+        <hr>
+      
+
+      
+      
+
+      
+
+      
+          
+            <h2 id="install" tabindex="-1">Install <a href="#install" aria-hidden="true" data-is-anchor="true">#</a></h2>
+
+          
+      
+          
+            
+            
+            
+            
+            
+              
+              
+            
+            <details><summary role="button" class="outline"><b>Install HTML blades</b> via npm</summary>
+<pre><code class="language-sh">npm install @anydigital/blades
+cd ./_includes  # your includes dir
+ln -s ../node_modules/@anydigital/blades/_includes/blades
+</code></pre>
+<p>That's it! Now you can use HTML blades in your templates like this:</p>
+<p><mark>In Nunjucks:</mark></p>
+<pre><code class="language-jinja2">{% extends 'blades/html.njk' %}
+{% include 'blades/gtm.njk' %}
+</code></pre>
+<p><mark>In Liquid:</mark></p>
+<pre><code class="language-liquid">{% include blades/html.liquid %}
+{% include blades/gtm.liquid for_body=true %}
+{% render blades/links, links: site.links, current_url: page.url %}
+</code></pre>
+</details>
+<hr>
+<p>All CSS and HTML blades above are available as a Jekyll theme:</p>
+<details><summary role="button" class="outline"><b>Install as Jekyll theme</b></summary>
+<p>In you <code>_config.yml</code>:</p>
+<pre><code class="language-yaml">remote_theme: anydigital/blades@v0.27.0-beta # or latest
+plugins:
+  - jekyll-remote-theme
+</code></pre>
+<p>Living example: <a href="https://github.com/anydigital/bladeswitch/blob/main/_config.yml"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /anydigital/bladeswitch/blob/main/_config.yml</a></p>
+</details>
+<p>Or use a preconfigured template:</p>
+<p><a href="https://github.com/anydigital/bladeswitch" role="button" class="outline">🥷 Bladeswitch Starter ↗  <small style="white-space: nowrap">Jekyll ⁺ Pico ⁺ Blades</small></a></p>
+
+          
+      
+          
+            <hr>
+<h2 id="base" tabindex="-1">Base HTML <a href="#base" aria-hidden="true" data-is-anchor="true">#</a></h2>
+
+          
+      
+          
+            
+            
+            
+            
+            
+              
+              
+            
+            <p>Usage in Nunjucks layout:</p>
+<pre><code class="language-jinja2">{% extends 'blades/html.njk' %}
+
+{% block body %}...{% endblock %}
+</code></pre>
+<p>Living example: <a href="https://github.com/anydigital/build-awesome-starter/blob/main/_includes/default.njk"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /anydigital/build-awesome-starter/blob/main/_includes/default.njk</a></p>
+<br>
+<details class="breakout-item"><summary role="button" class="outline">How it works</summary>
+<pre><code class="language-jinja2">&lt;!doctype html&gt;
+&lt;html lang=&quot;{{ site.lang | d('en') }}&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover&quot; /&gt;
+    &lt;link rel=&quot;icon&quot; href=&quot;{{ site.favicon | d('/favicon.ico') }}&quot; /&gt;
+    &lt;title&gt;
+      {{- title | string | striptags ~ ' | ' if title -}}
+      {{- site.title -}}
+    &lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;{{ summary }}&quot; /&gt;
+
+    {%- for href in site.styles %}
+      &lt;link rel=&quot;stylesheet&quot; href=&quot;{{ href }}&quot; /&gt;
+    {%- endfor %}
+    &lt;style&gt;
+      {{ site.inline_styles | d([]) | join('\n') }}
+    &lt;/style&gt;
+
+    {%- for src in site.scripts %}
+      &lt;script src=&quot;{{ src }}&quot; defer&gt;&lt;/script&gt;
+    {%- endfor %}
+    &lt;script type=&quot;module&quot;&gt;
+      {{ site.inline_scripts | d([]) | join('\n') }}
+    &lt;/script&gt;
+
+    {{ content_for_header }}
+    {% include 'blades/gtm.njk' %}
+  &lt;/head&gt;
+
+  &lt;body&gt;
+    {% set for_body = true %}{% include 'blades/gtm.njk' %}
+    {% block body %}
+    {% endblock %}
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<ul>
+<li><code>title | string</code> avoids error with <code>| striptags</code> when you pass a pure number.</li>
+</ul>
+</details>
+
+          
+      
+          
+            
+            
+            
+            
+            
+              
+              
+            
+            <p>Usage in Liquid layout:</p>
+<pre><code class="language-liquid">{% capture body %}...{% endcapture %}
+
+{% include blades/html.liquid %}
+</code></pre>
+<p>Living example: <a href="https://github.com/anydigital/bladeswitch/blob/main/_includes/default.liquid"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /anydigital/bladeswitch/blob/main/_includes/default.liquid</a></p>
+<br>
+<details class="breakout-item"><summary role="button" class="outline">How it works</summary>
+<pre><code %="" endcomment="" %="" class="language-liquid">&lt;!doctype html&gt;
+&lt;html lang=&quot;{{ site.lang | default: 'en' }}&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover&quot;&gt;
+    &lt;link rel=&quot;icon&quot; href=&quot;{{ site.favicon | default: '/favicon.ico' }}&quot;&gt;
+    &lt;title&gt;
+      {%- if title %}{{ title | strip_html | append: ' | ' }}{% endif -%}
+      {{- site.title -}}
+    &lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;{{ summary }}&quot;&gt;
+
+    {%- for href in site.styles %}
+      &lt;link rel=&quot;stylesheet&quot; href=&quot;{{ href | relative_url }}&quot;&gt;
+    {%- endfor %}
+    &lt;style&gt;
+      {{ site.inline_styles | join: '\n' }}
+    &lt;/style&gt;
+
+    {%- for src in site.scripts %}
+      &lt;script src=&quot;{{ src }}&quot; defer&gt;&lt;/script&gt;
+    {%- endfor %}
+    &lt;script type=&quot;module&quot;&gt;
+      {{ site.inline_scripts | join: '\n' }}
+    &lt;/script&gt;
+
+    {{ content_for_header }}
+    {% include blades/gtm.liquid %}
+  &lt;/head&gt;
+
+  &lt;body&gt;
+    {% include blades/gtm.liquid for_body=true %}
+
+    {{ body }}
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+</details>
+
+          
+      
+          
+            <hr>
+<h2 id="links" tabindex="-1">Links <a href="#links" aria-hidden="true" data-is-anchor="true">#</a></h2>
+
+          
+      
+          
+            
+            
+            
+            
+            
+              
+              
+            
+            <p>Usage with <a href="https://www.11ty.dev/docs/plugins/navigation/#bring-your-own-html-render-the-menu-items-manually">Eleventy Navigation plugin</a>:</p>
+<pre><code class="language-liquid">{% assign links = collections.all | eleventyNavigation %}
+{% render blades/links, links: links, current_url: page.url %}
+</code></pre>
+<p>Usage inside Pico's Navar:</p>
+<pre><code class="language-jinja2">TBD
+</code></pre>
+<br>
+<details class="breakout-item"><summary role="button" class="outline">How it works</summary>
+<pre><code %="" endcomment="" %="" class="language-liquid">&lt;ul&gt;
+  {%- for link in links %}
+    &lt;li&gt;
+      
+      &lt;a href=&quot;{{ link.url }}&quot; {% if link.url == current_url %}aria-current=&quot;page&quot;{% endif %}&gt;
+        {{- link.title -}}
+      &lt;/a&gt;
+    &lt;/li&gt;
+  {%- endfor %}
+&lt;/ul&gt;
+
+</code></pre>
+</details>
+
+          
+      
+          
+            <hr>
+<h2 id="sitemap" tabindex="-1">Sitemap 🆕 <a href="#sitemap" aria-hidden="true" data-is-anchor="true">#</a></h2>
+<p><a href="https://github.com/anydigital/blades/blob/main/_includes/blades/sitemap.xml.njk"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /anydigital/blades/blob/main/_includes/blades/sitemap.xml.njk</a></p>
+
+          
+      
+          
+            <hr>
+<h2 id="gtm" tabindex="-1">Google Tag Manager (GTM) <a href="#gtm" aria-hidden="true" data-is-anchor="true">#</a></h2>
+
+          
+      
+          
+            
+            
+            
+            
+            
+              
+              
+            
+            <p>Usage in Nunjucks:</p>
+<pre><code class="language-jinja2">    ...
+    {% include 'blades/gtm.njk' %}
+  &lt;/head&gt;
+  &lt;body&gt;
+    {% set for_body = true %}{% include 'blades/gtm.njk' %}
+    ...
+</code></pre>
+<p>Living example: <a href="https://github.com/anydigital/blades/blob/main/_includes/blades/html.njk"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /anydigital/blades/blob/main/_includes/blades/html.njk</a></p>
+<p>Parameters:</p>
+<ul>
+<li><code>site.gtm_id</code> - Your Google Tag Manager container ID (e.g., <code>GTM-XXXXXXX</code>)</li>
+<li><code>site.prod</code> - Boolean flag to enable GTM only in production</li>
+<li><code>for_body</code> - Boolean flag (default: <code>false</code>). When <code>false</code>, renders the script tag for the <code>&lt;head&gt;</code>. When <code>true</code>, renders the noscript fallback for the <code>&lt;body&gt;</code>.</li>
+</ul>
+<br>
+<details class="breakout-item"><summary role="button" class="outline">How it works</summary>
+<pre><code class="language-jinja2">{% if site.prod and site.gtm_id %}
+  
+    {% if not for_body %}
+
+&lt;!-- Google Tag Manager --&gt;
+&lt;script&gt;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','{{ site.gtm_id }}');&lt;/script&gt;
+&lt;!-- End Google Tag Manager --&gt;
+
+    {% else %}
+
+&lt;!-- Google Tag Manager (noscript) --&gt;
+&lt;noscript&gt;&lt;iframe src=&quot;https://www.googletagmanager.com/ns.html?id={{ site.gtm_id }}&quot;
+height=&quot;0&quot; width=&quot;0&quot; style=&quot;display:none;visibility:hidden&quot;&gt;&lt;/iframe&gt;&lt;/noscript&gt;
+&lt;!-- End Google Tag Manager (noscript) --&gt;
+
+    {% endif %}
+  
+{% endif %}
+</code></pre>
+</details>
+
+          
+      
+          
+            
+            
+            
+            
+            
+              
+              
+            
+            <p>Usage in Liquid:</p>
+<pre><code class="language-liquid">    ...
+    {% include blades/gtm.liquid %}
+  &lt;/head&gt;
+  &lt;body&gt;
+    {% include blades/gtm.liquid for_body=true %}
+    ...
+</code></pre>
+<p>Living example: <a href="https://github.com/anydigital/blades/blob/main/_includes/blades/html.liquid"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /anydigital/blades/blob/main/_includes/blades/html.liquid</a></p>
+<br>
+<details class="breakout-item"><summary role="button" class="outline">How it works</summary>
+<pre><code %="" endcomment="" %="" class="language-liquid">{% if site.prod and site.gtm_id %}
+  {% capture _ %}
+    {% unless for_body %}
+
+&lt;!-- Google Tag Manager --&gt;
+&lt;script&gt;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','{{ site.gtm_id }}');&lt;/script&gt;
+&lt;!-- End Google Tag Manager --&gt;
+
+    {% else %}
+
+&lt;!-- Google Tag Manager (noscript) --&gt;
+&lt;noscript&gt;&lt;iframe src=&quot;https://www.googletagmanager.com/ns.html?id={{ site.gtm_id }}&quot;
+height=&quot;0&quot; width=&quot;0&quot; style=&quot;display:none;visibility:hidden&quot;&gt;&lt;/iframe&gt;&lt;/noscript&gt;
+&lt;!-- End Google Tag Manager (noscript) --&gt;
+
+    {% endunless %}
+  {% endcapture %}
+  {{ _ | strip }}
+{% endif %}
+&lt;!--prettier-ignore--&gt;
+</code></pre>
+</details>
+
+          
+      
+          
+            <hr>
+
+          
+      
+          
+            
+            
+            
+            
+            
+            <h2 id="njk" tabindex="-1"><sup>PS:</sup> Nunjucks <small>tricks</small> <a href="#njk" aria-hidden="true" data-is-anchor="true">#</a></h2>
+<ul>
+<li><a href="https://mozilla.github.io/nunjucks/templating.html"><i><img src="https://www.google.com/s2/favicons?domain=mozilla.github.io&sz=64"></i> /nunjucks/templating.html</a></li>
+<li><a href="https://mozilla.github.io/nunjucks/templating.html#builtin-filters"><i><img src="https://www.google.com/s2/favicons?domain=mozilla.github.io&sz=64"></i> /nunjucks/templating.html#builtin-filters</a></li>
+</ul>
+<h5 id="njk-vscode" tabindex="-1">Syntax highlighting <sub>in <a href="/tricks/antigravity/">VS Code~editors</a></sub> <a href="#njk-vscode" aria-hidden="true" data-is-anchor="true">#</a></h5>
+<ul>
+<li>🧩 Install <a href="https://github.com/edheltzel/better-nunjucks-for-visual-studio-code"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /edheltzel/better-nunjucks-for-visual-studio-code</a></li>
+</ul>
+<p>This is a modern fork of the original extension. It is specifically designed to solve the "11ty problem" where you mix Nunjucks and HTML.</p>
+<p><strong>Why it's better:</strong> It injects Nunjucks grammar directly into the standard HTML grammar. This means you get full Nunjucks highlighting and the editor still knows it's an HTML file, giving you better Emmet and CSS autocompletion.</p>
+<p><strong>No Config:</strong> It works out of the box without needing to manually map file associations in your settings.</p>
+<h5 id="auto-formatting-in-vs-code-editors" tabindex="-1">Auto-formatting <sub>in <a href="/tricks/antigravity/">VS Code~editors</a></sub> <a href="#auto-formatting-in-vs-code-editors" aria-hidden="true" data-is-anchor="true">#</a></h5>
+<ol>
+<li>
+<p>🧩 Install <a href="https://github.com/prettier/prettier-vscode"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /prettier/prettier-vscode</a> (if not yet)</p>
+</li>
+<li>
+<p>Install a compatible Prettier plugin for your project, for example:</p>
+</li>
+</ol>
+<pre><code class="language-sh">npm i -D prettier-plugin-jinja-template
+</code></pre>
+<ol start="3">
+<li>It might be tricky to find a well-maintained Nunjucks plugin, but <code>jinja-template</code> works just fine with <code>.njk</code> via <code>.html</code> override:</li>
+</ol>
+<pre><code data-caption=".prettierrc.json" class="language-json">{
+  &quot;plugins&quot;: [&quot;prettier-plugin-jinja-template&quot;],
+  &quot;overrides&quot;: [
+    {
+      &quot;files&quot;: [&quot;*.njk&quot;, &quot;*.html&quot;],
+      &quot;options&quot;: {
+        &quot;parser&quot;: &quot;jinja-template&quot;
+      }
+    }
+  ]
+}
+</code></pre>
+<p><code>PRO TIP:</code> If you already use <a href="https://github.com/anydigital/blades"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /anydigital/blades</a>, it’s even easier. You can simply:</p>
+<pre><code class="language-sh">ln -s ./node_modules/@anydigital/blades/.prettierrc.json
+</code></pre>
+<h5 id="sort-array-by-attribute" tabindex="-1">Sort array by attribute <a href="#sort-array-by-attribute" aria-hidden="true" data-is-anchor="true">#</a></h5>
+<p>Per official <code>.njk</code> documentation:</p>
+<blockquote>
+<p><strong>sort(arr, reverse, caseSens, attr)</strong><br>
+Sort arr with JavaScript's arr.sort function. If reverse is true, result will be reversed. Sort is case-insensitive by default, but setting caseSens to true makes it case-sensitive. If attr is passed, will compare attr from each item.</p>
+</blockquote>
+<p>But you can actually do this trick:</p>
+<pre><code data-caption=".njk" class="language-jinja2">{% for item in array | sort(attribute='weight') %}
+  ...
+{% endfor %}
+</code></pre>
+<h5 id="include-and-render-md-file-w-o-its-front-matter-in-11ty" tabindex="-1">Include and render <code>.md</code> file w/o its Front Matter <sub>in <code>11ty</code></sub> <a href="#include-and-render-md-file-w-o-its-front-matter-in-11ty" aria-hidden="true" data-is-anchor="true">#</a></h5>
+<pre><code data-caption=".njk" class="language-jinja2">{# first, get the raw content using `html` as plain-text engine #}
+{% set _eval = &quot;{% renderFile './YOUR_FILE.md', {}, 'html' %}&quot; %}
+{% set _raw_md = _eval | renderContent('njk') %}
+
+{# then, remove the front matter using regex, and render using `md` #}
+{{ _raw_md | replace(r/^---[\s\S]*?---/, '') | renderContent('md') | safe }}
+</code></pre>
+
+          
+      
+          
+            <hr>
+
+          
+      
+          
+            
+            
+            
+            
+            
+            <h2 id="liquid" tabindex="-1"><sup>PS:</sup> Liquid <small>tricks</small> <a href="#liquid" aria-hidden="true" data-is-anchor="true">#</a></h2>
+<ul>
+<li><a href="https://shopify.github.io/liquid/basics/introduction/"><i><img src="https://www.google.com/s2/favicons?domain=shopify.github.io&sz=64"></i> /liquid/basics/introduction</a></li>
+<li><a href="https://shopify.github.io/liquid/#filters-section"><i><img src="https://www.google.com/s2/favicons?domain=shopify.github.io&sz=64"></i> /liquid/#filters-section</a></li>
+</ul>
+<h5 id="liquid-vscode" tabindex="-1">Syntax highlighting & auto-formatting <sub>in <a href="/tricks/antigravity/">VS Code~editors</a></sub> <a href="#liquid-vscode" aria-hidden="true" data-is-anchor="true">#</a></h5>
+<ol>
+<li>🧩 Install <a href="https://github.com/prettier/prettier-vscode"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /prettier/prettier-vscode</a> (if not yet)</li>
+<li>🧩 Install <a href="https://shopify.dev/docs/storefronts/themes/tools/shopify-liquid-vscode"><i><img src="https://www.google.com/s2/favicons?domain=shopify.dev&sz=64"></i> /docs/storefronts/themes/tools/shopify-liquid-vscode</a><br>
+(2-in-1 extension for highlighting & formatting)</li>
+</ol>
+<p>This is a huge advantage for <code>.liquid</code> over <code>.njk</code> so far.</p>
+<h5 id="create-array" tabindex="-1">Create array <a href="#create-array" aria-hidden="true" data-is-anchor="true">#</a></h5>
+<pre><code data-caption=".liquid" class="language-liquid">{% capture _new_array %}
+1
+2
+3
+{% endcapture %}
+{% assign _new_array = _new_array | strip | split: '\n' %}
+</code></pre>
+<h5 id="beware-false-positives-in-liquid" tabindex="-1">Beware: False Positives <small>in <code>.liquid</code></small> <a href="#beware-false-positives-in-liquid" aria-hidden="true" data-is-anchor="true">#</a></h5>
+<ul>
+<li><a href="https://liquidjs.com/tutorials/truthy-and-falsy.html"><i><img src="https://www.google.com/s2/favicons?domain=liquidjs.com&sz=64"></i> /tutorials/truthy-and-falsy.html</a></li>
+<li><a href="https://www.11ty.dev/docs/languages/liquid/#java-script-truthiness-in-liquid"><i><img src="https://www.google.com/s2/favicons?domain=www.11ty.dev&sz=64"></i> /docs/languages/liquid/#java-script-truthiness-in-liquid</a></li>
+</ul>
+<p>❌ Wrong:</p>
+<pre><code class="language-liquid">{% if my_string %} This will always show if the string exists, even if empty. {% endif %}
+</code></pre>
+<p>✅ Right (Checking for content):</p>
+<pre><code class="language-liquid">{% if my_string != blank %} This only shows if there is actual text. {% endif %}
+</code></pre>
+<p>✅ Right (Checking arrays/strings by size):</p>
+<pre><code class="language-liquid">{% if my_array.size &gt; 0 %} This ensures the list isn't empty. {% endif %}
+</code></pre>
+
+          
+      
+          
+            <hr>
+<ul class="unlist columns">
+<li>Featured by:
+<ul>
+<li><a href="https://11tybundle.dev/blog/11ty-bundle-83/"><i><img src="https://www.google.com/s2/favicons?domain=11tybundle.dev&sz=64"></i> /blog/11ty-bundle-83</a></li>
+<li><a href="https://11tybundle.dev/categories/nunjucks-macros/"><i><img src="https://www.google.com/s2/favicons?domain=11tybundle.dev&sz=64"></i> /categories/nunjucks-macros</a></li>
+<li><a href="https://github.com/anydigital/awesome-11ty-build-awesome"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /anydigital/awesome-11ty-build-awesome</a></li>
+</ul>
+</li>
+<li>See also:
+<ul>
+<li><a href="https://buildexcellentwebsit.es/"><i><img src="https://www.google.com/s2/favicons?domain=buildexcellentwebsit.es&sz=64"></i> buildexcellentwebsit.es</a></li>
+<li><a href="https://blog.jim-nielsen.com/2025/lots-of-little-html-pages/"><i><img src="https://www.google.com/s2/favicons?domain=blog.jim-nielsen.com&sz=64"></i> /2025/lots-of-little-html-pages</a></li>
+</ul>
+</li>
+</ul>
+
+          
+      
+      
+
+      
+        
+          <hr>
+          <script
+  src="https://giscus.app/client.js"
+  data-repo="anydigital/awesome-blades"
+  data-repo-id="MDEwOlJlcG9zaXRvcnk3MTA1MTU1Mg=="
+  data-category-id="DIC_kwDOBDwpIM4C3fgo"
+  data-mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="preferred_color_scheme"
+  data-lang="en"
+  crossorigin="anonymous"
+  async
+></script>
+
+        
+      
+    </div>
+  </main>
+
+
+
+
+<footer class="dark-auto">
+  <nav class="container">
+    
+    <p>Made with sharp <a href="https://blades.ninja/"><i>🥷</i> Blades</a></p>
+<p>© <a href="https://any.digital/"><em>Any</em>digital</a> 2026  </p>
+<p>Bladesverse:  </p>
+<p style="white-space: nowrap"><a href="https://github.com/anydigital/blades"><img src="https://img.shields.io/github/stars/anydigital/blades?label=%F0%9F%A5%B7&amp;logo=%20" alt=""></a>
+<span class="faded">|</span>
+<a href="https://github.com/anydigital/eleventy-blades"><img src="https://img.shields.io/github/stars/anydigital/eleventy-blades?label=11ty&amp;logo=%20" alt=""></a>
+<span class="faded">|</span>
+<a href="https://github.com/anydigital/build-awesome-starter"><img src="https://img.shields.io/github/stars/anydigital/build-awesome-starter?label=%F0%9F%8E%88&amp;logo=%20" alt=""></a>
+<span class="faded">|</span>
+<a href="https://github.com/anydigital/bladeswitch"><img src="https://img.shields.io/github/stars/anydigital/bladeswitch?logo=jekyll&amp;label=" alt=""></a>
+<span class="faded">|</span>
+<a href="https://github.com/anydigital/awesome-blades"><img src="https://img.shields.io/github/stars/anydigital/awesome-blades?logo=awesomelists&amp;label=" alt=""></a></p>
+
+    &nbsp;
+    
+<ul>
+</ul>
+
+
+
+  </nav>
+</footer>
+
+
+<a href="#" data-jump-to="top" title="Fly to top">
+  <i class="fa-solid fa-plane-up fa-border"></i>
+</a>
+
+
+  </body>
+</html>
+
+

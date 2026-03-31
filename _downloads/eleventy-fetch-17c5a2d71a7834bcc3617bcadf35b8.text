@@ -1,0 +1,56 @@
+/* Extends https://github.com/picocss/pico/blob/main/scss/content/_link.scss
+<!--section:code-->
+```css */
+a {
+  /* Use inline flex only if link contains an icon */
+  &:has(> i) {
+    display: inline-flex;
+    gap: 0.375ch; /* =3/8 */
+    text-wrap: balance;
+    overflow-y: clip; /* to work in pair with text-underline-offset in Safari */
+  }
+  > i {
+    font-style: normal;
+    float: left; /*                 ✅ Chrome ❌ Safari */
+    text-underline-offset: -2em; /* ❌ Chrome ✅ Safari - to clip it with overflow-y */
+
+    /* Favicons */
+    > img {
+      height: 1.25em;
+      margin-block: calc(-0.25em / 2);
+      display: inline-block; /* for Tailwind CSS Typography */
+    }
+
+    /* Font Awesome */
+    &[class^="fa-"],
+    &[class*=" fa-"] {
+      line-height: inherit;
+      --fa-width: auto;
+    }
+    &.fa-lg {
+      line-height: normal;
+    }
+  }
+}
+/*```
+> **PRO-TIP** for 11ty: https://blades.ninja/build-awesome-11ty/processors/#auto-link-favicons
+
+<!--section:docs,summary-->
+
+Use Blades' `<i>`-helper to wrap emojis, favicons, or simply drop Font Awesome icons inside links. It automatically handles sizing and alignment while preventing underline on icons.
+
+<!--section:docs-->
+
+Compare:
+
+| Without Blades <hr class="lg">                                                                          | With Blades' `<i>`-helper <hr class="lg">                                                                      | Clean HTML without `<span>ning` <hr class="x2"> |
+| ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| [🥷 Link with emoji](#)                                                                                 | [<i>🥷</i> Link with emoji](#)                                                                                 | `<a><i>🥷</i> Text</a>`                         |
+| [![](https://www.google.com/s2/favicons?domain=any.digital&sz=64) Multi-line link <br> with favicon](#) | [<i>![](https://www.google.com/s2/favicons?domain=any.digital&sz=64)</i> Multi-line link <br> with favicon](#) | `<a><i><img src="..."></i> Text</a>`            |
+| [<b class="fa-brands fa-github fa-lg"></b> Link with Font Awesome icon](#)                              | [<i class="fa-brands fa-github fa-lg"></i> Link with Font Awesome icon](#)                                     | `<a><i class="fa-..."></i> Text</a>`            |
+
+---
+
+[How we made it ↗ &nbsp;<small>(on Codepen)</small>](https://codepen.io/editor/anydigital/pen/019d2b94-5616-75dc-a23e-e111869d5237){role=button .outline}
+
+<!--section--> */

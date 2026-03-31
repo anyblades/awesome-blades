@@ -1,0 +1,47 @@
+/* Extends https://github.com/picocss/pico/blob/main/scss/layout/
+<!--section:docs-intro-->
+
+Global styles:
+```css */
+html {
+  /* Prevent horizontal overflow and scrolling, modern way. */
+  overflow-x: clip;
+}
+body {
+  /* Ensure `body` takes at least the full height of the viewport (using dynamic viewport height for better mobile support). */
+  min-height: 100dvh;
+}
+/*```
+<!--section:docs-->
+
+### Auto-columns
+```css */
+.columns,
+[data-is-toc] > ul,
+[data-is-toc] > ol {
+  columns: 30ch auto; /* 2 cols max for 65ch container */
+
+  /* Avoid breaking inside elements, such as nested lists */
+  > * {
+    break-inside: avoid;
+  }
+}
+/*```
+
+Table of contents (`[data-is-toc]`) has auto-columns by default.
+
+### Jump to top
+```css */
+[data-jump-to="top"] {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-top: 50vh;
+  opacity: 25%;
+
+  &:hover {
+    opacity: 75%;
+  }
+}
+/*```
+<!--section--> */

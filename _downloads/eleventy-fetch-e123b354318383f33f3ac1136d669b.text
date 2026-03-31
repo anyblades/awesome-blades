@@ -1,0 +1,109 @@
+/* Extends https://github.com/picocss/pico/blob/main/scss/content/_typography.scss
+<!--section:docs-intro-->
+
+Global styles:
+```css */
+html {
+  /* Enable font smoothing */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  /* Enable global hyphenation */
+  hyphens: auto;
+  /* ... except for links and tables which are better (safer) without hyphenation */
+  a,
+  table {
+    hyphens: none;
+  }
+}
+/*```
+<!--section:docs-->
+
+### Heading anchors
+
+Set `data-is-anchor` attribute on anchors inside headings to position them absolutely, and show only on hover (when supported):
+
+<article><h2>Heading with anchor <a href="#hwa" data-is-anchor>#</a></h2></article>
+
+How it works:
+```css */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+
+  [data-is-anchor] {
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 0.2ch;
+    color: silver;
+    text-decoration: none;
+    visibility: hidden;
+  }
+  /* Avoid double-tap on touch devices */
+  @media (hover: hover) {
+    &:hover {
+      [data-is-anchor] {
+        visibility: visible;
+      }
+    }
+  }
+}
+/*```
+> **PRO-TIP** for 11ty + markdown-it-anchor: https://github.com/anydigital/eleventy-blades/blob/main/src/eleventy.config.js
+
+### List markers
+
+Use inline `style="--list-marker:'🥷 '"` on `<ul>/<ol>` or even individual `<li>` to customize list markers:
+<article>
+
+- Customize
+- list
+- markers
+- with [Blades CSS](https://blades.ninja/css/) {style="--list-marker:'🥷 '"}
+
+{style="--list-marker:'🧊 '"}
+</article>
+
+How it works:
+```css */
+ul,
+ol {
+  &[style*="--list-marker:"] {
+    list-style-type: var(--list-marker);
+
+    > li {
+      list-style-type: inherit;
+    }
+  }
+
+  li[style*="--list-marker:"] {
+    list-style-type: var(--list-marker);
+  }
+  li[data-marker]::marker {
+    /* ⚠️ `data-marker` works only in Chrome and Firefox */
+    content: attr(data-marker) " ";
+  }
+}
+/*```
+
+### Unlist
+
+Helper class to remove list styling at all:
+```css */
+.unlist {
+  padding-inline-start: 0;
+
+  > li {
+    list-style: none;
+  }
+}
+/*```
+<!--section--> */
