@@ -10,38 +10,55 @@ includes:
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
 
   - text: |-
+      ---
       ## Layout
-      ### [🥷 Breakout elements →](/css/breakout/){role=button .outline}
-      <div><hr></div>
+  - section: docs-intro
+    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_layout.css
+  - text: "### 🥷 Breakout elements"
+  - section: summary
+    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/link-icon.css
+  - text: "[Demo & Docs →](/css/breakout/){role=button .outline}"
   - section: docs
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_layout.css
 
   - text: |-
+      ---
       ## Content
-      ### [🥷 Link [fav]icons →](/css/link-icon/){role=button .outline}
-      <div><hr></div>
+      ### 🥷 Link [fav]icons
+  - section: summary
+    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/link-icon.css
+  - text: "[Demo & Docs →](/css/link-icon/){role=button .outline}"
   - section: docs
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_typography.css
   - section: docs
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_code.css
 
   - text: |-
+      ---
       ## Table
-      ### [🥷 Responsive table without wrapper →](/css/responsive-table/){role=button .outline}
+      ### 🥷 Responsive table without wrapper
+  - section: summary
+    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/responsive-table.css
+  - text: "[Demo & Docs →](/css/responsive-table/){role=button .outline}"
   - section: docs
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_table.css
 
-  - text: "## Utilities"
+  - text: |-
+      ---
+      ## Utilities
   - section: docs
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_utilities.css
   - section: docs
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_unreduce-motion.css
 
-  - text: "## Theme <small>(optional)</small>"
+  - text: |-
+      ---
+      ## Theme <small>(optional)</small>
   - section: code
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/blades.theme.css
 
   - text: |-
+      ---
       See also:
       - https://buildexcellentwebsit.es/
       - https://github.com/picocss/pico
