@@ -18,7 +18,7 @@ includes:
   - text: |-
       ## Demo
 
-      Drop-in support for **Pico** https://picocss.com/docs/forms :
+      Drop-in support for **Pico**'s https://picocss.com/docs/forms :
 
       <article>
         <form>
