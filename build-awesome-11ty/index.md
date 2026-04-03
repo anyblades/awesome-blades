@@ -1,18 +1,16 @@
 ---
 permalink: /build-awesome-11ty/
 title: <sup>Build Awesome /</sup> Eleventy blades
-summary: |-
-  Ultimate blade kit for 11ty (Build Awesome).  
-  <small>https://github.com/anydigital/eleventy-blades &nbsp;![](https://img.shields.io/github/v/release/anydigital/eleventy-blades?label=&color=white&include_prereleases)</small>
 canonical: https://blades.ninja/build-awesome-11ty/
+eleventyComputed:
+  summary: |-
+    {% liquid
+      assign _ = 'https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/master/README.md'
+      echo _ | fetch | section: 'summary'
+    %}
+    https://github.com/anydigital/eleventy-blades ![](https://img.shields.io/github/v/release/anydigital/eleventy-blades?label=&color=black)  
 includes:
-  - text: "## Install"
-  - section: install
-    path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/README.md
-  - text: |-
-      ---
-      ## Usage
-  - section: toc
+  - section: docs
     path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/README.md
   - text: |-
       ---
