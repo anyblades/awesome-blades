@@ -3,6 +3,8 @@ permalink: /html/
 title: <sup>Nunjucks / Liquid</sup> HTML blades <sub>for 11ty/Build Awesome, Jekyll, etc.</sub>
 summary: Nunjucks/Liquid batteries included (for 11ty/Build Awesome, Jekyll, etc.) 🥷
 includes:
+  - section: install-preconf
+    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
   - text: |-
       ---
       ## Base HTML {#base}
@@ -45,6 +47,8 @@ includes:
 
 ## Install
 
+<mark>Via npm:</mark>
+
 ```sh
 npm install @anydigital/blades
 cd ./_includes  # your includes dir
@@ -53,16 +57,12 @@ ln -s ../node_modules/@anydigital/blades/_includes/blades
 
 That's it! Now you can use HTML blades in your templates like this:
 
-<mark>In Nunjucks:</mark>
-
-```jinja2
+```jinja2 {data-caption=Nunjucks}
 {% extends 'blades/html.njk' %}
 {% include 'blades/gtm.njk' %}
 ```
 
-<mark>In Liquid:</mark>
-
-```liquid
+```liquid {data-caption=Liquid}
 {% include blades/html.liquid %}
 {% include blades/gtm.liquid for_body=true %}
 {% render blades/links, links: site.links, current_url: page.url %}
