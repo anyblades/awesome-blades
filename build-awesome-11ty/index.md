@@ -5,7 +5,7 @@ canonical: https://blades.ninja/build-awesome-11ty/
 eleventyComputed:
   summary: |-
     {% liquid
-      assign _ = 'https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/master/README.md'
+      assign _ = 'https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/README.md'
       echo _ | fetch | section: 'summary'
     %}
     https://github.com/anydigital/eleventy-blades ![](https://img.shields.io/github/v/release/anydigital/eleventy-blades?label=&color=black)  
