@@ -77,22 +77,7 @@ Finally, add it to your shell's configuration file so it executes automatically:
 eval "$(rbenv init -)"
 ```
 
-### GitHub Pages' Jekyll locally
-
-Assuming you already [installed `rbenv`](#rbenv):
-
-1. ```rb {data-caption=Gemfile}
-   source "https://rubygems.org"
-
-   gem "github-pages", group: :jekyll_plugins
-   ```
-
-2. ```sh
-   bundle install
-   bundle exec jekyll serve
-   ```
-
-More info: https://github.com/github/pages-gem#usage, https://jekyllrb.com/docs/installation/macos/
+### [GitHub Pages' Jekyll locally](/jekyll/)
 
 ### Slate Docs locally
 

@@ -1,12 +1,9 @@
 ---
 permalink: /css/
-eleventyNavigation:
-  key: CSS
-  order: 1
 title: <sup>Class-light</sup> CSS blades <sub>inspired by Pico.css</sub>
 includes:
   - text: "## Install"
-  - section: install-css
+  - section: css-install
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
   - text: |-
       ---

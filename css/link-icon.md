@@ -13,6 +13,6 @@ includes:
       <link href="https://cdn.jsdelivr.net/npm/@anydigital/blades@^0.27.0-alpha/assets/link-icon.min.css" rel="stylesheet" />
       ```
       Or all-in:
-  - section: install-css
+  - section: css-install
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
 ---

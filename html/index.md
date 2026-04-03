@@ -3,7 +3,7 @@ permalink: /html/
 title: <sup>Nunjucks / Liquid</sup> HTML blades <sub>for 11ty/Build Awesome, Jekyll, etc.</sub>
 includes:
   - text: "## Install"
-  - section: install-html
+  - section: html-install
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
   - text: |-
       ---
