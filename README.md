@@ -6,15 +6,13 @@
 
 <!--section:gh-only-->
 
-Blades docs:
-
-- https://blades.ninja/
-- https://blades.ninja/css/
-- https://blades.ninja/css/breakout/
-- https://blades.ninja/css/float-label/
-- https://blades.ninja/css/link-icon/
-- https://blades.ninja/css/responsive-table/
-- https://github.com/topics/blades-css
+- Blades docs:
+  - https://blades.ninja/
+  - https://blades.ninja/css/
+  - https://blades.ninja/css/breakout/
+  - https://blades.ninja/css/float-label/
+  - https://blades.ninja/css/link-icon/
+  - https://blades.ninja/css/responsive-table/
 
 <!--section:index-->
 
@@ -35,5 +33,6 @@ Blades docs:
   - https://blades.ninja/npm/ tricks
   - https://blades.ninja/random/ tricks
   - https://blades.ninja/symbols/
+  - https://github.com/topics/blades-css
 
 <!--{.unlist .columns}-->
