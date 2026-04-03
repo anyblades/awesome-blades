@@ -3,8 +3,10 @@ permalink: /css/
 title: <sup>Class-light</sup> CSS blades <sub>inspired by Pico.css</sub>
 includes:
   - text: "## Install"
-  - section: css-install
+  - section: install
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
+  - section: code
+    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/blades.theme.css
   - text: |-
       ---
       ## Layout
@@ -53,11 +55,6 @@ includes:
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_utilities.css
   - section: docs
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_unreduce-motion.css
-  - text: |-
-      ---
-      ## Theme <small>(optional)</small>
-  - section: code
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/blades.theme.css
   - text: |-
       ---
       See also:

@@ -20,10 +20,7 @@ eleventyComputed:
       echo _ | fetch | section: 'hero' | replace: 'hgroup>', 'h1>' | replace: '<wbr>', '<br>'
     %}
 includes:
-  - section: css
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
-  - text: ---
-  - section: appendix
+  - section: docs
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
   - text: ---
   - path: README.md

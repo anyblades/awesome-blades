@@ -49,9 +49,13 @@ includes:
       </article>
 
       More examples:
-  - section: docs
+  - section: docs-demo-install
     path: https://raw.githubusercontent.com/anydigital/float-label-css/refs/heads/master/README.md
     # path: ../../float-label-css/README.md
+  - text: <details><summary role="button" class="outline">Install Blades CSS Kit</summary>
+  - section: install
+    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
+  - text: </details>
   - text: |-
       ---
       ## How it works {#how}
