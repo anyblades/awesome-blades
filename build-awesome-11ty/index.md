@@ -1,6 +1,6 @@
 ---
 permalink: /build-awesome-11ty/
-title: <sup>Build Awesome /</sup> Eleventy blades
+title: <sup>Build Awesome /</sup> Eleventy blades <sup><img src="https://img.shields.io/github/v/release/anydigital/eleventy-blades?label=&color=black"></sup>
 canonical: https://blades.ninja/build-awesome-11ty/
 eleventyComputed:
   summary: |-
@@ -8,8 +8,6 @@ eleventyComputed:
       assign _ = 'https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/README.md'
       echo _ | fetch | section: 'summary'
     %}
-    ![](https://img.shields.io/github/v/release/anydigital/eleventy-blades?label=&color=black)
-
     https://github.com/anydigital/eleventy-blades
 includes:
   - section: docs

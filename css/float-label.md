@@ -2,7 +2,7 @@
 eleventyNavigation:
   key: <i class="fa-solid fa-picture-in-picture fa-flip-both"></i> Label
   order: 2
-title: <a href="/css/">CSS</a> Float Label
+title: <a href="/css/">CSS</a> Float Label <sup><img src="https://img.shields.io/github/v/release/anydigital/float-label-css?label=&color=black&include_prereleases"></sup>
 eleventyComputed:
   summary: |-
     {% liquid
@@ -10,8 +10,6 @@ eleventyComputed:
       # assign _ = '../../float-label-css/README.md'
       echo _ | fetch | section: 'summary'
     %}
-    ![](https://img.shields.io/github/v/release/anydigital/float-label-css?label=&color=black&include_prereleases)
-
     https://github.com/anydigital/float-label-css  
     from https://github.com/anydigital/blades
 includes:
