@@ -10,8 +10,10 @@ eleventyComputed:
       # assign _ = '../../float-label-css/README.md'
       echo _ | fetch | section: 'summary'
     %}
-    https://github.com/anydigital/float-label-css ![](https://img.shields.io/github/v/release/anydigital/float-label-css?label=&color=black&include_prereleases)  
-    from https://github.com/anydigital/blades ![](https://img.shields.io/github/v/release/anydigital/blades?label=&color=black&include_prereleases)
+    ![](https://img.shields.io/github/v/release/anydigital/float-label-css?label=&color=black&include_prereleases)
+
+    https://github.com/anydigital/float-label-css  
+    from https://github.com/anydigital/blades
 includes:
   - section: intro
     path: https://raw.githubusercontent.com/anydigital/float-label-css/refs/heads/master/README.md
