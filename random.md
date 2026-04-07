@@ -29,6 +29,12 @@ Rely on Password Manager better.
 
 ## Terminal
 
+### Find all symlinks 
+
+```sh
+find . -type l -ls
+```
+
 ### Check HTTP headers with `curl`
 
 ```sh
