@@ -5,7 +5,7 @@ subtitle: Framework-agnostic, class-light CSS⁺ blade kit. Use with Pico, Simpl
 author:
   name: Anton Staroverov
 gtm_id: GTM-WNHMRQZ
-brand: <big><a href="/" class="dark-auto"><i>🥷</i> Blades</a></big>
+brand: <big><big><a href="/" class="dark-auto"><i>🥷</i> Blades</a></big></big>
 header_links:
   - url: /css/
     title: All CSS
