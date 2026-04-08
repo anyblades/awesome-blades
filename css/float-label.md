@@ -2,19 +2,19 @@
 eleventyNavigation:
   key: <i class="fa-solid fa-picture-in-picture fa-flip-both"></i> Label
   order: 2
-title: <a href="/css/">CSS</a> Float Label <sup><img src="https://img.shields.io/github/v/release/anydigital/float-label-css?label=&color=black&include_prereleases"></sup>
+title: <a href="/css/">CSS</a> Float Label <sup><img src="https://img.shields.io/github/v/release/anyblades/float-label-css?label=&color=black&include_prereleases"></sup>
 eleventyComputed:
   summary: |-
     {% liquid
-      assign _ = 'https://raw.githubusercontent.com/anydigital/float-label-css/refs/heads/master/README.md'
+      assign _ = 'https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md'
       # assign _ = '../../float-label-css/README.md'
       echo _ | fetch | section: 'summary'
     %}
-    https://github.com/anydigital/float-label-css  
-    from https://github.com/anydigital/blades
+    https://github.com/anyblades/float-label-css  
+    from https://github.com/anyblades/blades
 includes:
   - section: intro
-    path: https://raw.githubusercontent.com/anydigital/float-label-css/refs/heads/master/README.md
+    path: https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md
     # path: ../../float-label-css/README.md
   - text: |-
       ## Demo
@@ -50,15 +50,15 @@ includes:
 
       More examples:
   - section: docs-demo-install
-    path: https://raw.githubusercontent.com/anydigital/float-label-css/refs/heads/master/README.md
+    path: https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md
     # path: ../../float-label-css/README.md
   - text: <details><summary role="button" class="outline">Install Blades CSS Kit</summary>
   - section: install
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md
   - text: </details>
   - text: |-
       ---
       ## How it works {#how}
   - section: docs
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/float-label.core.css
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/float-label.core.css
 ---

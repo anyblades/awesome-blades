@@ -39,10 +39,10 @@ npm i -D prettier-plugin-jinja-template
 }
 ```
 
-`PRO TIP:` If you already use https://github.com/anydigital/blades, it’s even easier. You can simply:
+`PRO TIP:` If you already use https://github.com/anyblades/blades, it’s even easier. You can simply:
 
 ```sh
-ln -s ./node_modules/@anydigital/blades/.prettierrc.json
+ln -s ./node_modules/@anyblades/blades/.prettierrc.json
 ```
 
 ##### Sort array by attribute
@@ -58,15 +58,4 @@ But you can actually do this trick:
 {% for item in array | sort(attribute='weight') %}
   ...
 {% endfor %}
-```
-
-##### Include and render `.md` file w/o its Front Matter <sub>in `11ty`</sub>
-
-```jinja2 {data-caption=.njk}
-{# first, get the raw content using `html` as plain-text engine #}
-{% set _eval = "{% renderFile './YOUR_FILE.md', {}, 'html' %}" %}
-{% set _raw_md = _eval | renderContent('njk') %}
-
-{# then, remove the front matter using regex, and render using `md` #}
-{{ _raw_md | replace(r/^---[\s\S]*?---/, '') | renderContent('md') | safe }}
 ```

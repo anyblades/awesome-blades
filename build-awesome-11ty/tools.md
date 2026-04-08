@@ -5,18 +5,18 @@ includes:
       ### Blades starters {#starters}
       <nav class="grid">
 
-      ##### [🥷 Build Awesome Starter ↗ <br><small>11ty + Tailwind + Typography + Blades</small>](https://github.com/anydigital/build-awesome-starter){role=button .outline}
-      ##### [🥷 Bladeswitch Starter ↗ <br><small>Jekyll + Pico + Blades</small>](https://github.com/anydigital/bladeswitch){role=button .outline}
+      ##### [🥷 Build Awesome Starter ↗ <br><small>11ty + Tailwind + Typography + Blades</small>](https://github.com/anyblades/build-awesome-starter){role=button .outline}
+      ##### [🥷 Bladeswitch Starter ↗ <br><small>Jekyll + Pico + Blades</small>](https://github.com/anyblades/bladeswitch){role=button .outline}
       </nav>
 
       ---
   - section: docs,code
-    path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/eleventy.config.js
+    path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/src/eleventy.config.js
   - text: ---
-  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/do/README.md
+  - path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/src/do/README.md
   - text: ---
   - section: docs,code
-    path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/siteData.js
+    path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/src/siteData.js
   - text: |-
       ---
       ### Appendix

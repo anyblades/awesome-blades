@@ -13,7 +13,7 @@ header_links:
     title: <i class="fa-solid fa-code"></i>
   - url: /build-awesome-11ty/
     title: <i class="fa-brands fa-eleventy"></i>
-  - url: https://github.com/anydigital/blades
+  - url: https://github.com/anyblades/blades
     title: <i class="fa-brands fa-github"></i>
 #TODO tricks
 footer_content: |
@@ -21,10 +21,10 @@ footer_content: |
 
   [Bladesverse](https://github.com/topics/blades-css):&nbsp;&nbsp;
 
-  [![](https://img.shields.io/github/stars/anydigital/blades?label=🥷&logo=%20)](               https://github.com/anydigital/blades)
-  [![](https://img.shields.io/github/stars/anydigital/float-label-css?label=🏷️&logo=%20)](      https://github.com/anydigital/float-label-css)
-  [![](https://img.shields.io/github/stars/anydigital/eleventy-blades?label=11ty&logo=%20)](    https://github.com/anydigital/eleventy-blades)
-  [![](https://img.shields.io/github/stars/anydigital/build-awesome-starter?label=🎈&logo=%20)](https://github.com/anydigital/build-awesome-starter)
-  [![](https://img.shields.io/github/stars/anydigital/bladeswitch?logo=jekyll&label=)](         https://github.com/anydigital/bladeswitch)
-  [![](https://img.shields.io/github/stars/anydigital/awesome-blades?logo=awesomelists&label=)](https://github.com/anydigital/awesome-blades)
+  [![](https://img.shields.io/github/stars/anyblades/blades?label=🥷&logo=%20)](               https://github.com/anyblades/blades)
+  [![](https://img.shields.io/github/stars/anyblades/float-label-css?label=🏷️&logo=%20)](      https://github.com/anyblades/float-label-css)
+  [![](https://img.shields.io/github/stars/anyblades/eleventy-blades?label=11ty&logo=%20)](    https://github.com/anyblades/eleventy-blades)
+  [![](https://img.shields.io/github/stars/anyblades/build-awesome-starter?label=🎈&logo=%20)](https://github.com/anyblades/build-awesome-starter)
+  [![](https://img.shields.io/github/stars/anyblades/bladeswitch?logo=jekyll&label=)](         https://github.com/anyblades/bladeswitch)
+  [![](https://img.shields.io/github/stars/anyblades/awesome-blades?logo=awesomelists&label=)](https://github.com/anyblades/awesome-blades)
   {style="white-space: nowrap"}

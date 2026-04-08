@@ -5,7 +5,7 @@ type: tricks
 canonical: https://any.digital/tricks/npm/
 includes:
   - section: npm
-    path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/README.md
+    path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/README.md
 ---
 
 ### npm link auto-completion with @namespaces support

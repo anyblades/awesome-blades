@@ -4,57 +4,57 @@ title: <sup>Class-light</sup> CSS blades <sub>inspired by Pico.css</sub>
 includes:
   - text: "## Install"
   - section: install
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md
   - section: code
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/blades.theme.css
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/blades.theme.css
   - text: |-
       ---
       ## Layout
   - section: docs-intro
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_layout.css
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/_layout.css
   - text: "### 🥷 Breakout elements"
   - section: summary
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/breakout.css
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/breakout.css
   - text: "[Demo & Docs →](/css/breakout/){role=button .outline}"
   - section: docs
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_layout.css
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/_layout.css
   - text: |-
       ---
       ## Content
   - section: docs-intro
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_typography.css
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/_typography.css
   - section: docs-intro
   - text: "### 🥷 Link [fav]icons"
   - section: summary
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/link-icon.css
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/link-icon.css
   - text: "[Demo & Docs →](/css/link-icon/){role=button .outline}"
   - section: docs
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_typography.css
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/_typography.css
   - section: docs
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_code.css
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/_code.css
   - text: |-
       ---
       ## Table
       ### 🥷 Responsive table without wrapper
   - section: summary
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/responsive-table.css
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/responsive-table.css
   - text: "[Demo & Docs →](/css/responsive-table/){role=button .outline}"
   - section: docs
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_table.css
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/_table.css
   - text: |-
       ---
       ## Forms
       ### 🥷 Float label without CSS classes
   - section: summary
-    path: https://raw.githubusercontent.com/anydigital/float-label-css/refs/heads/master/README.md
+    path: https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md
   - text: "[Demo & Docs →](/css/float-label/){role=button .outline}"
   - text: |-
       ---
       ## Utilities
   - section: docs
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_utilities.css
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/_utilities.css
   - section: docs
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_unreduce-motion.css
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/_unreduce-motion.css
   - text: |-
       ---
       See also:

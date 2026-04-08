@@ -16,20 +16,20 @@ eleventyComputed:
   summary: |-
     {% liquid
       #TODO to tricks
-      # assign _ = '../node_modules/@anydigital/blades/README.md'
-      assign _ = 'https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md'
+      # assign _ = '../node_modules/@anyblades/blades/README.md'
+      assign _ = 'https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md'
       echo _ | fetch | section: 'summary' | replace: 'hgroup>', 'h1>' | replace: '<wbr>', '<br>'
     %}
   site.brand: |-
     <p>
       <big style="vertical-align: middle">{{ site.brand }}</big> &nbsp;
-      <img src="https://img.shields.io/github/v/release/anydigital/blades?label=&color=white&include_prereleases">&nbsp;
-      <a href="https://github.com/anydigital/blades"><img src="https://img.shields.io/github/stars/anydigital/blades?label="></a>
+      <img src="https://img.shields.io/github/v/release/anyblades/blades?label=&color=white&include_prereleases">&nbsp;
+      <a href="https://github.com/anyblades/blades"><img src="https://img.shields.io/github/stars/anyblades/blades?label="></a>
     </p>
     <div style="width: 100%">{{ summary | markdownify }}</div>
 includes:
   - section: docs
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md
   - text: ---
   - path: README.md
     section: index

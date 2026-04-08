@@ -5,7 +5,7 @@ type: tricks
 canonical: https://any.digital/tricks/git/
 includes:
   - text: "{#commit-email-privacy}"
-  - path: https://raw.githubusercontent.com/anydigital/git-commit-email-privacy/refs/heads/main/README.md
+  - path: https://raw.githubusercontent.com/anyblades/git-commit-email-privacy/refs/heads/main/README.md
 ---
 
 ### Shame on GitHub

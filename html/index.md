@@ -4,30 +4,30 @@ title: <sup>Nunjucks / Liquid</sup> HTML blades <sub>for 11ty/Build Awesome, Jek
 summary: Nunjucks/Liquid batteries included (for 11ty/Build Awesome, Jekyll, etc.) 🥷
 includes:
   - section: install-preconf
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md
   - text: |-
       ---
       ## Base HTML {#base}
   - section: docs,code
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/_includes/blades/html.njk
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/_includes/blades/html.njk
   - section: docs,code
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/_includes/blades/html.liquid
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/_includes/blades/html.liquid
   - text: |-
       ---
       ## Links
   - section: docs,code
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/_includes/blades/links.liquid
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/_includes/blades/links.liquid
   - text: |-
       ---
       ## Sitemap 🆕
-      https://github.com/anydigital/blades/blob/main/_includes/blades/sitemap.xml.njk
+      https://github.com/anyblades/blades/blob/main/_includes/blades/sitemap.xml.njk
   - text: |-
       ---
       ## Google Tag Manager (GTM) {#gtm}
   - section: docs,code
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/_includes/blades/gtm.njk
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/_includes/blades/gtm.njk
   - section: docs,code
-    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/_includes/blades/gtm.liquid
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/_includes/blades/gtm.liquid
   - text: ---
   - path: html/_njk.md
   - text: ---
@@ -50,9 +50,9 @@ includes:
 <mark>Via npm:</mark>
 
 ```sh
-npm install @anydigital/blades
+npm install @anyblades/blades
 cd ./_includes  # your includes dir
-ln -s ../node_modules/@anydigital/blades/_includes/blades
+ln -s ../node_modules/@anyblades/blades/_includes/blades
 ```
 
 That's it! Now you can use HTML blades in your templates like this:
