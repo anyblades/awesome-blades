@@ -33,6 +33,8 @@ Rely on Password Manager better.
 
 ```sh
 find . -type l -ls
+
+# -not -path '*/node_modules/*' # to exclude folder
 ```
 
 ### Check HTTP headers with `curl`
