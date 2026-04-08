@@ -1,5 +1,8 @@
 ---
 permalink: /html/
+eleventyNavigation:
+  key: <i class="fa-solid fa-code"></i>
+  order: 1
 title: <sup>Nunjucks / Liquid</sup> HTML blades <sub>for 11ty/Build Awesome, Jekyll, etc.</sub>
 summary: Nunjucks/Liquid batteries included (for 11ty/Build Awesome, Jekyll, etc.) 🥷
 includes:

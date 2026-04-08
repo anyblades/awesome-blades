@@ -1,5 +1,9 @@
 ---
 permalink: /
+eleventyNavigation:
+  key: css
+  title: CSS
+  order: 0
 site:
   inline_styles:
     - |-
@@ -20,7 +24,7 @@ eleventyComputed:
       assign _ = 'https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md'
       echo _ | fetch | section: 'summary' | replace: 'hgroup>', 'h1>' | replace: '<wbr>', '<br>'
     %}
-  site.brand: '<div style="width: 100%">{{ summary | markdownify }}</div>'
+  hero: "<br>{{ summary | markdownify }}<br>"
 includes:
   - section: docs
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md

@@ -5,20 +5,14 @@ subtitle: Framework-agnostic, class-light CSS⁺ blade kit. Use with Pico, Simpl
 author:
   name: Anton Staroverov
 gtm_id: GTM-WNHMRQZ
-brand: <big><big><a href="/" class="dark-auto"><i>🥷</i> Blades</a></big></big>
+brand: <big><big><a href="/" class="dark-auto"><i>🥷</i> <span><em>B</em>lades</span></a></big></big>
 header_links:
-  - url: /css/
-    title: All CSS
-  - url: /css/pico/
-    title: <i>✨</i>
-  - url: /html/
-    title: <i class="fa-solid fa-code"></i>
-  - url: /build-awesome-11ty/
-    title: <i class="fa-brands fa-eleventy"></i>
   - url: https://github.com/anyblades/blades
     title: <i class="fa-brands fa-github"></i>
+  - url: https://github.com/anyblades/blades
+    title: '<i><img src="https://img.shields.io/github/stars/anyblades/blades?logo=_&label=★" style="margin: -0.2em 0 0 0"></i>'
 #TODO tricks
 footer_content: |
   &nbsp;&nbsp;
 
-  [Bladesverse: <i>![](https://img.shields.io/github/stars/anyblades?logo=_&label=🥷🥷)</i>](https://github.com/anyblades)
+  [<span>*B*ladesverse</span> <i class="faded">:</i> <i><span>![](https://img.shields.io/github/stars/anyblades?logo=_&label=★★★)</span></i>](https://github.com/anyblades)

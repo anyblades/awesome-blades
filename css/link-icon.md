@@ -1,5 +1,6 @@
 ---
 eleventyNavigation:
+  parent: css
   key: <i class="fa-solid fa-link"></i> Icon
   order: 3
 title: <a href="/css/">CSS</a> Link [fav]icons

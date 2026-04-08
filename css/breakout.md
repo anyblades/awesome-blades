@@ -1,5 +1,6 @@
 ---
 eleventyNavigation:
+  parent: css
   key: <i class="fa-solid fa-tv fa-flip-both"></i> Breakout
   order: 5
 title: <a href="/css/">CSS</a> Breakout <small>elements</small>
