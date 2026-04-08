@@ -21,12 +21,4 @@ header_links:
 footer_content: |
   &nbsp;&nbsp;
 
-  [Bladesverse](https://github.com/topics/blades-css):&nbsp;&nbsp;
-
-  [![](https://img.shields.io/github/stars/anyblades/blades?label=🥷&logo=%20)](               https://github.com/anyblades/blades)
-  [![](https://img.shields.io/github/stars/anyblades/float-label-css?label=🏷️&logo=%20)](      https://github.com/anyblades/float-label-css)
-  [![](https://img.shields.io/github/stars/anyblades/eleventy-blades?label=11ty&logo=%20)](    https://github.com/anyblades/eleventy-blades)
-  [![](https://img.shields.io/github/stars/anyblades/build-awesome-starter?label=🎈&logo=%20)](https://github.com/anyblades/build-awesome-starter)
-  [![](https://img.shields.io/github/stars/anyblades/bladeswitch?logo=jekyll&label=)](         https://github.com/anyblades/bladeswitch)
-  [![](https://img.shields.io/github/stars/anyblades/awesome-blades?logo=awesomelists&label=)](https://github.com/anyblades/awesome-blades)
-  {style="white-space: nowrap"}
+  [Bladesverse: <i>![](https://img.shields.io/github/stars/anyblades?logo=_&label=🥷🥷)</i>](https://github.com/anyblades)
