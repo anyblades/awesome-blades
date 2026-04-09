@@ -6,25 +6,27 @@
 
 <!--section:gh-only-->
 
-- Blades docs:
+- *B*lades docs:
   - https://blades.ninja/
   - https://blades.ninja/css/
   - https://blades.ninja/css/breakout/
   - https://blades.ninja/css/float-label/
   - https://blades.ninja/css/link-icon/
   - https://blades.ninja/css/responsive-table/
-
-<!--section:index-->
-
-- Hidden built-ins:
   - https://blades.ninja/html/ templates
-  - https://blades.ninja/jekyll/ theme
-- Eleventy blades:
+- Pico fork docs:
+  - https://blades.ninja/css/pico/
+- Eleventy *B*lades docs:
   - https://blades.ninja/11ty/
   - https://blades.ninja/11ty/filters/
   - https://blades.ninja/11ty/processors/
   - https://blades.ninja/11ty/tools/
-- Awesome tools and tricks used in Blades:
+
+<!--section:index-->
+
+- Hidden built-ins:
+  - https://blades.ninja/jekyll/ theme
+- Awesome tricks from *B*lades:
   - https://blades.ninja/antigravity/ tricks
   - https://blades.ninja/git/ tricks
   - https://blades.ninja/jsdelivr/ tricks
