@@ -57,8 +57,6 @@ includes:
       ## Utilities
   - section: docs
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/_utilities.css
-  - section: docs
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/_unreduce-motion.css
   - text: |-
       ---
       See also:

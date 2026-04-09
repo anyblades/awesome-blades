@@ -8,5 +8,12 @@ summary: |-
   https://github.com/anyblades/pico  
   with https://github.com/anyblades/blades
 includes:
-  - path: https://raw.githubusercontent.com/anyblades/pico/refs/heads/main/README.md
+  - section: intro
+    path: https://raw.githubusercontent.com/anyblades/pico/refs/heads/main/README.md
+    # path: ../../pico/README.md
+  - section: toc
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md
+  - section: docs
+    path: https://raw.githubusercontent.com/anyblades/pico/refs/heads/main/README.md
+    # path: ../../pico/README.md
 ---
