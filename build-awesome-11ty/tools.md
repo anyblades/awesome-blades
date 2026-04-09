@@ -1,7 +1,7 @@
 ---
 eleventyNavigation:
   parent: 11ty
-  key: <i>🏗️</i> Power Tools
+  key: <i class="fa-solid fa-power-off"></i> Tools
   order: 3
 title: <a href="/build-awesome-11ty/"><sup>Build Awesome /</sup> Eleventy</a> Power Tools
 includes:
