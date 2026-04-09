@@ -1,4 +1,8 @@
 ---
+eleventyNavigation:
+  parent: 11ty
+  key: <i class="fa-solid fa-shuttle-space"></i> Power Tools
+  order: 3
 title: <a href="/build-awesome-11ty/"><sup>Build Awesome /</sup> Eleventy</a> Power Tools
 includes:
   - text: |-
