@@ -6,35 +6,34 @@
 
 <!--section:gh-only-->
 
-- *B*lades docs:
-  - https://blades.ninja/
-  - https://blades.ninja/css/
-  - https://blades.ninja/css/breakout/
-  - https://blades.ninja/css/float-label/
-  - https://blades.ninja/css/link-icon/
-  - https://blades.ninja/css/responsive-table/
-  - https://blades.ninja/html/ templates
-- Pico fork docs:
-  - https://blades.ninja/css/pico/
-- Eleventy *B*lades docs:
-  - https://blades.ninja/11ty/
-  - https://blades.ninja/11ty/filters/
-  - https://blades.ninja/11ty/processors/
-  - https://blades.ninja/11ty/tools/
+*B*lades docs:
+- https://blades.ninja/
+- https://blades.ninja/css/
+- https://blades.ninja/css/breakout/
+- https://blades.ninja/css/float-label/
+- https://blades.ninja/css/link-icon/
+- https://blades.ninja/css/responsive-table/
+- https://blades.ninja/html/ templates
+Pico fork docs:
+- https://blades.ninja/css/pico/
+Eleventy *B*lades docs:
+- https://blades.ninja/11ty/
+- https://blades.ninja/11ty/filters/
+- https://blades.ninja/11ty/processors/
+- https://blades.ninja/11ty/tools/
 
 <!--section:index-->
 
-- Hidden built-ins:
-  - https://blades.ninja/jekyll/ theme
-- Awesome tricks from *B*lades:
-  - https://blades.ninja/antigravity/ tricks
-  - https://blades.ninja/git/ tricks
-  - https://blades.ninja/jsdelivr/ tricks
-  - https://blades.ninja/md/ tricks
-  - https://blades.ninja/mobile-dev/ tricks
-  - https://blades.ninja/npm/ tricks
-  - https://blades.ninja/random/ tricks
-  - https://blades.ninja/symbols/
+Awesome tricks from *B*lades:
+- https://blades.ninja/jekyll/ hidden built-in theme
+- https://blades.ninja/antigravity/ tricks
+- https://blades.ninja/git/ tricks
+- https://blades.ninja/jsdelivr/ tricks
+- https://blades.ninja/md/ tricks
+- https://blades.ninja/mobile-dev/ tricks
+- https://blades.ninja/npm/ tricks
+- https://blades.ninja/random/ tricks
+- https://blades.ninja/symbols/
 
 <!--{.unlist .columns}-->
 <!-- Sublists sorted A-Z -->
