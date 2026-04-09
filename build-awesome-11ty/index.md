@@ -1,7 +1,8 @@
 ---
 permalink: /build-awesome-11ty/
 eleventyNavigation:
-  key: <i class="fa-brands fa-eleventy"></i>
+  key: 11ty
+  title: <i class="fa-brands fa-eleventy"></i>
   order: 2
 title: <sup>Build Awesome /</sup> Eleventy blades <sup><img src="https://img.shields.io/github/v/release/anyblades/eleventy-blades?label=&color=black"></sup>
 canonical: https://blades.ninja/build-awesome-11ty/
