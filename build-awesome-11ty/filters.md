@@ -1,4 +1,8 @@
 ---
+eleventyNavigation:
+  parent: 11ty
+  key: <i class="fa-solid fa-lines-leaning"></i> Filters
+  order: 1
 title: <a href="/build-awesome-11ty/"><sup>Build Awesome /</sup> Eleventy</a> Filters
 summary: A collection of useful Eleventy filters for Nunjucks/Liquid via Eleventy Blades plugin.
 includes:
