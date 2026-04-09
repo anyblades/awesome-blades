@@ -1,7 +1,7 @@
 ---
 eleventyNavigation:
   parent: 11ty
-  key: <i class="fa-regular fa-file-code"></i> Processors
+  key: <i class="fa-solid fa-gears"></i> Processors
   order: 2
 title: <a href="/build-awesome-11ty/"><sup>Build Awesome /</sup> Eleventy</a> Processors
 summary: A collection of useful Eleventy processors via Eleventy Blades plugin.
