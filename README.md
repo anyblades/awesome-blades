@@ -26,7 +26,7 @@ Eleventy *B*lades docs:
 
 <!--section:index-->
 
-Awesome tricks from *B*lades:
+Awesome *B*lades tricks:
 - https://blades.ninja/jekyll/ hidden built-in theme
 - https://blades.ninja/antigravity/ tricks
 - https://blades.ninja/git/ tricks
