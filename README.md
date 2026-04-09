@@ -14,8 +14,10 @@
 - https://blades.ninja/css/link-icon/
 - https://blades.ninja/css/responsive-table/
 - https://blades.ninja/html/ templates
+
 Pico fork docs:
 - https://blades.ninja/css/pico/
+
 Eleventy *B*lades docs:
 - https://blades.ninja/11ty/
 - https://blades.ninja/11ty/filters/
