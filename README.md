@@ -35,7 +35,7 @@ Awesome tricks from *B*lades:
 - https://blades.ninja/mobile-dev/ tricks
 - https://blades.ninja/npm/ tricks
 - https://blades.ninja/random/ tricks
-- https://blades.ninja/symbols/
+- https://blades.ninja/symbols/ cheatsheet
 
 <!--{.unlist .columns}-->
 <!-- Sublists sorted A-Z -->
