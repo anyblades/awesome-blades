@@ -119,3 +119,10 @@ To link a channel from Server A into a message in Server B, you need the Channel
 ## macOS
 
 - https://gif.ski/ = https://github.com/ImageOptim/gifski/
+
+### svg => png
+
+```sh
+brew install librsvg
+rsvg-convert -h 512 ./favicon.svg > ./favicon.png
+```
