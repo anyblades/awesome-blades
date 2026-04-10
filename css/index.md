@@ -2,7 +2,7 @@
 permalink: /css/
 eleventyNavigation:
   parent: css
-  key: <i>&nbsp;</i> Docs <i>&nbsp;</i>
+  key: Docs
   order: 0
 title: <sup>Class-light</sup> CSS blades <sub>inspired by Pico.css</sub>
 includes:
@@ -16,7 +16,7 @@ includes:
       ## Layout
   - section: docs-intro
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/_layout.css
-  - text: "### 🥷 Breakout elements"
+  - text: "### Breakout elements → {href=/css/breakout/}"
   - section: summary
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/breakout.css
   - text: "[Demo & Docs →](/css/breakout/){role=button .outline}"
@@ -28,7 +28,7 @@ includes:
   - section: docs-intro
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/_typography.css
   - section: docs-intro
-  - text: "### 🥷 Link [fav]icons"
+  - text: "### Link [fav]icons → {href=/css/link-icon/}"
   - section: summary
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/link-icon.css
   - text: "[Demo & Docs →](/css/link-icon/){role=button .outline}"
@@ -39,7 +39,7 @@ includes:
   - text: |-
       ---
       ## Table
-      ### 🥷 Responsive table without wrapper
+      ### Responsive table without wrapper → {href=/css/responsive-table/}
   - section: summary
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/responsive-table.css
   - text: "[Demo & Docs →](/css/responsive-table/){role=button .outline}"
@@ -48,7 +48,7 @@ includes:
   - text: |-
       ---
       ## Forms
-      ### 🥷 Float label without CSS classes
+      ### Float label without CSS classes → {href=/css/float-label/}
   - section: summary
     path: https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md
   - text: "[Demo & Docs →](/css/float-label/){role=button .outline}"
