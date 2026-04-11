@@ -6,7 +6,7 @@
 
 <!--section:gh-only-->
 
-*B*lades docs:
+*Bl*ades docs:
 
 - https://blades.ninja/
 - https://blades.ninja/css/
@@ -15,20 +15,20 @@
 - https://blades.ninja/css/link-icon/
 - https://blades.ninja/css/responsive-table/
 
-Pico fork docs:
+Pico✨ fork docs:
 
 - https://blades.ninja/css/pico/
 
-Eleventy *B*lades docs:
+Eleventy *Bl*ades docs:
 
 - https://blades.ninja/11ty/
 - https://blades.ninja/11ty/filters/
 - https://blades.ninja/11ty/processors/
 - https://blades.ninja/11ty/tools/
 
-<!--section:index-->
+*Bl*ades tricks:
 
-Awesome *B*lades tricks:
+<!--section:index-->
 
 - https://blades.ninja/html/ built-in templates
 - https://blades.ninja/jekyll/ built-in theme
