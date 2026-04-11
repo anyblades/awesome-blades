@@ -7,18 +7,20 @@
 <!--section:gh-only-->
 
 *B*lades docs:
+
 - https://blades.ninja/
 - https://blades.ninja/css/
 - https://blades.ninja/css/breakout/
 - https://blades.ninja/css/float-label/
 - https://blades.ninja/css/link-icon/
 - https://blades.ninja/css/responsive-table/
-- https://blades.ninja/html/ templates
 
 Pico fork docs:
+
 - https://blades.ninja/css/pico/
 
 Eleventy *B*lades docs:
+
 - https://blades.ninja/11ty/
 - https://blades.ninja/11ty/filters/
 - https://blades.ninja/11ty/processors/
@@ -27,7 +29,9 @@ Eleventy *B*lades docs:
 <!--section:index-->
 
 Awesome *B*lades tricks:
-- https://blades.ninja/jekyll/ hidden built-in theme
+
+- https://blades.ninja/html/ built-in templates
+- https://blades.ninja/jekyll/ built-in theme
 - https://blades.ninja/antigravity/ tricks
 - https://blades.ninja/git/ tricks
 - https://blades.ninja/jsdelivr/ tricks

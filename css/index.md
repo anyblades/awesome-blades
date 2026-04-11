@@ -4,7 +4,14 @@ eleventyNavigation:
   parent: css
   key: Docs
   order: 0
-title: <sup>Class-light</sup> CSS blades <sub>inspired by Pico.css</sub>
+title: <em>B</em>lades CSS
+eleventyComputed:
+  summary: |-
+    {% liquid
+      # assign _ = '../node_modules/@anyblades/blades/README.md'
+      assign _ = 'https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md'
+      echo _ | fetch | section: 'summary' | strip_tag: 'big'
+    %}
 includes:
   - text: "## Install"
   - section: install

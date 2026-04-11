@@ -3,16 +3,14 @@ eleventyNavigation:
   parent: css
   key: <i class="fa-solid fa-picture-in-picture fa-flip-both"></i> Label
   order: 2
-title: <a href="/css/">CSS</a> Float Label <sup><img src="https://img.shields.io/github/v/release/anyblades/float-label-css?label=&color=black&include_prereleases"></sup>
+title: <em>Float</em> Label
 eleventyComputed:
   summary: |-
     {% liquid
-      assign _ = 'https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md'
       # assign _ = '../../float-label-css/README.md'
+      assign _ = 'https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md'
       echo _ | fetch | section: 'summary'
     %}
-    https://github.com/anyblades/float-label-css  
-    from https://github.com/anyblades/blades
 includes:
   - section: intro
     path: https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md

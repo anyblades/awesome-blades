@@ -10,9 +10,7 @@ brand: <big><big><a href="/" class="dark-auto"><i>🥷</i> <span class="opt"><em
 header_links:
   - url: https://github.com/anyblades/blades
     title: <i class="fa-brands fa-github"></i>
-  - url: https://github.com/anyblades/blades
-    title: '<i><img src="https://img.shields.io/github/stars/anyblades/blades?logo=_&label=★" style="margin: -0.2em 0 0 0"></i>'
 footer_content: |
   &nbsp;&nbsp;
 
-  [<span>*B*ladesverse</span> <i class="faded">:</i> <i><span>![](https://img.shields.io/github/stars/anyblades?logo=_&label=★★★)</span></i>](https://github.com/anyblades?sort=stargazers)
+  [<span>*B*ladesverse</span> <i class="faded">:</i> <i><span>![](https://img.shields.io/github/stars/anyblades?logo=_&label=🥷)</span></i>](https://github.com/anyblades?sort=stargazers)

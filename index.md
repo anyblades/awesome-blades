@@ -24,7 +24,7 @@ eleventyComputed:
       assign _ = 'https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md'
       echo _ | fetch | section: 'summary' | replace: 'hgroup>', 'h1>' | replace: '<wbr>', '<br>'
     %}
-  superhero: '<br class="opt">{{ summary | markdownify }}<br class="opt">'
+  hero: '<br class="opt">{{ summary | markdownify }}<br class="opt">'
 includes:
   - section: docs
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md
