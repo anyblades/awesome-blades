@@ -3,7 +3,7 @@ eleventyNavigation:
   parent: css
   key: <i class="fa-solid fa-link"></i> Icon
   order: 3
-title: <a href="/css/">CSS</a> Link [fav]icons
+title: '<em>L</em>ink <code style="padding: 0">i</code>con'
 includes:
   - section: docs,code
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/link-icon.css

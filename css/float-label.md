@@ -3,13 +3,13 @@ eleventyNavigation:
   parent: css
   key: <i class="fa-solid fa-picture-in-picture fa-flip-both"></i> Label
   order: 2
-title: <em>Float</em> Label
+title: <em>Fl</em>oat Label <small>CSS</small>
 eleventyComputed:
   summary: |-
     {% liquid
       # assign _ = '../../float-label-css/README.md'
       assign _ = 'https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md'
-      echo _ | fetch | section: 'summary'
+      echo _ | fetch | section: 'summary' | markdownify
     %}
 includes:
   - section: intro

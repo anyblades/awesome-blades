@@ -10,7 +10,7 @@ eleventyComputed:
   summary: |-
     {% liquid
       assign _ = 'https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/README.md'
-      echo _ | fetch | section: 'summary'
+      echo _ | fetch | section: 'summary' | markdownify
     %}
     https://github.com/anyblades/eleventy-blades
 includes:

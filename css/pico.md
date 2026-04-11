@@ -1,12 +1,16 @@
 ---
 eleventyNavigation:
   parent: css
-  key: <i>✨</i> Pico
+  key: Pico <i>✨</i>
   order: 11
-title: <a href="/css/">CSS</a> Pico <sup><img src="https://img.shields.io/github/v/release/anyblades/pico?label=&color=black&include_prereleases"></sup>
-summary: |-
-  https://github.com/anyblades/pico  
-  with https://github.com/anyblades/blades
+title: <em>Pi</em>co <small>CSS ✨</small> <sup><img src="https://img.shields.io/github/v/release/anyblades/pico?label=&color=black&include_prereleases"></sup>
+eleventyComputed:
+  summary: |-
+    {% liquid
+      # assign _ = '../../pico/README.md'
+      assign _ = 'https://raw.githubusercontent.com/anyblades/pico/refs/heads/main/README.md'
+      echo _ | fetch | section: 'summary' | markdownify
+    %}
 includes:
   - section: intro
     path: https://raw.githubusercontent.com/anyblades/pico/refs/heads/main/README.md

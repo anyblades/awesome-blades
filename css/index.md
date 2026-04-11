@@ -4,13 +4,13 @@ eleventyNavigation:
   parent: css
   key: Docs
   order: 0
-title: <em>B</em>lades CSS
+title: <em>Bl</em>ades <small>CSS</small>
 eleventyComputed:
   summary: |-
     {% liquid
       # assign _ = '../node_modules/@anyblades/blades/README.md'
       assign _ = 'https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md'
-      echo _ | fetch | section: 'summary' | strip_tag: 'big'
+      echo _ | fetch | section: 'summary' | strip_tag: 'big' | markdownify
     %}
 includes:
   - text: "## Install"
