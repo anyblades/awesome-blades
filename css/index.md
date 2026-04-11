@@ -1,8 +1,8 @@
 ---
 permalink: /css/
 eleventyNavigation:
-  parent: css
-  key: Docs
+  key: css
+  title: Docs
   order: 0
 title: <em>Bl</em>ades <small>CSS</small>
 eleventyComputed:

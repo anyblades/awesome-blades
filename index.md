@@ -1,9 +1,5 @@
 ---
 permalink: /
-eleventyNavigation:
-  key: css
-  title: CSS
-  order: 0
 site:
   inline_styles:
     - |-

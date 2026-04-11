@@ -3,7 +3,7 @@ eleventyNavigation:
   parent: 11ty
   key: Filters
   order: 1
-title: <i class="fa-brands fa-eleventy"></i> Filters <sub>by <a href="/build-awesome-11ty/"><em>Eleventy Bl</em>ades</a></sub>
+title: <i class="fa-brands fa-eleventy"></i> filters <sub>by <a href="/build-awesome-11ty/"><em>Eleventy Bl</em>ades</a></sub>
 summary: A collection of useful Eleventy filters for Nunjucks/Liquid via Eleventy Blades plugin.
 includes:
   - text: "### Install"
