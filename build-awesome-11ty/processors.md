@@ -4,7 +4,7 @@ eleventyNavigation:
   key: Processors
   order: 2
 title: <i class="fa-brands fa-eleventy"></i> Processors <sub>by <a href="/build-awesome-11ty/"><em>Eleventy Bl</em>ades</a></sub>
-summary: <p>A collection of useful Eleventy processors via Eleventy Blades plugin.</p>
+summary: A collection of useful Eleventy processors via Eleventy Blades plugin.
 includes:
   - text: "### Install"
   - section: install

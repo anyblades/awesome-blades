@@ -3,7 +3,7 @@ permalink: /html/
 eleventyNavigation:
   key: <i class="fa-solid fa-code"></i>
   order: 1
-title: <sup>Nunjucks / Liquid</sup> HTML blades <sub>for 11ty/Build Awesome, Jekyll, etc.</sub>
+title: <em>Bl</em>ades &nbsp;<small>HTML Templates</small>
 summary: Nunjucks/Liquid batteries included (for 11ty/Build Awesome, Jekyll, etc.) 🥷
 includes:
   - section: install-preconf
