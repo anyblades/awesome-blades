@@ -3,7 +3,7 @@ eleventyNavigation:
   parent: 11ty
   key: <i class="fa-solid fa-power-off"></i> Tools
   order: 3
-title: <a href="/build-awesome-11ty/"><sup>Build Awesome /</sup> Eleventy</a> Power Tools
+title: <i class="fa-brands fa-eleventy"></i> Power Tools <sub>by <a href="/build-awesome-11ty/"><em>Eleventy Bl</em>ades</a></sub>
 includes:
   - text: |-
       ### Blades starters {#starters}
