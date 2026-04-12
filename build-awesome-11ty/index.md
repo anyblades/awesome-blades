@@ -14,22 +14,24 @@ eleventyComputed:
       echo _ | fetch | section: 'summary' | markdownify
     %}
 includes:
+  - text: |-
+      ## Documentation
+      <br>
   - section: docs
     path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/README.md
   - text: |-
       ---
-      ## [Templating](/html/)
-
-      {#njk-vscode}
-      <!--https://bsky.app/profile/any.digital/post/3mdjvepwr7k2w-->
+      ## <sup>Appendix:</sup> Templating
+      ### [Base templates →](/html/) {href=/html/}
   - section: toc
     path: https://blades.ninja/html/
+  - text: |-
+      {#njk-vscode}
+      <!--https://bsky.app/profile/any.digital/post/3mdjvepwr7k2w-->
   - path: build-awesome-11ty/_tpl.md
   - text: ---
-  - path: build-awesome-11ty/_starters.md
-  - text: ---
   - section: index
-    path: https://raw.githubusercontent.com/anydigital/awesome-11ty-build-awesome/refs/heads/master/README.md
+    path: https://raw.githubusercontent.com/anyblades/awesome-11ty-build-awesome/refs/heads/master/README.md
 
 revised: 2026-02-28
 ---

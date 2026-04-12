@@ -2,7 +2,7 @@
 eleventyNavigation:
   parent: css
   key: Pico <i>✨</i>
-  order: 11
+  order: 12
 title: <em>Pi</em>co <small>CSS ✨</small> <sup><img src="https://img.shields.io/github/v/release/anyblades/pico?label=&color=black&include_prereleases"></sup>
 eleventyComputed:
   summary: |-

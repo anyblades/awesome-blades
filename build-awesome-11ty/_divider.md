@@ -1,7 +1,7 @@
 ---
 permalink: false
 eleventyNavigation:
-  parent: css
+  parent: 11ty
   key: '<span class="faded">|</span>'
   order: 10
 ---
