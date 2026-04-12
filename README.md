@@ -30,7 +30,7 @@ Pico✨ fork docs:
 
 <!--section:index--><!--sorted A-Z-->
 
-- https://blades.ninja/ai/ide/ 2026-2040 trends
+- https://blades.ninja/ai/ide/ trends <small>2026-2040</small>
 - https://blades.ninja/antigravity/ tricks
 - https://blades.ninja/git/ tricks
 - https://blades.ninja/html/ built-in templates
@@ -40,7 +40,7 @@ Pico✨ fork docs:
 - https://blades.ninja/mobile-dev/ tricks
 - https://blades.ninja/npm/ tricks
 - https://blades.ninja/random/ tricks
-- https://blades.ninja/ssg/ 2026-2040 trends
+- https://blades.ninja/ssg/ trends <small>2026-2040</small>
 - https://blades.ninja/symbols/ cheatsheet
 
 <!--{.unlist .columns}-->
