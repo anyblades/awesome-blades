@@ -4,6 +4,10 @@ eleventyNavigation:
   key: Starters
   order: 12
 title: <sup>Best minimal</sup> <i class="fa-brands fa-eleventy"></i> Build Awesome starters <sub>as of April 2026</sub>
+includes:
+  - path: https://raw.githubusercontent.com/anyblades/build-awesome-starter/refs/heads/main/README.md
+  - text: ---
+  - path: https://raw.githubusercontent.com/anyblades/bladeswitch/refs/heads/main/README.md
 ---
 
 Awesome Eleventy ecosystem offers a [wide variety of starters](https://github.com/anyblades/awesome-11ty-build-awesome#starter-projects).
@@ -23,3 +27,5 @@ Not sure where to begin? Start with a minimal template:
 | https://github.com/madrilene/eleventy-excellent               | <img src="https://img.shields.io/github/stars/madrilene/eleventy-excellent">\n\n<img src="https://img.shields.io/github/release-date/madrilene/eleventy-excellent">\n\n<img src="https://img.shields.io/github/last-commit/madrilene/eleventy-excellent">                                           | <big>\~40</big> ⚠️ | ~40 files ⚠️                                                                                                           | ~40 files ⚠️                                                                         | ~40 files ⚠️                                                                              |                                            |
 | https://github.com/adamstddrd/grease                          | <img src="https://img.shields.io/github/stars/adamstddrd/grease">\n\n<img src="https://img.shields.io/github/release-date/adamstddrd/grease">\n\n<img src="https://img.shields.io/github/last-commit/adamstddrd/grease">                                                                            | <big>\~5</big> ♻️  | ~25 files ⚠️                                                                                                           | ~15 files                                                                            | ~15 files                                                                                 |                                            |
 | https://github.com/nhoizey/pack11ty                           | <img src="https://img.shields.io/github/stars/nhoizey/pack11ty">\n\n<img src="https://img.shields.io/github/release-date/nhoizey/pack11ty">\n\n<img src="https://img.shields.io/github/last-commit/nhoizey/pack11ty">                                                                               | <big>\~15</big>    | ~30 files ⚠️                                                                                                           | ~10 files                                                                            | ~10 files                                                                                 |                                            |
+
+---
