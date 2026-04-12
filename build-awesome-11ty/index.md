@@ -11,7 +11,7 @@ eleventyComputed:
     {% liquid
       # assign _ = '../../eleventy-blades/README.md'
       assign _ = 'https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/README.md'
-      echo _ | fetch | section: 'summary' | markdownify
+      echo _ | fetch | section: 'summary'
     %}
 includes:
   - text: |-
@@ -29,9 +29,6 @@ includes:
       {#njk-vscode}
       <!--https://bsky.app/profile/any.digital/post/3mdjvepwr7k2w-->
   - path: build-awesome-11ty/_tpl.md
-  - text: ---
-  - section: index
-    path: https://raw.githubusercontent.com/anyblades/awesome-11ty-build-awesome/refs/heads/master/README.md
 
 revised: 2026-02-28
 ---

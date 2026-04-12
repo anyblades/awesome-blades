@@ -9,7 +9,7 @@ eleventyComputed:
     {% liquid
       # assign _ = '../../pico/README.md'
       assign _ = 'https://raw.githubusercontent.com/anyblades/pico/refs/heads/main/README.md'
-      echo _ | fetch | section: 'summary' | markdownify
+      echo _ | fetch | section: 'summary'
     %}
 includes:
   - section: intro

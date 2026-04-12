@@ -9,7 +9,7 @@ eleventyComputed:
     {% liquid
       # assign _ = '../../float-label-css/README.md'
       assign _ = 'https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md'
-      echo _ | fetch | section: 'summary' | markdownify
+      echo _ | fetch | section: 'summary'
     %}
 includes:
   - section: intro

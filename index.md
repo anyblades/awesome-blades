@@ -16,7 +16,7 @@ eleventyComputed:
       #TODO to tricks
       # assign _ = '../node_modules/@anyblades/blades/README.md'
       assign _ = 'https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md'
-      echo _ | fetch | section: 'summary' | replace: 'hgroup>', 'h1>' | replace: '<wbr>', '<br>' | markdownify
+      echo _ | fetch | section: 'summary' | replace: 'hgroup>', 'h1>' | replace: '<wbr>', '<br>'
     %}
   hero: "<br>{{ summary }}<br>"
 includes:

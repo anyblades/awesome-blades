@@ -2,8 +2,8 @@
 eleventyNavigation:
   parent: 11ty
   key: Starters
-  order: 11
-title: Best minimal <i class="fa-brands fa-eleventy"></i> starters <sub>for Build Awesome / Eleventy | as of Apr'2026</sub>
+  order: 12
+title: <sup>Best minimal</sup> <i class="fa-brands fa-eleventy"></i> Build Awesome starters <sub>as of April 2026</sub>
 ---
 
 Awesome Eleventy ecosystem offers a [wide variety of starters](https://github.com/anyblades/awesome-11ty-build-awesome#starter-projects).
