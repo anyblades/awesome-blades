@@ -19,7 +19,7 @@ Pico✨ fork docs:
 
 - https://blades.ninja/css/pico/
 
-Eleventy *Bl*ades docs:
+*Eleventy Bl*ades docs:
 
 - https://blades.ninja/11ty/
 - https://blades.ninja/11ty/filters/
@@ -28,18 +28,19 @@ Eleventy *Bl*ades docs:
 
 *Bl*ades tricks:
 
-<!--section:index-->
+<!--section:index--><!--sorted A-Z-->
 
-- https://blades.ninja/html/ built-in templates
-- https://blades.ninja/jekyll/ built-in theme
+- https://blades.ninja/ai/ide/ 2026-2040 trends
 - https://blades.ninja/antigravity/ tricks
 - https://blades.ninja/git/ tricks
+- https://blades.ninja/html/ built-in templates
+- https://blades.ninja/jekyll/ built-in theme
 - https://blades.ninja/jsdelivr/ tricks
 - https://blades.ninja/md/ tricks
 - https://blades.ninja/mobile-dev/ tricks
 - https://blades.ninja/npm/ tricks
 - https://blades.ninja/random/ tricks
+- https://blades.ninja/ssg/ 2026-2040 trends
 - https://blades.ninja/symbols/ cheatsheet
 
 <!--{.unlist .columns}-->
-<!-- Sublists sorted A-Z -->

@@ -2,7 +2,7 @@
 permalink: /css/
 eleventyNavigation:
   key: css
-  title: Docs
+  title: CSS
   order: 0
 title: <em>Bl</em>ades <small>CSS</small>
 eleventyComputed:
