@@ -26,39 +26,39 @@ includes:
   - text: "### Breakout elements → {href=/css/breakout/}"
   - section: summary
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/breakout.css
-  - text: "[Demo & Docs →](/css/breakout/){role=button .outline}"
+  - text: "[Docs & demos →](/css/breakout/){role=button .outline}"
   - section: docs
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/_layout.css
   - text: |-
       ---
       ## Content
   - section: docs-intro
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/_typography.css
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/content/_typography.css
   - section: docs-intro
   - text: "### Link [fav]icons → {href=/css/link-icon/}"
   - section: summary
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/link-icon.css
-  - text: "[Demo & Docs →](/css/link-icon/){role=button .outline}"
+  - text: "[Docs & demos →](/css/link-icon/){role=button .outline}"
   - section: docs
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/_typography.css
-  - section: docs
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/_code.css
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/content/_typography.css
+  - section: docs,code
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/content/_code.css
   - text: |-
       ---
       ## Table
       ### Responsive table without wrapper → {href=/css/responsive-table/}
   - section: summary
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/responsive-table.css
-  - text: "[Demo & Docs →](/css/responsive-table/){role=button .outline}"
+  - text: "[Docs & demos →](/css/responsive-table/){role=button .outline}"
   - section: docs
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/_table.css
+    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/content/_table.css
   - text: |-
       ---
       ## Forms
       ### Float label without CSS classes → {href=/css/float-label/}
   - section: summary
     path: https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md
-  - text: "[Demo & Docs →](/css/float-label/){role=button .outline}"
+  - text: "[Docs & demos →](/css/float-label/){role=button .outline}"
   - text: |-
       ---
       ## Utilities
