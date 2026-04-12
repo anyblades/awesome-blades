@@ -4,12 +4,10 @@ site:
   inline_styles:
     - |-
       h1 {
-        margin-top: 0.25em;
-      }
-      @media (max-width: 767px) {
-        h1 {
+        margin-block-start: 0;
+
+        @media (max-width: 767px) {
           font-size: 1.75em;
-          br { display: none }
         }
       }
 eleventyComputed:
@@ -20,7 +18,7 @@ eleventyComputed:
       assign _ = 'https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md'
       echo _ | fetch | section: 'summary' | replace: 'hgroup>', 'h1>' | replace: '<wbr>', '<br>' | markdownify
     %}
-  hero: '<br class="opt">{{ summary }}<br class="opt">'
+  hero: "<br>{{ summary }}<br>"
 includes:
   - section: docs
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md
