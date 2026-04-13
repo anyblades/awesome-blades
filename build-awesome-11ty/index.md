@@ -8,11 +8,9 @@ title: <em>Eleventy Bl</em>ades
 canonical: https://blades.ninja/build-awesome-11ty/
 eleventyComputed:
   summary: |-
-    {% liquid
-      # assign _ = '../../eleventy-blades/README.md'
-      assign _ = 'https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/README.md'
-      echo _ | fetch | section: 'summary'
-    %}
+    {{ 'https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/README.md'
+     | if: site.prod | default: '../../eleventy-blades/README.md' | fetch | section: 'summary' }}
+
 includes:
   - text: |-
       ## Documentation
@@ -27,7 +25,7 @@ includes:
     path: https://blades.ninja/html/
   - text: |-
       {#njk-vscode}
-      <!--https://bsky.app/profile/any.digital/post/3mdjvepwr7k2w-->
+      <!-- https://bsky.app/profile/any.digital/post/3mdjvepwr7k2w -->
   - path: build-awesome-11ty/_tpl.md
 
 revised: 2026-02-28
