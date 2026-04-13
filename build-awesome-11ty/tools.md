@@ -3,10 +3,10 @@ eleventyNavigation:
   parent: 11ty
   key: <i class="fa-solid fa-power-off"></i> Tools
   order: 3
-title: <sup>Build Awesome</sup> <i class="fa-brands fa-eleventy"></i> power tools <sub>by <a href="/build-awesome-11ty/"><em>Eleventy Bl</em>ades</a></sub>
+title: <sup>Build Awesome <i class="fa-brands fa-eleventy"></i></sup> Power tools <sub>by <a href="/build-awesome-11ty/"><em>Eleventy Bl</em>ades</a></sub>
 includes:
   - text: |-
-      ### Blades starters {#starters}
+      ### Modern starters {#starters}
       <nav class="grid">
 
       ##### [🥷 Build Awesome Starter ↗ <br><small>11ty + Tailwind + Typography + Blades</small>](https://github.com/anyblades/build-awesome-starter){role=button .outline}

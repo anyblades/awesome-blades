@@ -3,7 +3,7 @@ eleventyNavigation:
   parent: 11ty
   key: Starters
   order: 12
-title: <sup>Best minimal</sup> <i class="fa-brands fa-eleventy"></i> starters <sub>for 11ty (Build Awesome) as of April 2026</sub>
+title: <sup>Build Awesome <i class="fa-brands fa-eleventy"></i></sup> Minimal starters <sub>as of April 2026</sub>
 includes:
   - path: https://raw.githubusercontent.com/anyblades/build-awesome-starter/refs/heads/main/README.md
   - text: ---
