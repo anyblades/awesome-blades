@@ -6,11 +6,8 @@ eleventyNavigation:
 title: <em>Fl</em>oat label <small>CSS</small>
 eleventyComputed:
   summary: |-
-    {% liquid
-      # assign _ = '../../float-label-css/README.md'
-      assign _ = 'https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md'
-      echo _ | fetch | section: 'summary'
-    %}
+    {{ 'https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md'
+     | if: site.prod | default: '../../float-label-css/README.md' | fetch | section: 'summary' }}
 includes:
   - section: intro
     path: https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md
