@@ -23,10 +23,7 @@ includes:
       ## Layout
   - section: docs-intro
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/_layout.css
-  - text: "### Breakout elements → {href=/css/breakout/}"
-  - section: summary
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/breakout.css
-  - text: "[Docs & demos →](/css/breakout/){role=button .outline}"
+  - teaser: /css/breakout/
   - section: docs
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/_layout.css
   - text: |-
@@ -35,10 +32,7 @@ includes:
   - section: docs-intro
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/content/_typography.css
   - section: docs-intro
-  - text: "### Link [fav]icons → {href=/css/link-icon/}"
-  - section: summary
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/link-icon.css
-  - text: "[Docs & demos →](/css/link-icon/){role=button .outline}"
+  - teaser: /css/link-icon/
   - section: docs
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/content/_typography.css
   - section: docs,code
@@ -52,10 +46,7 @@ includes:
   - text: |-
       ---
       ## Forms
-      ### Float label without CSS classes → {href=/css/float-label/}
-  - section: summary
-    path: https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md
-  - text: "[Docs & demos →](/css/float-label/){role=button .outline}"
+  - teaser: /css/float-label/
   - text: |-
       ---
       ## Utilities
