@@ -46,10 +46,7 @@ includes:
   - text: |-
       ---
       ## Table
-      ### Responsive table without wrapper → {href=/css/responsive-table/}
-  - section: summary
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/responsive-table.css
-  - text: "[Docs & demos →](/css/responsive-table/){role=button .outline}"
+  - teaser: /css/responsive-table/
   - section: docs
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/content/_table.css
   - text: |-
