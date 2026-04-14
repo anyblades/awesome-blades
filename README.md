@@ -28,10 +28,11 @@ Pico✨ fork docs:
 
 *Bl*ades tricks:
 
-<!--section:index--><!--sorted A-Z-->
+<!--section:index--><!--A-Z-->
 
 - https://blades.ninja/ai/ide/ trends <small>2026-2040</small>
 - https://blades.ninja/antigravity/ tricks
+- https://blades.ninja/css/pico/ community fork
 - https://blades.ninja/git/ tricks
 - https://blades.ninja/html/ built-in templates
 - https://blades.ninja/jekyll/ built-in theme
