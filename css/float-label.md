@@ -7,7 +7,8 @@ title: <em>Fl</em>oat label <small>CSS</small>
 eleventyComputed:
   summary: |-
     {{ 'https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md'
-     | if: site.prod | default: '../../float-label-css/README.md' | fetch | section: 'summary' }}
+     | if: site.prod | default: '../../float-label-css/README.md' | fetch | section: 'summary' | markdownify }}
+
 includes:
   - section: intro
     path: https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md

@@ -9,7 +9,7 @@ canonical: https://blades.ninja/build-awesome-11ty/
 eleventyComputed:
   summary: |-
     {{ 'https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/README.md'
-     | if: site.prod | default: '../../eleventy-blades/README.md' | fetch | section: 'summary' }}
+     | if: site.prod | default: '../../eleventy-blades/README.md' | fetch | section: 'summary' | markdownify }}
 
 includes:
   - text: "### Install"
