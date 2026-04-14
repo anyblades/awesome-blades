@@ -3,13 +3,32 @@ eleventyNavigation:
   parent: css
   key: <i class="fa-solid fa-tv fa-flip-both"></i> Breakout
   order: 5
-title: <em>Br</em>eakout elements
+title: <em>Br</em>eakout layout
 eleventyComputed:
   summary: |-
     {{ 'https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/breakout.css'
      | if: site.prod | default: '../../blades/src/breakout.css' | fetch | section: 'summary' | markdownify }}
 
 includes:
-  - section: docs,code
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/breakout.css
+  - path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/breakout.css
+    section: docs,how
+  - text: |-
+      ---
+      ## Install <!-- same as https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md -->
+
+      ###### <mark>Via CDN</mark>
+
+      <!--prettier-ignore-->
+      ```html
+      <link rel="stylesheet" href="
+        https://cdn.jsdelivr.net/npm/@anyblades/blades@^0.28.0-alpha/assets/breakout.min.css
+      ">
+      ```
+
+      ###### <mark>Prepackaged</mark>
+
+      - Blades: https://github.com/anyblades/blades
+      - Pico: https://github.com/anyblades/pico
+
+revised: 2026-04-14
 ---
