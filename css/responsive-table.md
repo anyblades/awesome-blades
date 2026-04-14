@@ -12,6 +12,23 @@ eleventyComputed:
 includes:
   - section: docs,how
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/responsive-table.css
+  - text: |-
+      ---
+      ## Install <!-- same as https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md -->
+
+      ###### <mark>Via CDN</mark>
+
+      <!--prettier-ignore-->
+      ```html
+      <link rel="stylesheet" href="
+        https://cdn.jsdelivr.net/npm/@anyblades/blades@^0.28.0-alpha/assets/responsive-table.min.css
+      ">
+      ```
+
+      ###### <mark>Prepackaged</mark>
+
+      - Blades: https://github.com/anyblades/blades
+      - Pico: https://github.com/anyblades/pico
 
 revised: 2026-04-14
 ---
