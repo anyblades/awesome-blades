@@ -10,6 +10,8 @@ eleventyComputed:
      | if: site.prod | default: '../../blades/src/responsive-table.css' | fetch | section: 'summary' | markdownify }}
 
 includes:
-  - section: docs,code
+  - section: docs,how
     path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/responsive-table.css
+
+revised: 2026-04-14
 ---
