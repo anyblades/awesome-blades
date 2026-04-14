@@ -10,9 +10,6 @@ eleventyComputed:
      | if: site.prod | default: '../../float-label-css/README.md' | fetch | section: 'summary' | markdownify }}
 
 includes:
-  - section: intro
-    path: https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md
-    # path: ../../float-label-css/README.md
   - text: |-
       ## Demo
 
@@ -44,18 +41,13 @@ includes:
           </fieldset>
         </form>
       </article>
-
-      More examples:
-  - section: docs-demo-install
-    path: https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md
-    # path: ../../float-label-css/README.md
-  - text: <details><summary role="button" class="outline">Install Blades CSS Kit</summary>
-  - section: install
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md
-  - text: </details>
+  - path: https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md
+    section: docs-demo-install
   - text: |-
       ---
       ## How it works {#how}
-  - section: docs
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/float-label.core.css
+  - path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/float-label.core.css
+    section: docs
+
+revised: 2026-04-14
 ---
