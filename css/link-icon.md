@@ -10,8 +10,8 @@ eleventyComputed:
      | if: site.prod | default: '../../blades/src/link-icon.css' | fetch | section: 'summary' | markdownify }}
 
 includes:
-  - section: docs,how
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/link-icon.css
+  - path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/link-icon.css
+    section: docs,code
   - text: |-
       ---
       ## Install <!-- same as https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md -->

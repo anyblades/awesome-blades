@@ -16,7 +16,7 @@ includes:
   - path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md
     section: install
   - path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/blades.theme.css
-    section: docs
+    section: code
   - text: |-
       ---
       ## Layout

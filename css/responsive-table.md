@@ -11,7 +11,7 @@ eleventyComputed:
 
 includes:
   - path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/responsive-table.css
-    section: docs,how
+    section: docs,code
   - text: |-
       ---
       ## Install <!-- same as https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md -->
