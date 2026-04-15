@@ -48,6 +48,10 @@ includes:
     section: docs
   - text: |-
       ---
+      ## Appendix
+  - teaser: /css/pico/
+  - text: |-
+      ---
       See also: <!--A-Z-->
       - https://blades.ninja/css/frameworks/
       - https://blog.frankmtaylor.com/2026/03/05/you-dont-know-html-tables/

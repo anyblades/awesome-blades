@@ -1,9 +1,8 @@
 ---
 eleventyNavigation:
-  parent: css
-  key: Pico <i>✨</i>
-  order: 12
-title: <em>Pi</em>co <small>CSS ✨</small> <sup><img src="https://img.shields.io/github/v/release/anyblades/pico?label=&color=black&include_prereleases"></sup>
+  key: <i>✨</i>
+  order: 1
+title: Pico CSS ✨
 eleventyComputed:
   summary: |-
     {{ 'https://raw.githubusercontent.com/anyblades/pico/refs/heads/main/README.md'

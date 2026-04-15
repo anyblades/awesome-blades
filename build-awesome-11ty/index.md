@@ -3,7 +3,7 @@ permalink: /build-awesome-11ty/
 eleventyNavigation:
   key: 11ty
   title: <i class="fa-brands fa-eleventy"></i>
-  order: 2
+  order: 3
 title: <em>Eleventy Bl</em>ades
 canonical: https://blades.ninja/build-awesome-11ty/
 eleventyComputed:
