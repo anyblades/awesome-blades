@@ -9,7 +9,7 @@
 *Bl*ades docs:
 
 - https://blades.ninja/
-- https://blades.ninja/css/
+- https://blades.ninja/css/ kit
 - https://blades.ninja/css/breakout/
 - https://blades.ninja/css/float-label/
 - https://blades.ninja/css/link-icon/
@@ -21,7 +21,7 @@ Pico✨ fork docs:
 
 *Eleventy Bl*ades docs:
 
-- https://blades.ninja/11ty/
+- https://blades.ninja/11ty/ plugin
 - https://blades.ninja/11ty/filters/
 - https://blades.ninja/11ty/processors/
 - https://blades.ninja/11ty/tools/
@@ -30,6 +30,7 @@ Pico✨ fork docs:
 
 <!--section:index--><!--A-Z-->
 
+- https://blades.ninja/11ty/ plugin
 - https://blades.ninja/ai/ide/ trends <small>2026-2040</small>
 - https://blades.ninja/antigravity/ tricks
 - https://blades.ninja/css/pico/ community fork
