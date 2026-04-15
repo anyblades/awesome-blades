@@ -3,70 +3,72 @@ permalink: /html/
 eleventyNavigation:
   key: <i class="fa-solid fa-code"></i>
   order: 1
-title: <em>Bl</em>ades &nbsp;<small>HTML templates</small>
-summary: Nunjucks/Liquid batteries included (for 11ty/Build Awesome, Jekyll, etc.) 🥷
+title: <em>Bl</em>ades <small>HTML templates</small>
+summary: Generic Nunjucks/Liquid templates for 11ty/Build Awesome, Jekyll, Shopify, etc.
+
 includes:
-  - section: install-preconf
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md
   - text: |-
       ---
       ## Base HTML {#base}
-  - section: docs,code
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/_includes/blades/html.njk
-  - section: docs,code
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/_includes/blades/html.liquid
+  - path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/_includes/blades/html.njk
+    section: docs,code
+  - text: <div><hr></div>
+  - path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/_includes/blades/html.liquid
+    section: docs,code
   - text: |-
       ---
       ## Links
-  - section: docs,code
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/_includes/blades/links.liquid
+  - path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/_includes/blades/links.liquid
+    section: docs,code
   - text: |-
       ---
-      ## Sitemap 🆕
-      https://github.com/anyblades/blades/blob/main/_includes/blades/sitemap.xml.njk
+      ## Sitemap
+  - path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/_includes/blades/sitemap.xml.njk
+    section: docs,code
   - text: |-
       ---
-      ## Google Tag Manager (GTM) {#gtm}
-  - section: docs,code
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/_includes/blades/gtm.njk
-  - section: docs,code
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/_includes/blades/gtm.liquid
-  - text: ---
+      ## Appendix
   - path: html/_njk.md
   - text: ---
   - path: html/_liquid.md
   - text: |-
       ---
-      - Featured by:
+      - Featured by: <!--A-Z-->
         - https://11tybundle.dev/blog/11ty-bundle-83/
         - https://11tybundle.dev/categories/nunjucks-macros/
         - https://github.com/anyblades/awesome-11ty-build-awesome
-      - See also:
-        - https://buildexcellentwebsit.es/
+      - See also: <!--A-Z-->
         - https://blog.jim-nielsen.com/2025/lots-of-little-html-pages/
+        - https://buildexcellentwebsit.es/
 
       {.unlist .columns}
+
+revised: 2026-04-15
 ---
 
 ## Install
 
-<mark>Via npm:</mark>
+###### <mark>Via npm</mark>
 
 ```sh
 npm install @anyblades/blades
-cd ./_includes  # your includes dir
+cd ./_includes # or where your includes dir is
 ln -s ../node_modules/@anyblades/blades/_includes/blades
 ```
 
 That's it! Now you can use HTML blades in your templates like this:
 
 ```jinja2 {data-caption=Nunjucks}
-{% extends 'blades/html.njk' %}
-{% include 'blades/gtm.njk' %}
+{% extends 'blades/*.njk' %}
+{% include 'blades/*.njk' %}
 ```
 
 ```liquid {data-caption=Liquid}
-{% include blades/html.liquid %}
-{% include blades/gtm.liquid for_body=true %}
-{% render blades/links, links: site.links, current_url: page.url %}
+{% include blades/*.liquid %}
+{% render blades/* %}
 ```
+
+###### <mark>Preconfigured</mark>
+
+- 11ty: https://github.com/anyblades/build-awesome-starter
+- Jekyll: https://github.com/anyblades/bladeswitch
