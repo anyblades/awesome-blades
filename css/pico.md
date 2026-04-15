@@ -10,12 +10,6 @@ eleventyComputed:
      | if: site.prod | default: '../../pico/README.md' | fetch | section: 'summary' | markdownify }}
 
 includes:
-  - section: intro
-    path: https://raw.githubusercontent.com/anyblades/pico/refs/heads/main/README.md
-    # path: ../../pico/README.md
-  - section: toc
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md
-  - section: docs
-    path: https://raw.githubusercontent.com/anyblades/pico/refs/heads/main/README.md
-    # path: ../../pico/README.md
+  - path: https://raw.githubusercontent.com/anyblades/pico/refs/heads/main/README.md
+    section: docs
 ---
