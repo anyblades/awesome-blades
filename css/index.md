@@ -48,8 +48,10 @@ includes:
     section: docs
   - text: |-
       ---
-      ## Appendix
+      ## More
   - teaser: /css/pico/
+  - teaser: /html/
+  - teaser: /jekyll/
   - text: |-
       ---
       See also: <!--A-Z-->
