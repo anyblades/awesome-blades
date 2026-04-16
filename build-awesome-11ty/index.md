@@ -14,7 +14,7 @@ eleventyComputed:
 includes:
   - text: "### Install"
   - path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/README.md
-    section: install
+    section: install,featured
   - text: ---
   - teaser: /build-awesome-11ty/filters/
   - path: https://blades.ninja/build-awesome-11ty/filters/
@@ -27,12 +27,6 @@ includes:
   - teaser: /build-awesome-11ty/tools/
   - path: https://blades.ninja/build-awesome-11ty/tools/
     section: toc
-  - text: |-
-      ---
-      Featured by:
-      - https://11tybundle.dev/blog/11ty-bundle-83/
-      - https://11tybundle.dev/categories/getting-started/
-      - https://github.com/anyblades/awesome-11ty-build-awesome
   - text: |-
       ---
       ## <sup>Appendix:</sup> Templating
