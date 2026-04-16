@@ -18,9 +18,9 @@ eleventyComputed:
   hero: "<br>{{ summary }}<br>"
 
 includes:
-  - section: docs
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md
+  - path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md
+    section: docs
   - text: ---
   - path: README.md
-    section: index
+    section: tricks
 ---

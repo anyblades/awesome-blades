@@ -53,7 +53,7 @@ includes:
   - text: |-
       ---
       See also: <!--A-Z-->
-      - https://blades.ninja/css/frameworks/
+      - https://blades.ninja/css/frameworks/ trends <small>2026-2040</small>
       - https://blog.frankmtaylor.com/2026/03/05/you-dont-know-html-tables/
       - https://buildexcellentwebsit.es/
       - https://github.com/anyblades/pico

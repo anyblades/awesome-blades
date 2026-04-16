@@ -2,7 +2,7 @@
 eleventyNavigation:
   key: <i>✨</i>
   order: 1
-title: Pico CSS ✨
+title: Pico CSS <i>✨</i>
 eleventyComputed:
   summary: |-
     {{ 'https://raw.githubusercontent.com/anyblades/pico/refs/heads/main/README.md'
