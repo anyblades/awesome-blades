@@ -37,6 +37,12 @@ includes:
       {#njk-vscode}
       <!-- https://bsky.app/profile/any.digital/post/3mdjvepwr7k2w -->
   - path: build-awesome-11ty/_tpl.md
+  - text: |-
+      ---
+      Featured by:
+      - https://11tybundle.dev/blog/11ty-bundle-83/
+      - https://11tybundle.dev/categories/getting-started/
+      - https://github.com/anyblades/awesome-11ty-build-awesome
 
 revised: 2026-02-28
 ---
