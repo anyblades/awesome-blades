@@ -1,0 +1,114 @@
+/* Extends https://github.com/picocss/pico/blob/main/scss/content/_typography.scss
+<!--section:docs-->
+
+### Heading anchors
+
+Links with `href="#..."` inside headings are automatically displayed as anchors:
+
+<article>
+  <h2 style="margin: 0 0 0 1.5rem">Heading with anchor <a href="#hwa" style="visibility: visible">#</a></h2>
+</article>
+
+<details>How it works:
+```css */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+
+  a[href^="#"] {
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 0.2ch;
+    color: silver;
+    text-decoration: none;
+    visibility: hidden;
+  }
+  @media /* to avoid double-tap on touch devices */ (hover: hover) {
+    &:hover {
+      a[href^="#"] {
+        visibility: visible;
+      }
+    }
+  }
+}
+/*```
+</details>
+
+**PRO** example of automatic anchors for `11ty`+`markdown-it-anchor`: https://github.com/anyblades/eleventy-blades/blob/main/src/eleventy.config.js
+
+### List markers
+
+Customize markers using inline `style="--list-marker:..."` on `<ul>/<ol>` or even individual `<li>`:
+
+<article>
+
+- you
+- can
+- make
+- really
+- cool markers {style="--list-marker:'🧊 '"}
+- with
+- *Bl*ades {style="--list-marker:'🥷 '"}
+
+{style="--list-marker:'→ '"}
+</article>
+
+<details>How it works:
+```css */
+ul,
+ol {
+  &[style*="--list-marker:"] {
+    list-style-type: var(--list-marker);
+
+    > li {
+      list-style-type: inherit;
+    }
+  }
+  li[style*="--list-marker:"] {
+    list-style-type: var(--list-marker);
+  }
+  li[data-marker]::marker {
+    content: attr(data-marker) " "; /* ⚠️ Chrome and Firefox only */
+  }
+}
+/*```
+</details>
+
+### Unlist
+
+`.unlist` removes list styling:
+
+<article>
+
+- One: <article>1</article>
+- Two: <article>2</article>
+- Three: <article>3</article>
+
+{.unlist .grid style=margin:0}
+</article>
+
+`.unlist-all` also removes styling from all nested lists.
+
+<details>How it works:
+```css */
+ul,
+ol {
+  &.unlist,
+  &.unlist-all,
+  .unlist-all & {
+    padding-inline-start: 0;
+
+    > li {
+      list-style: none;
+    }
+  }
+}
+/*```
+</details>
+<!--section--> */

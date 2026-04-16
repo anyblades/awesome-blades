@@ -1,0 +1,540 @@
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥷</text></svg>">
+    
+      <link rel="alternate icon" href="/favicon.png" type="image/png">
+    
+    <title>Blades HTML templates | Blades CSS⁺ Kit</title>
+    <meta name="description" content="Generic Nunjucks/Liquid templates for 11ty/Build Awesome, Jekyll, Shopify, etc.">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7/css/all.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism-tomorrow.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1/plugins/treeview/prism-treeview.min.css">
+      <link rel="stylesheet" href="/styles.css">
+    <style>
+      
+    </style>
+      <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-core.min.js" defer></script>
+      <script src="https://cdn.jsdelivr.net/npm/prismjs@1/plugins/autoloader/prism-autoloader.min.js" defer></script>
+      <script src="https://cdn.jsdelivr.net/npm/prismjs@1/plugins/treeview/prism-treeview.min.js" defer></script>
+    <script type="module">
+      
+    </script>
+
+    
+  
+    <meta name="revised" content="2026-04-15">
+  
+
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WNHMRQZ');</script>
+<!-- End Google Tag Manager --></head>
+
+  <body>
+    
+
+<header class="dark-auto unreduce-motion">
+  <div class="container">
+    <nav>
+      <big><big><a href="/" class="dark-auto"><i>🥷</i> <span><em>Bl</em>ades</span></a></big></big>
+      &nbsp;
+      <ul><li><a href="/css/">CSS</a></li>
+<li><a href="/css/pico/"><i>✨</i></a></li>
+<li><a href="/html/" aria-current="page"><i class="fa-solid fa-code"></i></a></li>
+<li><a href="/build-awesome-11ty/"><i class="fa-brands fa-eleventy"></i></a></li></ul>
+      
+<ul>
+    <li>
+      
+      <a href="" ><span class="faded">|</span></a>
+    </li>
+    <li>
+      
+      <a href="https://github.com/anyblades" ><i class="fa-brands fa-github"></i></a>
+    </li>
+</ul>
+
+
+
+    </nav>
+    
+    
+    <nav>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+
+
+  <main>
+    <div class="container breakout-all">
+      
+
+      
+        
+        <h1><em>Bl</em>ades <small>HTML templates</small></h1>
+        
+      
+      
+        
+          <big><p>Generic Nunjucks/Liquid templates for 11ty/Build Awesome, Jekyll, Shopify, etc.</p>
+</big><br>
+        
+      
+
+      
+      
+        <h6><sup>Table of Contents</sup></h6>
+        <!--section:toc-->
+        <div data-is-toc><ul class="columns"><li><a href="#install" tabindex="-1">Install</a></li>
+<li><a href="#base" tabindex="-1">Base HTML</a></li>
+<li><a href="#links" tabindex="-1">Links</a></li>
+<li><a href="#sitemap" tabindex="-1">Sitemap</a></li>
+<li><a href="#appendix" tabindex="-1">Appendix</a><ul><li><a href="#njk" tabindex="-1">Nunjucks tricks</a></li>
+<li><a href="#liquid" tabindex="-1">Liquid tricks</a></li></ul></li></ul></div>
+        <!--section-->
+        <hr>
+      
+
+      
+      <h2 id="install" tabindex="-1">Install <a href="#install" aria-hidden="true" data-is-anchor="true">#</a></h2>
+<h6 id="via-npm" tabindex="-1"><mark>Via npm</mark> <a href="#via-npm" aria-hidden="true" data-is-anchor="true">#</a></h6>
+<pre><code class="language-sh">npm install @anyblades/blades
+cd ./_includes # or where your includes dir is
+ln -s ../node_modules/@anyblades/blades/_includes/blades
+</code></pre>
+<p>That's it! Now you can use HTML blades in your templates like this:</p>
+<pre><code data-caption="Nunjucks" class="language-jinja2">{% extends 'blades/*.njk' %}
+{% include 'blades/*.njk' %}
+</code></pre>
+<pre><code data-caption="Liquid" class="language-liquid">{% include blades/*.liquid %}
+{% render blades/* %}
+</code></pre>
+<h6 id="preconfigured" tabindex="-1"><mark>Preconfigured</mark> <a href="#preconfigured" aria-hidden="true" data-is-anchor="true">#</a></h6>
+<ul>
+<li>11ty: <a href="https://github.com/anyblades/build-awesome-starter"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /anyblades/build-awesome-starter</a></li>
+<li>Jekyll: <a href="https://github.com/anyblades/bladeswitch"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /anyblades/bladeswitch</a></li>
+</ul>
+
+
+      
+
+      
+          
+            <hr>
+<h2 id="base" tabindex="-1">Base HTML <a href="#base" aria-hidden="true" data-is-anchor="true">#</a></h2>
+
+          
+      
+          
+            
+            
+            
+            
+            
+              
+
+
+              
+            
+            <p>Usage in Nunjucks layout:</p>
+<pre><code class="language-jinja2">{% extends 'blades/html.njk' %}
+
+{% block body %}...{% endblock %}
+</code></pre>
+<p>Living example: <a href="https://github.com/anyblades/build-awesome-starter/blob/main/_includes/default.njk"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /anyblades/build-awesome-starter/blob/main/_includes/default.njk</a></p>
+<details class="breakout-item"><summary role="button" class="outline">How it works</summary>
+```jinja2 #}
+<!doctype html>
+<html lang="{{ site.lang | d('en') }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+    <link rel="icon" href="{{ site.favicon | d('/favicon.svg') }}" />
+    {% if site.favicon_alt %}
+      <link rel="alternate icon" href="{{ site.favicon_alt }}" type="image/png" />
+    {% endif %}
+    <title>
+      {{- title | string | striptags ~ ' | ' if title -}}
+      {{- site.title -}}
+    </title>
+    <meta name="description" content="{{ summary | striptags }}" />
+<p>{%- for href in site.styles %}
+<link rel="stylesheet" href="{{ href }}" />
+{%- endfor %}
+<style>
+{{ site.inline_styles | d([]) | join('<br>') }}
+</style></p>
+<p>{%- for src in site.scripts %}
+<script src="{{ src }}" defer></script>
+{%- endfor %}
+<script type="module">
+{{ site.inline_scripts | d([]) | join('<br>') }}
+</script></p>
+<p>{{ content_for_header | safe }}</p>
+  </head>
+  <body>
+    {% block body %}
+    {% endblock %}
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNHMRQZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --></body>
+</html>
+```
+- `title | string` avoids error with `| striptags` when you pass a pure number.
+</details>
+
+          
+      
+          
+            <div><hr></div>
+          
+      
+          
+            
+            
+            
+            
+            
+              
+
+
+              
+            
+            <p>Usage in Liquid layout:</p>
+<pre><code class="language-liquid">{% capture body %}...{% endcapture %}
+
+{% include blades/html.liquid %}
+</code></pre>
+<p>Living example: <a href="https://github.com/anyblades/bladeswitch/blob/main/_includes/default.liquid"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /anyblades/bladeswitch/blob/main/_includes/default.liquid</a></p>
+<details class="breakout-item"><summary role="button" class="outline">How it works</summary>
+```liquid{% endcomment %}
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <link rel="icon" href="{{ site.favicon | default: '/favicon.svg' }}">
+    {% if site.favicon_alt %}
+      <link rel="alternate icon" href="{{ site.favicon_alt }}" type="image/png">
+    {% endif %}
+    <title>
+      {%- if title %}{{ title | strip_html | append: ' | ' }}{% endif -%}
+      {{- site.title -}}
+    </title>
+    <meta name="description" content="{{ summary | strip_html }}">
+<p>{%- for href in site.styles %}
+<link rel="stylesheet" href="{{ href | relative_url }}">
+{%- endfor %}
+<style>
+{{ site.inline_styles | join: '<br>' }}
+</style></p>
+<p>{%- for src in site.scripts %}
+<script src="{{ src }}" defer></script>
+{%- endfor %}
+<script type="module">
+{{ site.inline_scripts | join: '<br>' }}
+</script></p>
+<p>{{ content_for_header }}</p>
+  </head>
+  <body>
+    {{ body }}
+  </body>
+</html>
+```
+</details>
+
+          
+      
+          
+            <hr>
+<h2 id="links" tabindex="-1">Links <a href="#links" aria-hidden="true" data-is-anchor="true">#</a></h2>
+
+          
+      
+          
+            
+            
+            
+            
+            
+              
+
+
+              
+            
+            <p>Usage example for <a href="https://www.11ty.dev/docs/plugins/navigation/#bring-your-own-html-render-the-menu-items-manually:"><i><img src="https://www.google.com/s2/favicons?domain=www.11ty.dev&sz=64"></i> /docs/plugins/navigation/#bring-your-own-html-render-the-menu-items-manually:</a></p>
+<pre><code class="language-liquid">{% assign links = collections.all | eleventyNavigation %}
+{% render blades/links, links: links, current_url: page.url %}
+</code></pre>
+<details class="breakout-item"><summary role="button" class="outline">How it works</summary>
+```liquid{% endcomment %}
+<ul>
+  {%- for link in links %}
+    <li>
+<p %-="" endfor="" %=""><a href="{{ link.url }}" {% if link.url == current_url %}aria-current="page"{% endif %}>
+{{- link.title -}}
+</a>
+</li></p>
+</ul>
+<pre><code>&lt;/details&gt;
+                
+</code></pre>
+
+          
+      
+          
+            <hr>
+<h2 id="sitemap" tabindex="-1">Sitemap <a href="#sitemap" aria-hidden="true" data-is-anchor="true">#</a></h2>
+
+          
+      
+          
+            
+            
+            
+            
+            
+              
+
+
+              
+            
+            <p>Usage example for <a href="https://github.com/11ty/eleventy-plugin-rss:"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /11ty/eleventy-plugin-rss:</a></p>
+<pre><code data-caption="sitemap.xml.njk" class="language-jinja2">---
+permalink: /sitemap.xml
+layout: false
+eleventyExcludeFromCollections: true
+---
+{% include 'blades/sitemap.xml.njk' %}
+</code></pre>
+<details class="breakout-item"><summary role="button" class="outline">How it works</summary>
+```jinja2 #}<?xml
+version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {%- for page in collections.all %}
+    {% if page.data.permalink != false %}
+      <url>
+        <loc>{{ site.base }}{{ page.url }}</loc>
+        <lastmod>{{ page.date | date }}</lastmod>
+      </url>
+    {% endif %}
+  {%- endfor %}
+</urlset>
+```
+</details>
+
+          
+      
+          
+            <hr>
+<h2 id="appendix" tabindex="-1">Appendix <a href="#appendix" aria-hidden="true" data-is-anchor="true">#</a></h2>
+
+          
+      
+          
+            
+            
+            
+            
+            
+            <h3 id="njk" tabindex="-1">Nunjucks <small>tricks</small> <a href="#njk" aria-hidden="true" data-is-anchor="true">#</a></h3>
+<ul>
+<li><a href="https://mozilla.github.io/nunjucks/templating.html"><i><img src="https://www.google.com/s2/favicons?domain=mozilla.github.io&sz=64"></i> /nunjucks/templating.html</a></li>
+<li><a href="https://mozilla.github.io/nunjucks/templating.html#builtin-filters"><i><img src="https://www.google.com/s2/favicons?domain=mozilla.github.io&sz=64"></i> /nunjucks/templating.html#builtin-filters</a></li>
+</ul>
+<h5 id="njk-vscode" tabindex="-1">Syntax highlighting <sub>in <a href="/tricks/antigravity/">VS Code~editors</a></sub> <a href="#njk-vscode" aria-hidden="true" data-is-anchor="true">#</a></h5>
+<ul>
+<li>🧩 Install <a href="https://github.com/edheltzel/better-nunjucks-for-visual-studio-code"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /edheltzel/better-nunjucks-for-visual-studio-code</a></li>
+</ul>
+<p>This is a modern fork of the original extension. It is specifically designed to solve the "11ty problem" where you mix Nunjucks and HTML.</p>
+<p><strong>Why it's better:</strong> It injects Nunjucks grammar directly into the standard HTML grammar. This means you get full Nunjucks highlighting and the editor still knows it's an HTML file, giving you better Emmet and CSS autocompletion.</p>
+<p><strong>No Config:</strong> It works out of the box without needing to manually map file associations in your settings.</p>
+<h5 id="auto-formatting-in-vs-code-editors" tabindex="-1">Auto-formatting <sub>in <a href="/tricks/antigravity/">VS Code~editors</a></sub> <a href="#auto-formatting-in-vs-code-editors" aria-hidden="true" data-is-anchor="true">#</a></h5>
+<ol>
+<li>
+<p>🧩 Install <a href="https://github.com/prettier/prettier-vscode"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /prettier/prettier-vscode</a> (if not yet)</p>
+</li>
+<li>
+<p>Install a compatible Prettier plugin for your project, for example:</p>
+</li>
+</ol>
+<pre><code class="language-sh">npm i -D prettier-plugin-jinja-template
+</code></pre>
+<ol start="3">
+<li>It might be tricky to find a well-maintained Nunjucks plugin, but <code>jinja-template</code> works just fine with <code>.njk</code> via <code>.html</code> override:</li>
+</ol>
+<pre><code data-caption=".prettierrc.json" class="language-json">{
+  &quot;plugins&quot;: [&quot;prettier-plugin-jinja-template&quot;],
+  &quot;overrides&quot;: [
+    {
+      &quot;files&quot;: [&quot;*.njk&quot;, &quot;*.html&quot;],
+      &quot;options&quot;: {
+        &quot;parser&quot;: &quot;jinja-template&quot;
+      }
+    }
+  ]
+}
+</code></pre>
+<p><code>PRO TIP:</code> If you already use <a href="https://github.com/anyblades/blades"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /anyblades/blades</a>, it’s even easier. You can simply:</p>
+<pre><code class="language-sh">ln -s ./node_modules/@anyblades/blades/.prettierrc.json
+</code></pre>
+<h5 id="sort-array-by-attribute" tabindex="-1">Sort array by attribute <a href="#sort-array-by-attribute" aria-hidden="true" data-is-anchor="true">#</a></h5>
+<p>Per official <code>.njk</code> documentation:</p>
+<blockquote>
+<p><strong>sort(arr, reverse, caseSens, attr)</strong><br>
+Sort arr with JavaScript's arr.sort function. If reverse is true, result will be reversed. Sort is case-insensitive by default, but setting caseSens to true makes it case-sensitive. If attr is passed, will compare attr from each item.</p>
+</blockquote>
+<p>But you can actually do this trick:</p>
+<pre><code data-caption=".njk" class="language-jinja2">{% for item in array | sort(attribute='weight') %}
+  ...
+{% endfor %}
+</code></pre>
+
+          
+      
+          
+            <hr>
+
+          
+      
+          
+            
+            
+            
+            
+            
+            <h3 id="liquid" tabindex="-1">Liquid <small>tricks</small> <a href="#liquid" aria-hidden="true" data-is-anchor="true">#</a></h3>
+<ul>
+<li><a href="https://shopify.github.io/liquid/basics/introduction/"><i><img src="https://www.google.com/s2/favicons?domain=shopify.github.io&sz=64"></i> /liquid/basics/introduction</a></li>
+<li><a href="https://shopify.github.io/liquid/#filters-section"><i><img src="https://www.google.com/s2/favicons?domain=shopify.github.io&sz=64"></i> /liquid/#filters-section</a></li>
+</ul>
+<h5 id="liquid-vscode" tabindex="-1">Syntax highlighting & auto-formatting <sub>in <a href="/tricks/antigravity/">VS Code~editors</a></sub> <a href="#liquid-vscode" aria-hidden="true" data-is-anchor="true">#</a></h5>
+<ol>
+<li>🧩 Install <a href="https://github.com/prettier/prettier-vscode"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /prettier/prettier-vscode</a> (if not yet)</li>
+<li>🧩 Install <a href="https://shopify.dev/docs/storefronts/themes/tools/shopify-liquid-vscode"><i><img src="https://www.google.com/s2/favicons?domain=shopify.dev&sz=64"></i> /docs/storefronts/themes/tools/shopify-liquid-vscode</a><br>
+(2-in-1 extension for highlighting & formatting)</li>
+</ol>
+<p>This is a huge advantage for <code>.liquid</code> over <code>.njk</code> so far.</p>
+<h5 id="create-array" tabindex="-1">Create array <a href="#create-array" aria-hidden="true" data-is-anchor="true">#</a></h5>
+<pre><code data-caption=".liquid" class="language-liquid">{% capture _new_array %}
+1
+2
+3
+{% endcapture %}
+{% assign _new_array = _new_array | strip | split: '\n' %}
+</code></pre>
+<h5 id="beware-false-positives-in-liquid" tabindex="-1">Beware: False Positives <small>in <code>.liquid</code></small> <a href="#beware-false-positives-in-liquid" aria-hidden="true" data-is-anchor="true">#</a></h5>
+<ul>
+<li><a href="https://liquidjs.com/tutorials/truthy-and-falsy.html"><i><img src="https://www.google.com/s2/favicons?domain=liquidjs.com&sz=64"></i> /tutorials/truthy-and-falsy.html</a></li>
+<li><a href="https://www.11ty.dev/docs/languages/liquid/#java-script-truthiness-in-liquid"><i><img src="https://www.google.com/s2/favicons?domain=www.11ty.dev&sz=64"></i> /docs/languages/liquid/#java-script-truthiness-in-liquid</a></li>
+</ul>
+<p>❌ Wrong:</p>
+<pre><code class="language-liquid">{% if my_string %} This will always show if the string exists, even if empty. {% endif %}
+</code></pre>
+<p>✅ Right (Checking for content):</p>
+<pre><code class="language-liquid">{% if my_string != blank %} This only shows if there is actual text. {% endif %}
+</code></pre>
+<p>✅ Right (Checking arrays/strings by size):</p>
+<pre><code class="language-liquid">{% if my_array.size &gt; 0 %} This ensures the list isn't empty. {% endif %}
+</code></pre>
+
+          
+      
+          
+            <hr>
+<ul class="unlist columns">
+<li>Featured by: <!--A-Z-->
+<ul>
+<li><a href="https://11tybundle.dev/blog/11ty-bundle-83/"><i><img src="https://www.google.com/s2/favicons?domain=11tybundle.dev&sz=64"></i> /blog/11ty-bundle-83</a></li>
+<li><a href="https://11tybundle.dev/categories/nunjucks-macros/"><i><img src="https://www.google.com/s2/favicons?domain=11tybundle.dev&sz=64"></i> /categories/nunjucks-macros</a></li>
+<li><a href="https://github.com/anyblades/awesome-11ty-build-awesome"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /anyblades/awesome-11ty-build-awesome</a></li>
+</ul>
+</li>
+<li>See also: <!--A-Z-->
+<ul>
+<li><a href="https://blog.jim-nielsen.com/2025/lots-of-little-html-pages/"><i><img src="https://www.google.com/s2/favicons?domain=blog.jim-nielsen.com&sz=64"></i> /2025/lots-of-little-html-pages</a></li>
+<li><a href="https://buildexcellentwebsit.es/"><i><img src="https://www.google.com/s2/favicons?domain=buildexcellentwebsit.es&sz=64"></i> buildexcellentwebsit.es</a></li>
+</ul>
+</li>
+</ul>
+
+          
+      
+      
+
+      
+        
+          <hr>
+          <script
+  src="https://giscus.app/client.js"
+  data-repo="anyblades/awesome-blades"
+  data-repo-id="MDEwOlJlcG9zaXRvcnk3MTA1MTU1Mg=="
+  data-category-id="DIC_kwDOBDwpIM4C3fgo"
+  data-mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="preferred_color_scheme"
+  data-lang="en"
+  crossorigin="anonymous"
+  async
+></script>
+
+        
+      
+    </div>
+  </main>
+
+
+
+
+<footer class="dark-auto unreduce-motion">
+  <nav class="container">
+    
+    <p>Made with sharp <a href="https://blades.ninja/"><em>Bl</em>ades</a></p>
+<p>© <a href="https://any.digital/"><em>Any</em>digital</a> 2026  </p>
+<p><a href="https://github.com/anyblades?sort=stargazers"><span><em>Bl</em>adesverse</span> <i class="faded">:</i> <i><span><img src="https://img.shields.io/github/stars/anyblades?logo=_&amp;label=%F0%9F%A5%B7" alt=""></span></i></a></p>
+
+    &nbsp;
+    
+<ul>
+</ul>
+
+
+
+  </nav>
+</footer>
+
+
+<a href="#" data-jump-to="top" title="Fly to top">
+  <i class="fa-solid fa-plane-up fa-border"></i>
+</a>
+
+
+  </body>
+</html>
+
+

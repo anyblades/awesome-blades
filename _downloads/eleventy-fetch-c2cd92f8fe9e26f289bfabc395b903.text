@@ -1,0 +1,465 @@
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥷</text></svg>">
+    
+      <link rel="alternate icon" href="/favicon.png" type="image/png">
+    
+    <title>Build Awesome  Processors by Eleventy Blades | Blades CSS⁺ Kit</title>
+    <meta name="description" content="A collection of useful Eleventy processors via Eleventy Blades plugin.">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7/css/all.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism-tomorrow.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1/plugins/treeview/prism-treeview.min.css">
+      <link rel="stylesheet" href="/styles.css">
+    <style>
+      
+    </style>
+      <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-core.min.js" defer></script>
+      <script src="https://cdn.jsdelivr.net/npm/prismjs@1/plugins/autoloader/prism-autoloader.min.js" defer></script>
+      <script src="https://cdn.jsdelivr.net/npm/prismjs@1/plugins/treeview/prism-treeview.min.js" defer></script>
+    <script type="module">
+      
+    </script>
+
+    
+  
+    <meta name="revised" content="2026-03-25">
+  
+
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WNHMRQZ');</script>
+<!-- End Google Tag Manager --></head>
+
+  <body>
+    
+
+<header class="dark-auto unreduce-motion">
+  <div class="container">
+    <nav>
+      <big><big><a href="/" class="dark-auto"><i>🥷</i> <span><em>Bl</em>ades</span></a></big></big>
+      &nbsp;
+      <ul><li><a href="/css/">CSS</a></li>
+<li><a href="/css/pico/"><i>✨</i></a></li>
+<li><a href="/html/"><i class="fa-solid fa-code"></i></a></li>
+<li><a href="/build-awesome-11ty/" aria-current="page"><i class="fa-brands fa-eleventy"></i></a></li></ul>
+      
+<ul>
+    <li>
+      
+      <a href="" ><span class="faded">|</span></a>
+    </li>
+    <li>
+      
+      <a href="https://github.com/anyblades" ><i class="fa-brands fa-github"></i></a>
+    </li>
+</ul>
+
+
+
+    </nav>
+    
+    
+    <nav>
+      <ul><li><a href="/build-awesome-11ty/">Docs</a></li>
+<li><a href="/build-awesome-11ty/filters/">Filters</a></li>
+<li><a href="/build-awesome-11ty/processors/" aria-current="page">Processors</a></li>
+<li><a href="/build-awesome-11ty/tools/"><i class="fa-solid fa-power-off"></i> Tools</a></li>
+<li><a><span class="faded">|</span></a></li>
+<li><a href="/build-awesome-11ty/awesome/">Awesome</a></li>
+<li><a href="/build-awesome-11ty/starters/">Starters</a></li></ul>
+    </nav>
+    
+  </div>
+</header>
+
+
+
+
+  <main>
+    <div class="container breakout-all">
+      
+
+      
+        
+        <h1><sup>Build Awesome <i class="fa-brands fa-eleventy"></i></sup> Processors <sub>by <a href="/build-awesome-11ty/"><em>Eleventy Bl</em>ades</a></sub></h1>
+        
+      
+      
+        
+          <big><p>A collection of useful Eleventy processors via Eleventy Blades plugin.</p>
+</big><br>
+        
+      
+
+      
+      
+        <h6><sup>Table of Contents</sup></h6>
+        <!--section:toc-->
+        <div data-is-toc><ul class="columns"><li><a href="#auto-link-favicons" tabindex="-1">autoLinkFavicons postprocessor (transformer)</a></li>
+<li><a href="#md-auto-raw" tabindex="-1">mdAutoRawTags preprocessor</a></li>
+<li><a href="#md-auto-br" tabindex="-1">mdAutoNl2br converter</a></li>
+<li><a href="#md-hidden-attrs" tabindex="-1">Hidden Markdown attributes using HTML comments 🆕</a></li>
+<li><a href="#install" tabindex="-1">Install</a><ul><li><a href="#build-awesome-11ty">Eleventy Blades</a></li></ul></li></ul></div>
+        <!--section-->
+        <hr>
+      
+
+      
+      
+
+      
+
+      
+          
+            
+            
+            
+            
+            
+              
+
+
+              
+            
+            <h3 id="auto-link-favicons" tabindex="-1"><code>autoLinkFavicons</code> postprocessor (transformer) <a href="#auto-link-favicons" aria-hidden="true" data-is-anchor="true">#</a></h3>
+<p>Automatically adds favicon images from Google's favicon service to links that display plain URLs or domain names. This processor processes all HTML output files and adds inline favicon images next to link text that appears to be a plain URL.</p>
+<p><strong>Why use this?</strong> When you have links in your content that display raw URLs or domain names (like <code>https://example.com/page</code>), adding favicons provides a visual indicator of the external site. This processor automatically detects these plain-text URL links and enhances them with favicon images, making them more visually appealing and easier to recognize.</p>
+<p><strong>How it works:</strong></p>
+<ol>
+<li>Scans all HTML output files for <code>&lt;a&gt;</code> tags</li>
+<li>Checks if the link text appears to be a plain URL or domain</li>
+<li>Extracts the domain from the URL</li>
+<li>Removes the domain from the link text (keeping only the path)</li>
+<li>Adds a favicon image from Google's favicon service inline with the remaining text</li>
+</ol>
+<p><strong>Example:</strong></p>
+<p>Before processing:</p>
+<pre><code class="language-html">&lt;a href=&quot;https://github.com/anyblades/eleventy-blades&quot;&gt;https://github.com/anyblades/eleventy-blades&lt;/a&gt;
+</code></pre>
+<p>After processing:</p>
+<pre><code class="language-html">&lt;a href=&quot;https://github.com/anyblades/eleventy-blades&quot; class=&quot;whitespace-nowrap&quot; target=&quot;_blank&quot;&gt;
+  &lt;i&gt;&lt;img src=&quot;https://www.google.com/s2/favicons?domain=github.com&amp;sz=32&quot; /&gt;&lt;/i&gt;
+  &lt;span&gt;/anyblades/eleventy-blades&lt;/span&gt;
+&lt;/a&gt;
+</code></pre>
+<p><strong>Rules:</strong></p>
+<ul>
+<li>Only applies to links where the text looks like a plain URL (contains the domain or starts with <code>http://</code>/<code>https://</code>)</li>
+<li>Removes the protocol and domain from the display text</li>
+<li>Removes the trailing slash from the display text</li>
+<li>Only applies if at least 3 characters remain after removing the domain (to avoid showing favicons for bare domain links)</li>
+<li>Uses Google's favicon service at <code>https://www.google.com/s2/favicons?domain=DOMAIN&amp;sz=32</code></li>
+<li>Adds <code>target=&quot;_blank&quot;</code> to the processed links (only if not already present)</li>
+<li>Adds <code>whitespace-nowrap</code> class to the link</li>
+<li>Wraps the link text in a <code>&lt;span&gt;</code> element</li>
+<li>The favicon is wrapped in an <code>&lt;i&gt;</code> tag for easy styling
+*/</li>
+</ul>
+<details class="breakout-item"><summary role="button" class="outline">How it works</summary>
+```js
+/**
+ * Check if link text looks like a plain URL or domain
+ *
+ * @param {string} linkText - The text content of the link
+ * @param {string} domain - The domain extracted from the URL
+ * @returns {boolean} True if the link text appears to be a plain URL
+ */
+export function isPlainUrlText(linkText, domain) {
+  return linkText.trim().includes(domain) || linkText.trim().match(/^https?:\/\//) !== null;
+}
+<p>/**</p>
+<ul>
+<li>Clean link text by removing protocol, domain, and leading slash</li>
+<li></li>
+<li>@param {string} linkText - The original link text</li>
+<li>@param {string} domain - The domain to remove</li>
+<li>@returns {string} The cleaned text
+*/
+export function cleanLinkText(linkText, domain) {
+const cleanedText = linkText
+.trim()
+.replace(/^https?:///, "")
+.replace(//$/, "");
+const withoutDomain = cleanedText.replace(domain, "");
+return withoutDomain.length > 2 ? withoutDomain : cleanedText;
+}</li>
+</ul>
+<p>/**</p>
+<ul>
+<li>Build HTML for a link with favicon</li>
+<li></li>
+<li>@param {string} attrs - The link attributes (including href)</li>
+<li>@param {string} domain - The domain for the favicon</li>
+<li>@param {string} text - The text to display</li>
+<li>@returns {string} The HTML string
+*/
+export function buildFaviconLink(attrs, domain, text) {
+return <code>&lt;a ${attrs}&gt;&lt;i&gt;&lt;img src=&quot;https://www.google.com/s2/favicons?domain=${domain}&amp;sz=64&quot;&gt;&lt;/i&gt; ${text}&lt;/a&gt;</code>;
+}</li>
+</ul>
+<p>/**</p>
+<ul>
+<li>
+<p>Transform a single link to include a favicon</p>
+</li>
+<li></li>
+<li>
+<p>@param {string} match - The full matched link HTML</p>
+</li>
+<li>
+<p>@param {string} attrs - The link attributes</p>
+</li>
+<li>
+<p>@param {string} url - The URL from the href attribute</p>
+</li>
+<li>
+<p>@param {string} linkText - The text content of the link</p>
+</li>
+<li>
+<p>@returns {string} The transformed link or original match if not applicable
+*/
+export function transformLink(match, attrs, url, linkText) {
+try {
+// Extract domain from URL
+const urlObj = new URL(url, "<a href="http://dummy.com"><i><img src="https://www.google.com/s2/favicons?domain=dummy.com&sz=64"></i> dummy.com</a>");
+const domain = urlObj.hostname;</p>
+<p>// Only add favicon if link text looks like a plain URL/domain
+if (isPlainUrlText(linkText, domain)) {
+const cleanedText = cleanLinkText(linkText, domain);
+return buildFaviconLink(attrs, domain, cleanedText);
+}
+return match; // @TODO: throw?
+} catch (e) {
+// If URL parsing fails, return original match
+return match;
+}
+}</p>
+</li>
+</ul>
+<p>/**</p>
+<ul>
+<li>Replace all anchor links in HTML content with transformed versions</li>
+<li></li>
+<li>This function searches for all anchor tags in HTML content and replaces them</li>
+<li>using the provided transform function. The regex captures:</li>
+<li>
+<ul>
+<li>Group 1: All attributes including href</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Group 2: The URL from the href attribute</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Group 3: The link text content</li>
+</ul>
+</li>
+<li></li>
+<li>@param {string} content - The HTML content to process</li>
+<li>@param {Function} transformer - Function to transform each link (receives match, attrs, url, linkText)</li>
+<li>@returns {string} The HTML content with transformed links
+*/
+export function replaceLinksInHtml(content, transformer) {
+return content.replace(/<a\s+([^>]<em>href=<a href="%5B%5E%22'%5D+">"'</a>["'][^>]</em>)>([^<]+)</a>/gi, transformer);
+}</li>
+</ul>
+<p>/**</p>
+<ul>
+<li>autoLinkFavicons - Add favicon images to plain text links</li>
+<li></li>
+<li>This transform automatically adds favicon images from Google's favicon service</li>
+<li>to links that display plain URLs or domain names. It processes all HTML output</li>
+<li>files and adds inline favicon images next to the link text.</li>
+<li></li>
+<li>@param {Object} eleventyConfig - The Eleventy configuration object
+*/
+export function autoLinkFavicons(eleventyConfig) {
+eleventyConfig.addTransform("autoLinkFavicons", function (content) {
+if (this.page.outputPath && this.page.outputPath.endsWith(".html")) {
+return replaceLinksInHtml(content, transformLink);
+}
+return content;
+});
+}</li>
+</ul>
+<pre><code>
+&lt;/details&gt;
+                
+</code></pre>
+
+          
+      
+          
+            
+            
+            
+            
+            
+              
+
+
+              
+            
+            <h3 id="md-auto-raw" tabindex="-1"><code>mdAutoRawTags</code> preprocessor <a href="#md-auto-raw" aria-hidden="true" data-is-anchor="true">#</a></h3>
+<p>This preprocessor wraps template syntax <code>{{, }}, {%, %}</code> with <code>{% raw %}</code> tags
+to prevent them from being processed by the template engine in Markdown files.</p>
+<p>Usage example: <a href="https://github.com/anyblades/eleventy-blades/blob/main/src/eleventy.config.js"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /anyblades/eleventy-blades/blob/main/src/eleventy.config.js</a></p>
+<p>How it works:</p>
+<pre><code class="language-js">export function mdAutoRawTags(eleventyConfig) {
+  eleventyConfig.addPreprocessor(&quot;mdAutoRawTags&quot;, &quot;md&quot;, (data, content) =&gt; {
+    return transformAutoRaw(content);
+  });
+}
+// Underlying helper function
+export function transformAutoRaw(content) {
+  // This regex looks for {{, }}, {%, or %} individually and wraps them
+  return content.replace(/({{|}}|{%|%})/g, &quot;{% raw %}$1{% endraw %}&quot;);
+}
+</code></pre>
+<h3 id="md-auto-br" tabindex="-1"><code>mdAutoNl2br</code> converter <a href="#md-auto-br" aria-hidden="true" data-is-anchor="true">#</a></h3>
+<p>This function amends the markdown library to automatically convert <code>\n</code>
+to <code>&lt;br&gt;</code> tags in text content, which is particularly useful for line breaks
+inside markdown tables where standard newlines don't work.</p>
+<blockquote>
+<p><strong>NOTE:</strong> This processes literal <code>\n</code> sequences (backslash followed by 'n'), not actual newline characters. Type <code>\n</code> in your source files where you want line breaks.</p>
+</blockquote>
+<p>Usage example: <a href="https://github.com/anyblades/eleventy-blades/blob/main/src/eleventy.config.js"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /anyblades/eleventy-blades/blob/main/src/eleventy.config.js</a></p>
+<p>How it works:</p>
+<pre><code class="language-js">export function mdAutoNl2br(eleventyConfig) {
+  eleventyConfig.amendLibrary(&quot;md&quot;, (mdLib) =&gt; {
+    mdLib.renderer.rules.text = (tokens, idx) =&gt; {
+      return transformNl2br(tokens[idx].content);
+    };
+  });
+}
+// Underlying helper function
+export function transformNl2br(content) {
+  // Replace double \n\n first, then single \n to avoid double conversion
+  return content.replace(/\\n\\n/g, &quot;&lt;br&gt;&quot;).replace(/\\n/g, &quot;&lt;br&gt;&quot;);
+}
+</code></pre>
+<h3 id="md-hidden-attrs" tabindex="-1">Hidden Markdown attributes using HTML comments 🆕 <sub><code>&lt;!--{...}-—&gt;</code> trick via <code>mdAutoUncommentAttrs</code> converter</sub> <a href="#md-hidden-attrs" aria-hidden="true" data-is-anchor="true">#</a></h3>
+<p>This function amends the markdown library to automatically expand
+HTML-comment-wrapped attribute blocks <code>&lt;!—-{...}--&gt;</code> to their raw form
+<code>{...}</code>, which is useful when attribute syntax needs to be hidden from
+HTML parsers but expanded before markdown-it processes them.</p>
+<p>Implemented as a core rule so the transformation runs on the raw source
+before markdown-it-attrs (or any other plugin) parses the content.</p>
+<p>Usage example: <a href="https://github.com/anyblades/eleventy-blades/blob/main/src/eleventy.config.js"><i><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64"></i> /anyblades/eleventy-blades/blob/main/src/eleventy.config.js</a></p>
+<p>How it works:</p>
+<pre><code class="language-js">export function mdAutoUncommentAttrs(eleventyConfig) {
+  eleventyConfig.amendLibrary(&quot;md&quot;, (mdLib) =&gt; {
+    mdLib.core.ruler.before(&quot;normalize&quot;, &quot;uncomment_attrs&quot;, (state) =&gt; {
+      state.src = transformUncommentAttrs(state.src);
+    });
+  });
+}
+// Underlying helper function
+export function transformUncommentAttrs(content) {
+  if (content.includes(&quot;&lt;!--{&quot;)) {
+    content = content.replace(/&lt;!--(\{[^}]*\})--&gt;/g, &quot;$1&quot;);
+  }
+  return content;
+}
+</code></pre>
+
+          
+      
+          
+            <hr>
+<h2 id="install" tabindex="-1">Install <a href="#install" aria-hidden="true" data-is-anchor="true">#</a></h2>
+
+          
+      
+          
+            
+            <a href="/build-awesome-11ty/" role="button" class="outline">
+              <h3 id="build-awesome-11ty"><em>Eleventy Bl</em>ades</h3>
+              <p>Ultimate blade kit for 11ty (Build Awesome).</p>
+<p><img src="https://img.shields.io/github/v/release/anyblades/eleventy-blades?label=&amp;color=darkslategray&amp;style=for-the-badge&amp;include_prereleases" alt="">
+<img src="https://img.shields.io/badge/Code-gainsboro?logo=github&amp;logoColor=black&amp;style=for-the-badge" alt="">
+<img src="https://img.shields.io/github/stars/anyblades/eleventy-blades?label=Star&amp;labelColor=gainsboro&amp;color=silver&amp;style=for-the-badge" alt=""></p>
+
+              <u>View more</u>
+            </a>
+          
+      
+      
+
+      
+        
+          <hr>
+          <script
+  src="https://giscus.app/client.js"
+  data-repo="anyblades/awesome-blades"
+  data-repo-id="MDEwOlJlcG9zaXRvcnk3MTA1MTU1Mg=="
+  data-category-id="DIC_kwDOBDwpIM4C3fgo"
+  data-mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="preferred_color_scheme"
+  data-lang="en"
+  crossorigin="anonymous"
+  async
+></script>
+
+        
+      
+    </div>
+  </main>
+
+
+
+
+<footer class="dark-auto unreduce-motion">
+  <nav class="container">
+    
+    <p>Made with sharp <a href="https://blades.ninja/"><em>Bl</em>ades</a></p>
+<p>© <a href="https://any.digital/"><em>Any</em>digital</a> 2026  </p>
+<p><a href="https://github.com/anyblades?sort=stargazers"><span><em>Bl</em>adesverse</span> <i class="faded">:</i> <i><span><img src="https://img.shields.io/github/stars/anyblades?logo=_&amp;label=%F0%9F%A5%B7" alt=""></span></i></a></p>
+
+    &nbsp;
+    
+<ul>
+</ul>
+
+
+
+  </nav>
+</footer>
+
+
+<a href="#" data-jump-to="top" title="Fly to top">
+  <i class="fa-solid fa-plane-up fa-border"></i>
+</a>
+
+
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNHMRQZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --></body>
+</html>
+
+
