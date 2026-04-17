@@ -34,3 +34,7 @@ compdef _npm_link_completion npm link
 ```
 
 ### [Purge cache on jsDelivr CDN](/tricks/jsdelivr/#purge-cache)
+
+### `nvm`
+
+https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script
