@@ -1,20 +1,22 @@
-# /11ty/*
-/11ty/*             /build-awesome-11ty/:splat 301
-
-# /html/
-/html/gtm/          /html/#gtm 301
-/html/links/        /html/#links 301
 /liquid/            /html/#liquid 301
+/npm/               /node/ 301
+/ruby/              /random/#ruby 301
+/table/             /css/responsive-table/ 301
+/xcode/             /mobile-dev/#xcode 301
 
-# /css/
+### CSS
+
 /css/code/          /css/#code 301
 /css/layout/        /css/#layout 301
 /css/table/         /css/responsive-table/ 301
 /css/typography/    /css/ 301
 /css/utilities/     /css/#utilities 301
-/table/             /css/responsive-table/ 301
 
-# all other
-/npm/               /node/ 301
-/ruby/              /random/#ruby 301
-/xcode/             /mobile-dev/#xcode 301
+### HTML
+
+/html/gtm/          /html/#gtm 301
+/html/links/        /html/#links 301
+
+### 11ty
+
+/11ty/*             /build-awesome-11ty/:splat 301
