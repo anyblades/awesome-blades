@@ -60,9 +60,6 @@ includes:
       - https://buildexcellentwebsit.es/
       - https://github.com/anyblades/pico
       - https://github.com/dbohdan/classless-css
-      - https://github.com/dohliam/dropin-minimal-css
-      - https://github.com/kevquirk/simple.css
-      - https://github.com/troxler/awesome-css-frameworks
       - https://kittygiraudel.com/2026/03/21/heading-anchors-with-11ty/
       - https://micah.torcellini.org/2026/03/17/simple-timeline/
 
