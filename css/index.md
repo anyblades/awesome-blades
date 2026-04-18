@@ -11,8 +11,6 @@ eleventyComputed:
      | if: site.prod | default: '../../blades/README.md' | fetch | section: 'summary' | strip_tag: 'big' | markdownify }}
 
 includes:
-  - text: |-
-      ## Install
   - path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md
     section: install
   - path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/blades.theme.css

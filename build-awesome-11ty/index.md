@@ -12,8 +12,6 @@ eleventyComputed:
      | if: site.prod | default: '../../eleventy-blades/README.md' | fetch | section: 'summary' | markdownify }}
 
 includes:
-  - text: |-
-      ## Install
   - path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/README.md
     section: install
   - teaser: /build-awesome-11ty/starters/

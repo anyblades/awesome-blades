@@ -36,8 +36,12 @@ eleventyComputed:
   hero: "<br>{{ summary }}<br>"
 
 includes:
+  - text: |-
+      ## [Documentation <i><small>→</small></i>](/css/)
+  - path: https://blades.ninja/css/
+    section: toc
   - path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md
-    section: docs
+    section: info
   - text: ---
   - path: README.md
     section: tricks
