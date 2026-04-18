@@ -59,7 +59,6 @@ includes:
       - https://github.com/anyblades/float-label-css
       - https://github.com/anyblades/pico
       - https://github.com/dbohdan/classless-css
-      - https://kittygiraudel.com/2026/03/21/heading-anchors-with-11ty/
       - https://micah.torcellini.org/2026/03/17/simple-timeline/
 
       {.unlist .columns}
