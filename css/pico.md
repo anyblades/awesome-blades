@@ -1,7 +1,7 @@
 ---
 eleventyNavigation:
   key: <i>✨</i>
-  order: 1
+  order: 2
 title: Pico+Blades CSS <i>✨🥷</i>
 eleventyComputed:
   summary: |-

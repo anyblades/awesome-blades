@@ -29,7 +29,9 @@ includes:
     section: toc
   - text: |-
       ---
-      ## <sup>Appendix:</sup> Templating
+      ## More
+  - teaser: /build-awesome-11ty/starters/
+  - teaser: /build-awesome-11ty/awesome/
   - teaser: /html/
   - path: https://blades.ninja/html/
     section: toc
