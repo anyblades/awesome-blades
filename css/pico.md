@@ -11,4 +11,9 @@ eleventyComputed:
 includes:
   - path: https://raw.githubusercontent.com/anyblades/pico/refs/heads/main/README.md
     section: docs
+  - text: |-
+      ---
+      See also:
+  - teaser: /css/
+    no_toc: true
 ---

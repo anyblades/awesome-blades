@@ -3,16 +3,25 @@ eleventyNavigation:
   parent: 11ty
   key: Starters
   order: 11
-title: <sup>Build Awesome <i class="fa-brands fa-eleventy"></i></sup> Minimal starters <sub>as of April 2026</sub>
+title: <sup>Build Awesome</sup> Minimal <i class="fa-brands fa-eleventy"></i> starters <sub>as of April 2026</sub>
+
 includes:
   - path: https://raw.githubusercontent.com/anyblades/build-awesome-starter/refs/heads/main/README.md
   - text: ---
   - path: https://raw.githubusercontent.com/anyblades/bladeswitch/refs/heads/main/README.md
+  - text: |-
+      ---
+      ## See also
+  - teaser: /build-awesome-11ty/
+  - teaser: /build-awesome-11ty/tools/
+  - teaser: /html/
 ---
 
 Awesome Eleventy ecosystem offers a [wide variety of starters](https://github.com/anyblades/awesome-11ty-build-awesome#starter-projects).
 
 Not sure where to begin? Start with a minimal template:
+
+## List of minimal starters
 
 | Repo                                                          | Stats <hr>                                                                                                                                                                                                                                                                                          | npm Dependencies   | Custom CSS <hr>                                                                                                        | Custom JS <hr>                                                                       | Custom Templates <hr>                                                                     | What's Included? <hr>                      |
 | ------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------ |

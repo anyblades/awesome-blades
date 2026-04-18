@@ -4,7 +4,7 @@ eleventyNavigation:
   key: 11ty
   title: <i class="fa-brands fa-eleventy"></i>
   order: 3
-title: <em>Eleventy Bl</em>ades
+title: <sup>Build Awesome</sup> <em>Eleventy Bl</em>ades <small>plugin</small>
 canonical: https://blades.ninja/build-awesome-11ty/
 eleventyComputed:
   summary: |-
@@ -28,18 +28,18 @@ includes:
   - path: https://blades.ninja/build-awesome-11ty/tools/
     section: toc
   - text: |-
+      ## Templating <small>tricks</small>
+      {#njk-vscode}
+      <!-- https://bsky.app/profile/any.digital/post/3mdjvepwr7k2w -->
+  - teaser: /html/
+  - path: https://blades.ninja/html/
+    section: toc
+  - path: build-awesome-11ty/_tpl.md
+  - text: |-
       ---
       ## More
   - teaser: /build-awesome-11ty/starters/
   - teaser: /build-awesome-11ty/awesome/
-  - teaser: /html/
-  - path: https://blades.ninja/html/
-    section: toc
-  - text: |-
-      ### Templating <small>tricks</small>
-      {#njk-vscode}
-      <!-- https://bsky.app/profile/any.digital/post/3mdjvepwr7k2w -->
-  - path: build-awesome-11ty/_tpl.md
 
 revised: 2026-02-28
 ---

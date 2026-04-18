@@ -48,6 +48,11 @@ includes:
       ## How it works {#how}
   - path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/float-label.core.css
     section: docs
+  - text: |-
+      ---
+      Part of:
+  - teaser: /css/
+    no_toc: true
 
 revised: 2026-04-14
 ---

@@ -29,6 +29,11 @@ includes:
 
       - Blades: https://github.com/anyblades/blades
       - Pico: https://github.com/anyblades/pico
+  - text: |-
+      ---
+      Part of:
+  - teaser: /css/
+    no_toc: true
 
 revised: 2026-04-14
 ---
