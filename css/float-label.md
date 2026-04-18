@@ -43,16 +43,17 @@ includes:
       </article>
   - path: https://raw.githubusercontent.com/anyblades/float-label-css/refs/heads/master/README.md
     section: docs-demo-install
+  - text: "###### <mark>Included with</mark>"
+  - teaser: /css/
+    no_toc: true
+  - text: "###### <mark>Included with</mark>"
+  - teaser: /css/pico/
+    no_toc: true
   - text: |-
       ---
       ## How it works {#how}
   - path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/src/float-label.core.css
     section: docs
-  - text: |-
-      ---
-      Part of:
-  - teaser: /css/
-    no_toc: true
 
 revised: 2026-04-14
 ---

@@ -24,15 +24,11 @@ includes:
         https://cdn.jsdelivr.net/npm/@anyblades/blades@^0.28.0-alpha/assets/breakout.min.css
       ">
       ```
-
-      ###### <mark>Prepackaged</mark>
-
-      - Blades: https://github.com/anyblades/blades
-      - Pico: https://github.com/anyblades/pico
-  - text: |-
-      ---
-      Part of:
+  - text: "###### <mark>Included with</mark>"
   - teaser: /css/
+    no_toc: true
+  - text: "###### <mark>Included with</mark>"
+  - teaser: /css/pico/
     no_toc: true
 
 revised: 2026-04-14
