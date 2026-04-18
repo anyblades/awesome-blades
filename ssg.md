@@ -1,5 +1,5 @@
 ---
-title: SSG Trends <sub>Static Site Generators 2026-2040</sub>
+title: <sup>Static Site Generators</sup> SSG Trends 2026-2040
 ---
 
 | SSG <hr>                                                                                                                | Stats <hr>                                                                                                                                    | 2011 | 2016           | 2017           | 2020           | 2025           | 🚥  | _2026_ | _2030_ | _2040_ |
