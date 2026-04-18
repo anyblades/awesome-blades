@@ -1,9 +1,6 @@
 ---
 permalink: /jekyll/
-title: Jekyll <small>blades</small>
-includes:
-  - section: jekyll
-    path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md
+title: <em>Bl</em>ades <small>for Jekyll</small>
 ---
 
 ## Install
@@ -48,3 +45,9 @@ Assuming you already [installed `rbenv`](/random/#rbenv):
 Living example: https://github.com/anyblades/bladeswitch/blob/main/Gemfile
 
 More info: https://github.com/github/pages-gem#usage, https://jekyllrb.com/docs/installation/macos/
+
+---
+
+Featured by:
+
+- https://jekyll-themes.com/anyblades/blades

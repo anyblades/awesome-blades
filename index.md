@@ -10,6 +10,24 @@ site:
           font-size: 1.75em;
         }
       }
+      #showcase + article {
+        padding-inline: 1.5rem;
+
+        p {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.5rem 1.5rem;
+          margin: 0;
+          font-size: 125%;
+
+          @media (min-width: 768px) {
+            justify-content: center;
+          }
+        }
+        a {
+          overflow: visible;
+        }
+      }
 eleventyComputed:
   #TODO: add to tricks
   summary: |-
