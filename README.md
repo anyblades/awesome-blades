@@ -33,7 +33,7 @@
 - https://blades.ninja/jsdelivr/ tricks
 - https://blades.ninja/md/ tricks
 - https://blades.ninja/mobile-dev/ tricks
-- https://blades.ninja/npm/ tricks
+- https://blades.ninja/node/ tricks
 - https://blades.ninja/random/ tricks
 - https://blades.ninja/ssg/ trends <small>2026-2040</small>
 - https://blades.ninja/symbols/ cheatsheet
