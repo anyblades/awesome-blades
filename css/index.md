@@ -58,6 +58,7 @@ includes:
       - https://blades.ninja/css/frameworks/ trends <small>2026-2040</small>
       - https://blog.frankmtaylor.com/2026/03/05/you-dont-know-html-tables/
       - https://buildexcellentwebsit.es/
+      - https://github.com/anyblades/float-label-css
       - https://github.com/anyblades/pico
       - https://github.com/dbohdan/classless-css
       - https://kittygiraudel.com/2026/03/21/heading-anchors-with-11ty/
