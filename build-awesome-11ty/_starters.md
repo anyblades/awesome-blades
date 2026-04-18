@@ -1,4 +1,4 @@
-## Best minimal <i class="fa-brands fa-eleventy"></i> starters <sub>as of April 2026</sub>
+## Best minimal <i class="fa-brands fa-eleventy"></i> starters <sub>as of April 2026</sub> {#table}
 
 Eleventy ecosystem offers a [wide variety of starters](https://github.com/anyblades/awesome-11ty-build-awesome#starter-projects).
 
