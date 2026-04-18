@@ -14,8 +14,12 @@ includes:
   - text: |-
       ---
       ## Install
-      As part of:
+  - text: "###### <mark>Via plugin</mark>"
   - teaser: /build-awesome-11ty/
+    no_toc: true
+  - text: "###### <mark>Included with</mark>"
+  - teaser: /build-awesome-11ty/starters/
+    no_toc: true
 
 revised: 2026-03-25
 ---

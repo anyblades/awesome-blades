@@ -21,7 +21,7 @@
 
 <!--section:tricks-->
 
-## Tricks <span style="font-weight: lighter">behind</span> *Bl*ades <!--A-Z-->
+## [Tricks](https://github.com/anyblades/awesome-blades) <span style="font-weight: lighter">behind</span> *Bl*ades <!--A-Z-->
 
 - https://blades.ninja/11ty/ plugin
 - https://blades.ninja/11ty/awesome/ list

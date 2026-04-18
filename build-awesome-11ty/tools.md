@@ -3,7 +3,7 @@ eleventyNavigation:
   parent: 11ty
   key: <i class="fa-solid fa-power-off"></i> Tools
   order: 3
-title: <sup>Build Awesome</sup> Power <i class="fa-brands fa-eleventy"></i> tools <sub>by <a href="/build-awesome-11ty/"><em>Eleventy Bl</em>ades plugin</a></sub>
+title: <sup>Build Awesome</sup> Power <i class="fa-brands fa-eleventy"></i> tools <sub>by <a href="/build-awesome-11ty/"><em>Eleventy Bl</em>ades</a></sub>
 includes:
   - text: |-
       ### Modern starters {#starters}
