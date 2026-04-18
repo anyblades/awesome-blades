@@ -5,15 +5,6 @@ eleventyNavigation:
   order: 3
 title: <sup>Build Awesome</sup> Power <i class="fa-brands fa-eleventy"></i> tools <sub>by <a href="/build-awesome-11ty/"><em>Eleventy Bl</em>ades</a></sub>
 includes:
-  - text: |-
-      ### Modern starters {#starters}
-      <nav class="grid">
-
-      ##### [🥷 Build Awesome Starter ↗ <br><small>11ty + Tailwind + Typography + Blades</small>](https://github.com/anyblades/build-awesome-starter){role=button .outline}
-      ##### [🥷 Bladeswitch Starter ↗ <br><small>Jekyll + Pico + Blades</small>](https://github.com/anyblades/bladeswitch){role=button .outline}
-      </nav>
-
-      ---
   - section: docs,code
     path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/src/eleventy.config.js
   - text: ---
@@ -23,13 +14,9 @@ includes:
     path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/src/siteData.js
   - text: |-
       ---
-      Part of:
-  - teaser: /build-awesome-11ty/
-    no_toc: true
+      ## More
   - text: |-
-      ---
-      ### More
-      #### Find and kill <small>11ty processes</small>
+      ### Find and kill <small>11ty processes</small>
 
       ```sh
       ps aux | grep eleventy
@@ -43,4 +30,9 @@ includes:
       pkill -f tailwind
       pkill -f .bin/serve
       ```
+  - text: |-
+      ---
+      ## See also
+  - teaser: /build-awesome-11ty/
+  - teaser: /build-awesome-11ty/starters/
 ---
