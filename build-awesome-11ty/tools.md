@@ -23,7 +23,7 @@ includes:
     path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/src/siteData.js
   - text: |-
       ---
-      ### Appendix
+      ### More
       #### Find and kill <small>11ty processes</small>
 
       ```sh
