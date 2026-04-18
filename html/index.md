@@ -27,7 +27,7 @@ includes:
     section: docs,code
   - text: |-
       ---
-      ## Appendix
+      ## More
   - path: html/_njk.md
   - text: ---
   - path: html/_liquid.md

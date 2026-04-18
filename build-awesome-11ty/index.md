@@ -36,6 +36,7 @@ includes:
   - path: https://blades.ninja/html/
     section: toc
   - text: |-
+      ### Templating <small>tricks</small>
       {#njk-vscode}
       <!-- https://bsky.app/profile/any.digital/post/3mdjvepwr7k2w -->
   - path: build-awesome-11ty/_tpl.md
