@@ -51,7 +51,7 @@ includes:
     section: tricks
 ---
 
-## Why *Bl*ades?
+## Why *Bl*ades? {#why}
 
 <big>*Bl*ades does not replace other frameworks, but empowers them instead:</big>
 
