@@ -14,6 +14,7 @@ site:
         &:first-child { padding-inline-end: 2rem !important }
         &:not(:first-child) { width: 16% }
       }
+      th { font-size: larger }
       .fa-tailwind-css  { color: deepskyblue }
       .fa-bootstrap     { color: blueviolet }
       th code { padding: 0; background: none; font-weight: lighter }
