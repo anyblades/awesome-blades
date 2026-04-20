@@ -2,7 +2,7 @@
 permalink: false
 eleventyNavigation:
   parent: css
-  key: Docs
+  key: CSS
   order: 0
   url: /css/
 ---
