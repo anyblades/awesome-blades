@@ -71,4 +71,3 @@ includes:
 
 {.striped}
 
----
