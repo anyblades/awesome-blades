@@ -21,7 +21,7 @@ includes:
       <!--prettier-ignore-->
       ```html
       <link rel="stylesheet" href="
-        https://cdn.jsdelivr.net/npm/@anyblades/blades@^0.28.0-alpha/assets/link-icon.min.css
+        https://cdn.jsdelivr.net/npm/@anyblades/blades@0/assets/link-icon.min.css
       ">
       ```
   - text: "###### <mark>Included with</mark>"
