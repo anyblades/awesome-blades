@@ -1,6 +1,8 @@
 ---
-title: AI-powered email clients
+title: AI-powered email clients <sub>Trends</sub>
 ---
+
+<!-- TODO: add trends table -->
 
 ### Shortwave (Best for AI & Gmail Integration)
 
