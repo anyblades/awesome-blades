@@ -30,9 +30,10 @@ includes:
       pkill -f tailwind
       pkill -f .bin/serve
       ```
+  - path: build-awesome-11ty/_forms.md
   - text: |-
       ---
-      ## See also
+      See also:
   - teaser: /build-awesome-11ty/
   - teaser: /build-awesome-11ty/starters/
 ---
