@@ -9,6 +9,14 @@ canonical: https://blades.ninja/random/
 | --------------------- | --------------- |
 | <code>Ctrl + `</code> | toggle formulas |
 
+### Last text value in a column (e.g., Column A):
+
+```
+=LOOKUP(REPT("z",255),A:A)
+```
+
+`REPT("z",255)` creates a very long string of `z`s, which is alphabetically after any typical text string. `LOOKUP` will find the last text value.
+
 ---
 
 ## Google Chrome
