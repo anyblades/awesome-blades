@@ -1,3 +1,14 @@
+### Render subnavigation (subpages)
+
+Using https://www.11ty.dev/docs/plugins/navigation/#example-get-just-one-branch :
+
+```jinja2
+{% set navPages = collections.all | eleventyNavigation(eleventyNavigation.key) %}
+{{ navPages | eleventyNavigationToHtml }}
+```
+
+
+
 ### Include and render `.md` file w/o its Front Matter
 
 ```jinja2 {data-caption=Nunjucks}
