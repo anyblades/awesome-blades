@@ -47,7 +47,6 @@ includes:
   - path: _why.md
   - path: https://raw.githubusercontent.com/anyblades/blades/refs/heads/main/README.md
     section: info
-  - text: ---
   - path: README.md
     section: tricks
 ---
