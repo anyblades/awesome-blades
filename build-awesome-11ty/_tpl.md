@@ -3,8 +3,9 @@
 Using https://www.11ty.dev/docs/plugins/navigation/#example-get-just-one-branch :
 
 ```jinja2
-{% set subPages = collections.all | eleventyNavigation(eleventyNavigation.key) %}{# ← key becomes parent #}
-{{ subPages | eleventyNavigationToHtml }}
+{% set _ = collections.all
+  | eleventyNavigation(eleventyNavigation.key) %}{# child becomes parent here :) #}
+{{ _ | eleventyNavigationToHtml }}
 ```
 
 
