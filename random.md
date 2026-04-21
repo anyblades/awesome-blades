@@ -75,6 +75,16 @@ Find all lines ending with `**`:
 
 ---
 
+## JS
+
+### Delete all HTML elements by class in pure JS
+
+```js
+document.getElementsByClassName('...').forEach(function(el){ el.parentElement.removeChild(el) })
+```
+
+---
+
 ## Ruby
 
 Run Ruby projects locally on macOS without breaking system's Ruby:
