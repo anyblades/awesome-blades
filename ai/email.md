@@ -1,5 +1,6 @@
 ---
 title: AI-powered email clients <sub>Trends</sub>
+# TODO: move to anyd
 ---
 
 <!-- TODO: add trends table -->
@@ -61,3 +62,9 @@ Because Clean Email connects to Gmail via the official API, they are subject to 
 | **Your Password** | **No** (Uses OAuth) | Yes |
 
 **The Bottom Line:** Clean Email is a **controller**, not a **storage provider**. If Clean Email were to go out of business tomorrow, your emails would still be exactly where they started: safe in your Gmail account.
+
+---
+
+### Leave Me Alone!
+
+...
