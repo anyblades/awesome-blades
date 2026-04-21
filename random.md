@@ -17,6 +17,12 @@ canonical: https://blades.ninja/random/
 
 `REPT("z",255)` creates a very long string of `z`s, which is alphabetically after any typical text string. `LOOKUP` will find the last text value.
 
+## Apple Numbers
+
+### 🐞 Milliseconds are NOT supported in Date cells
+
+<img width="252" height="250" alt="image" src="https://github.com/user-attachments/assets/5166e6db-3ea1-4c3d-a220-3e266a3619fe" />
+
 ---
 
 ## Google Chrome
