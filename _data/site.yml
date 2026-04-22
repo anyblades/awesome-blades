@@ -1,7 +1,7 @@
 base: https://blades.ninja
 favicon: /favicon.svg
 favicon_alt: /favicon.png
-title: Blades CSS⁺ Kit
+title: Blades
 subtitle: Framework-agnostic, class-light CSS⁺ blade kit. Use with Pico, Simple, Tailwind, or any other CSS reset/framework.
 author:
   name: Anton Staroverov
