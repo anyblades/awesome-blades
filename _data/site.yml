@@ -11,6 +11,8 @@ header_links:
   - title: '<span class="faded">|</span>'
   - url: https://github.com/anyblades
     title: <i class="fa-brands fa-github"></i>
+  - url: https://x.com/any_blades
+    title: <i class="fa-brands fa-x-twitter"></i>
 footer_content: |
   &nbsp;&nbsp;
 
