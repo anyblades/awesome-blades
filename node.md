@@ -43,6 +43,12 @@ _npm_link_completion() {
 compdef _npm_link_completion npm link
 ```
 
+### Install local package with its dependencies
+
+```sh
+npm i <local-path> --install-links
+```
+
 ---
 
 See also:
