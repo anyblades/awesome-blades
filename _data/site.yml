@@ -6,7 +6,7 @@ subtitle: Framework-agnostic, class-light CSS⁺ blade kit. Use with Pico, Simpl
 author:
   name: Anton Staroverov
 gtm_id: GTM-WNHMRQZ
-brand: <big><big><a href="/" class="dark-auto"><i>🥷</i> <span><em>Bl</em>ades</span></a></big></big>
+brand: <big><big><a href="/" class="dark-auto"><i>🥷</i> <span class="opt"><em>Bl</em>ades</span></a></big></big>
 header_links:
   - title: '<span class="faded">|</span>'
   - url: https://github.com/anyblades
