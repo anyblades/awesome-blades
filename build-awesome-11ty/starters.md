@@ -5,8 +5,8 @@ eleventyNavigation:
   order: 4
 title: |-
   <sup>How to Build Awesome</sup>
-  Minimal yet long-living <i class="fa-brands fa-eleventy"></i> starter
-  <sub>that supports continuous updates and evolves with your project<br class="opt">
+  Minimal yet long-living <i class="fa-brands fa-eleventy"></i> starters
+  <sub>that support continuous updates and evolve with your project<br class="opt">
   based on <a href="/build-awesome-11ty/"><em>Eleventy Bl</em>ades plugin</a></sub>
 summary: Let's try to make a shift from a commodity (a template) to a service (long-term stability), and solve the "maintenance trap" where developers spend more time fixing their build tools than writing content.
 site:
