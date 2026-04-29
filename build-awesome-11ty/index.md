@@ -30,7 +30,8 @@ includes:
     section: toc
   - text: |-
       ---
-      ## Templating <small>tricks</small>
+      ## Templating <small>tricks</small> {#tpl}
+      <!-- https://github.com/anyblades/awesome-11ty-build-awesome#tutorials -->
       {#njk-vscode}
       <!-- https://bsky.app/profile/any.digital/post/3mdjvepwr7k2w -->
   - teaser: /html/
