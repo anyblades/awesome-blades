@@ -10,7 +10,6 @@
 - https://blades.ninja/css/responsive-table/ without wrapper
 - https://blades.ninja/css/pico/ community fork
 - https://blades.ninja/html/ templates
-- https://blades.ninja/jekyll/ theme
 
 ## [*Eleventy Bl*ades](https://github.com/anyblades/eleventy-blades) docs
 
@@ -37,5 +36,6 @@
 - https://blades.ninja/random/ tricks
 - https://blades.ninja/ssg/ trends <small>2026-2040</small>
 - https://blades.ninja/symbols/ cheatsheet
+- https://jekyll.blades.ninja/ starter
 
 <!--{.unlist .columns}-->
