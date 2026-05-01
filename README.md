@@ -1,3 +1,7 @@
+---
+permalink: /
+---
+
 # ![](https://awesome.re/badge.svg)<br> *Bl*ades docs & tricks
 
 ## [*Bl*ades](https://github.com/anyblades/blades) docs <!--A-Z*-->
