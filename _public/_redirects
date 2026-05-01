@@ -19,4 +19,5 @@
 
 ### 11ty
 
-/11ty/*             /build-awesome-11ty/:splat 301
+/build-awesome-11ty/* https://11ty.blades.ninja/:splat 301
+/11ty/*               https://11ty.blades.ninja/:splat 301
