@@ -23,7 +23,7 @@
 
 ## <sup>[Tricks & more <i>↗</i>](https://github.com/anyblades/awesome-blades)</sup><!--A-Z-->
 
-- https://blades.ninja/11ty/ plugin & more
+- https://11ty.blades.ninja/ plugin & more
 - https://blades.ninja/ai/ide/ trends <small>2026-2040</small>
 - https://blades.ninja/antigravity/ tricks
 - https://blades.ninja/css/frameworks/ trends <small>2026-2040</small>
