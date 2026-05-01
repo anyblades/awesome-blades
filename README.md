@@ -36,6 +36,6 @@
 - https://blades.ninja/random/ tricks
 - https://blades.ninja/ssg/ trends <small>2026-2040</small>
 - https://blades.ninja/symbols/ cheatsheet
-- https://jekyll.blades.ninja/ starter
+- https://jekyll.blades.ninja/ theme & starter
 
 <!--{.unlist .columns}-->
