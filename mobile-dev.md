@@ -1,5 +1,5 @@
 ---
-title: Mobile Developmentr <small>tricks</small>
+title: Mobile Development <small>tricks</small>
 site: tricks+
 type: tricks
 includes:
