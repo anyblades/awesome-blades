@@ -72,6 +72,12 @@ You can automate your own "commands" by adding `.md` files to the `.agent/rules/
    `"Preference: Always use 'git mv' for file relocations and renames."`
 4. Save and restart your session.
 
+### Accept Suggestion On Enter `OFF`
+
+Controls whether suggestions should be accepted on Enter, in addition to Tab. Helps to avoid ambiguity between inserting new lines or accepting suggestions.
+
+antigravity://settings/editor.acceptSuggestionOnEnter
+
 ---
 
 ## Keeping Focus
