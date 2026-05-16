@@ -2,14 +2,14 @@
 eleventyNavigation:
   key: Power-ups
   order: 3
-title: <sup>Build Awesome</sup> Power <i class="fa-brands fa-eleventy"></i> tools <sub>by <a href="/"><em>Eleventy Bl</em>ades</a></sub>
-includes:
-  - section: docs,code
+
+bricks:
+  - sections: [docs, code]
     path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/src/eleventy.config.js
   - md: ---
   - path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/src/do/README.md
   - md: ---
-  - section: docs,code
+  - sections: [docs, code]
     path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/src/siteData.js
   - md: |-
       ---
@@ -30,9 +30,9 @@ includes:
       pkill -f .bin/serve
       ```
   - path: ./_forms.md
-  - md: |-
-      ---
-      See also:
-  - teaser: /
-  - teaser: /starters/
+  # - md: |-
+  #     ---
+  #     See also:
+  # - teaser: /
+  # - teaser: /starters/
 ---
