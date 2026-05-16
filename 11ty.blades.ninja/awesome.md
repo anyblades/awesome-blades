@@ -8,7 +8,7 @@ summary: https://github.com/anyblades/awesome-11ty-build-awesome
 includes:
   - path: https://raw.githubusercontent.com/anyblades/awesome-11ty-build-awesome/refs/heads/master/README.md
     section: content
-  - text: |-
+  - md: |-
       ---
       ## More
   - teaser: /

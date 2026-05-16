@@ -6,15 +6,15 @@ title: <sup>Build Awesome</sup> Power <i class="fa-brands fa-eleventy"></i> tool
 includes:
   - section: docs,code
     path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/src/eleventy.config.js
-  - text: ---
+  - md: ---
   - path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/src/do/README.md
-  - text: ---
+  - md: ---
   - section: docs,code
     path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/src/siteData.js
-  - text: |-
+  - md: |-
       ---
       ## More
-  - text: |-
+  - md: |-
       ### Find and kill <small>11ty processes</small>
 
       ```sh
@@ -30,7 +30,7 @@ includes:
       pkill -f .bin/serve
       ```
   - path: ./_forms.md
-  - text: |-
+  - md: |-
       ---
       See also:
   - teaser: /

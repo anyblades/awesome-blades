@@ -10,13 +10,13 @@ includes:
     path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/src/processors/autoLinkFavicons.js
   - section: docs
     path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/src/processors/markdown.js
-  - text: |-
+  - md: |-
       ---
       ## Install
-  - text: "###### <mark>Via plugin</mark>"
+  - md: "###### <mark>Via plugin</mark>"
   - teaser: /
     no_toc: true
-  - text: "###### <mark>Included with</mark>"
+  - md: "###### <mark>Included with</mark>"
   - teaser: /starters/
     no_toc: true
 
