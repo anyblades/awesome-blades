@@ -1,1 +1,28 @@
-../../blades.ninja/.subtle/package.json
+{
+  "private": true,
+  "name": "11ty.blades.ninja",
+  "type": "module",
+  "scripts": {
+    "start": "npm run build -- --serve",
+    "stage": "rm -r ./_site/ || true && npm run build && serve ./_site/",
+    "build": "eleventy --input=../"
+  },
+  "devDependencies": {
+    "prettier-plugin-jinja-template": "^2.1.0",
+    "serve": "^14.2.5"
+  },
+  "dependencies": {
+    "@11ty/eleventy-fetch": "^5.1.2",
+    "@anyblades/subtle": "^0.0.2"
+  },
+  "=== SITE GLOBALS": "===",
+  "site": {
+    "base": "https://11ty.blades.ninja",
+    "title": "Build Awesome / Eleventy Blades",
+    "brand": "Eleventy 🥷"
+  },
+  "=== METADATA": "===",
+  "author": "Anton Staroverov",
+  "license": "MIT",
+  "description": "Framework-agnostic, class-light CSS⁺ blade kit. Use with Pico, Simple, Tailwind, or any other CSS reset/framework."
+}
