@@ -1,8 +1,5 @@
 ---
 permalink: /
-eleventyNavigation:
-  title: Plugin
-  order: 0
 eleventyComputed:
   summary: |-
     {{ ('https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/README.md' if site.prod else '../../eleventy-blades/README.md')
@@ -15,17 +12,16 @@ bricks:
       ---
       ## <sup>Documentation</sup> {#docs}
   - tpl: "{% include './sitenav.njk' %}"
-  - md: |-
-      ---
-      ## Templating <small>tricks</small> {#tpl}
-      <!-- https://github.com/anyblades/awesome-11ty-build-awesome#tutorials -->
+  #- md: |-
+  #    ---
+  #    ## Templating <small>tricks</small> {#tpl}
+  #    <!-- https://github.com/anyblades/awesome-11ty-build-awesome#tutorials -->
   #     {#njk-vscode}
   #     <!-- https://bsky.app/profile/any.digital/post/3mdjvepwr7k2w -->
   # - teaser: https://blades.ninja/html/
-  - path: https://blades.ninja/html/
-    section: toc
+  #- path: https://blades.ninja/html/
+  #  section: toc
   # - path: ./_tpl.md
-  - md: ---
   - path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/README.md
     section: featured
 ---
