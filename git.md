@@ -8,11 +8,16 @@ includes:
   - path: https://raw.githubusercontent.com/anyblades/git-commit-email-privacy/refs/heads/main/README.md
 ---
 
-### Shame on GitHub
+### Remove Git Submodule Completely
 
-https://httpie.io/blog/stardust
+```sh
+git submodule deinit -f path/to/submodule
+git rm -f path/to/submodule
+rm -rf .git/modules/path/to/submodule
 
----
+# or in 1 line
+S="path/to/submodule" && git submodule deinit -f "$S" && git rm -f "$S" && rm -rf ".git/modules/$S"
+```
 
 ### Search the whole git history
 
@@ -59,6 +64,10 @@ DEL_TAG=v1.0.0; git tag -d $DEL_TAG && git push origin --delete $DEL_TAG
 ---
 
 ## GitHub <small>Tricks</small>
+
+### Shame on GitHub
+
+https://httpie.io/blog/stardust
 
 ### GitHub web editor
 
