@@ -1,1 +1,26 @@
-- {}
+# Get started
+- permalink: false
+  eleventyNavigation:
+    key: Get started
+    order: 0
+    url: /plugin/
+- permalink: /plugin/
+  eleventyNavigation:
+    parent: Get started
+    key: Install options
+    order: 0
+  bricks:
+    - path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/README.md
+      section: install
+- permalink: false
+  eleventyNavigation:
+    parent: Get started
+    key: Build Awesome Starter ↗
+    order: 1
+    url: https://build.blades.ninja/
+- permalink: false
+  eleventyNavigation:
+    parent: Get started
+    key: Subtle Starter ↗
+    order: 2
+    url: https://subtle.blades.ninja/
