@@ -3,7 +3,6 @@ permalink: /
 eleventyNavigation:
   title: Plugin
   order: 0
-title: <sup>Build Awesome</sup> <em>Eleventy Bl</em>ades <small>plugin</small>
 eleventyComputed:
   summary: |-
     {{ ('https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/README.md' if site.prod else '../../eleventy-blades/README.md')
@@ -33,6 +32,27 @@ bricks:
     section: featured
 ---
 
-<section class="hero">{{ summary | safe }}</section>
+<section class="hero">
+  {{ summary | safe }}
+
+  <nav>
+    <p>
+      <a href="/plugin/" role="button">Install &nbsp;›</a><br />
+      <sub>via Plugin</sub>
+    </p>
+    <p>
+      <a href="https://build.blades.ninja/" role="button" class="contrast"
+        >Build Awesome Starter &nbsp;↗</a
+      ><br />
+      <sub>11ty in root • Tailwind or Pico</sub>
+    </p>
+    <p>
+      <a href="https://subtle.blades.ninja/" role="button" class="contrast"
+        >Subtle Starter &nbsp;↗</a
+      ><br />
+      <sub>11ty in subfolder • Pico</sub>
+    </p>
+  </nav>
+</section>
 
 <hr />
