@@ -12,8 +12,8 @@ title: <sup>Build Awesome</sup> <em>Eleventy Bl</em>ades <small>plugin</small>
 revised: 2026-02-28
 
 bricks:
-  # - path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/README.md
-  #   section: install
+  - path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/README.md
+    section: install
   # - teaser: /starters/
   #   no_toc: true
   # - text: |-
@@ -44,6 +44,6 @@ bricks:
   # - teaser: /starters/
   # - teaser: /awesome/
   - md: ---
-  # - path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/README.md
-  #   section: featured
+  - path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/README.md
+    section: featured
 ---
