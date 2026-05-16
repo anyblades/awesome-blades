@@ -1,2 +1,0 @@
-layout: base/__default
-permalink: "{{ page.filePathStem }}/"
