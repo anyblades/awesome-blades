@@ -1,6 +1,6 @@
 ---
 eleventyNavigation:
-  key: Awesome
+  key: More
   order: 12
 title: <sup>Build Awesome</sup> Awesome <i class="fa-brands fa-eleventy"></i> list
 summary: https://github.com/anyblades/awesome-11ty-build-awesome
