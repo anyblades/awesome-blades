@@ -1,3 +1,10 @@
 base: https://11ty.blades.ninja
 title: Build Awesome / Eleventy Blades
 brand: Eleventy 🥷
+header_links:
+  - url: https://github.com/anyblades/eleventy-blades
+    title: <i class="fa-brands fa-github fa-lg"></i>
+  - url: https://github.com/anyblades/build-awesome-starter
+    title: <i class="fa-brands fa-github"></i>
+  - url: https://github.com/anyblades/subtle
+    title: <i class="fa-brands fa-github fa-xs"></i>
