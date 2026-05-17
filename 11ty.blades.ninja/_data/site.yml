@@ -7,6 +7,8 @@ header_links:
   - url: https://github.com/anyblades/build-awesome-starter
     title: <i class="fa-brands fa-github"></i>
   - url: https://github.com/anyblades/subtle
+    title: <i class="fa-brands fa-github fa-sm"></i>
+  - url: https://github.com/anyblades/awesome-blades
     title: <i class="fa-brands fa-github fa-xs"></i>
 footer_contents:
   - Code licensed [MIT](https://github.com/anyblades/eleventy-blades/blob/main/LICENSE.md),
