@@ -2,18 +2,19 @@
 
 ## CSS
 
-- ### https://blades.ninja/ Pico CSS Successor
+- ### https://blades.ninja/ Pico CSS successor
 
 ## 11ty (Build Awesome)
 
-- #### https://11ty.blades.ninja/ Plugin
-- #### https://build.blades.ninja/ Starter
-- #### https://subtle.blades.ninja/ Starter
+- #### https://11ty.blades.ninja/ plugin
+- #### https://build.blades.ninja/ starter
+- #### https://subtle.blades.ninja/ starter
 
 ## Jekyll
 
-- https://jekyll.blades.ninja/ Starter
+- https://github.com/anyblades/blades theme
+- https://jekyll.blades.ninja/ starter
 
 ## More
 
-- https://any.digital/ Garden
+- https://any.digital/ garden
