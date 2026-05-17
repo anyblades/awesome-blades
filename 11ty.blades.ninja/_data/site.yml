@@ -8,3 +8,7 @@ header_links:
     title: <i class="fa-brands fa-github"></i>
   - url: https://github.com/anyblades/subtle
     title: <i class="fa-brands fa-github fa-xs"></i>
+footer_contents:
+  - Code licensed [MIT](https://github.com/anyblades/eleventy-blades/blob/main/LICENSE.md),
+    docs [CC BY-SA 4.0](https://github.com/anyblades/awesome-blades/blob/main/LICENSE.md). &nbsp;
+    Currently <img src='https://img.shields.io/github/v/release/anyblades/eleventy-blades?label=&color=white'>
