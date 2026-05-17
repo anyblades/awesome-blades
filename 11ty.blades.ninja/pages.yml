@@ -24,3 +24,11 @@
     key: Subtle Starter ↗
     order: 2
     url: https://subtle.blades.ninja/
+
+# Templates
+- permalink: /tpl/
+  eleventyNavigation:
+    key: Templates
+    order: 4
+  bricks:
+    - path: ./_tpl.md
