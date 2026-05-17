@@ -4,11 +4,15 @@
 
 - ### https://blades.ninja/ Pico CSS successor
 
+## Nunjucks/Liquid
+
+- https://blades.ninja/html/ templates
+
 ## 11ty (Build Awesome)
 
 - #### https://11ty.blades.ninja/ plugin
-- #### https://build.blades.ninja/ starter
-- #### https://subtle.blades.ninja/ starter
+- #### https://build.blades.ninja/ Tailwind+*Bl*ades starter
+- #### https://subtle.blades.ninja/ Pico+*Bl*ades starter
 
 ## Jekyll
 
