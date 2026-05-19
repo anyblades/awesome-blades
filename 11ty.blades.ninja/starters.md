@@ -6,9 +6,9 @@ eleventyNavigation:
 title: Best minimal <i class="fa-brands fa-eleventy"></i> starters <sub>as of April 2026</sub>
 site:
   inline_styles:
-    - ".columns > * { break-inside: auto }"
+    - |-
+      td code { font-size: x-small; vertical-align: middle; padding: 0.25em }
 revised: 2026-04-24
-
 bricks:
   - path: ./_starters.md
   - md: ---
