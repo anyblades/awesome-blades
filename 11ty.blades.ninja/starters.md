@@ -3,7 +3,7 @@ eleventyNavigation:
   parent: Get started
   key: Minimal 11ty starters
   order: 11
-title: Best minimal <i class="fa-brands fa-eleventy"></i> starters <sub>as of April 2026</sub>
+title: Best minimal <i class="fa-brands fa-eleventy"></i> starters <sub>as of May 2026</sub>
 site:
   inline_styles:
     - |-
