@@ -3,13 +3,18 @@ eleventyNavigation:
   parent: Get started
   key: Minimal 11ty starters
   order: 11
-title: Best minimal <i class="fa-brands fa-eleventy"></i> starters <sub>as of May 2026</sub>
 content_for_header: |-
   <style>
     td code { padding: 0.25em }
     td > code { font-size: x-small; vertical-align: middle }
   </style>
 revised: 2026-04-24
+=== CONTENT: ===
+title: Best minimal <i class="fa-brands fa-eleventy"></i> starters <sub>as of May 2026</sub>
+description: |-
+  Eleventy ecosystem offers a [wide variety of starters](/awesome/#more-starters).
+
+  Not sure where to begin? Start with a minimal template:
 bricks:
   - path: ./_starters.md
   - md: ---
