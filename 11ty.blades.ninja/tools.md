@@ -5,7 +5,7 @@ eleventyNavigation:
 
 bricks:
   - sections: [docs, code]
-    path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/src/eleventy.config.js
+    path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/packages/eleventy-blades-base/eleventy.config.js
   - md: ---
   - path: https://raw.githubusercontent.com/anyblades/eleventy-blades/refs/heads/main/src/do/README.md
   - md: ---
