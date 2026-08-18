@@ -1,9 +1,5 @@
 ---
-eleventyNavigation:
-  parent: Core
-  key: Scripts
-
-title: <mark>Core</mark> scripts
+eleventyNavigation: { parent: More, key: Scripts }
 bricks:
   - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/README.md
     section: scripts
