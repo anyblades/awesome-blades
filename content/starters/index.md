@@ -9,7 +9,7 @@ eleventyComputed:
     <meta name="twitter:card" content="summary_large_image">
 title: |-
   <mark>Best minimal</mark><br>
-  <i class="fa-brands fa-eleventy"></i><s hidden>11ty</s> / Build Awesome
+  <i class="fa-brands fa-eleventy"></i><s hidden>11ty</s> / Build&nbsp;Awesome
   <mark>starters</mark>
   <sub style>as of August 2026</sub>
 description: |-
