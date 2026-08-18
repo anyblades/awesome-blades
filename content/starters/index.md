@@ -7,7 +7,7 @@ eleventyComputed:
     <meta property="og:image" content="{{ site.base }}{{ page.url }}og.png">
     <meta name="twitter:card" content="summary_large_image">
 title: |-
-  <mark>Best minimal</mark><br>
+  <sup style>Best minimal</sup>
   <i class="fa-brands fa-eleventy"></i><span hidden>11ty</span> / Build&nbsp;Awesome
   <mark>starters</mark>
   <sub style>as of August 2026</sub>
