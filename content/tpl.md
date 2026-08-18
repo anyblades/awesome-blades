@@ -1,13 +1,9 @@
 ---
-eleventyNavigation:
-  parent: Pre-configured
-  key: HTML templates
+eleventyNavigation: { parent: More, key: Templating }
 description: https://github.com/anyblades/blades/tree/main/_includes/blades
 ---
 
 ---
-
-## <sup style>Appendix</sup>
 
 ### Render subnavigation (subpages)
 

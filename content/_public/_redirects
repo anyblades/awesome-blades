@@ -1,5 +1,7 @@
 # A-Z
-/base/          /config/                    301
+https://build.blades.ninja/base/     	 /config/               	 301
+https://build.blades.ninja/templates/	 /tpl/                  	 301
+
 # * => *
-/features/*     /plugin/features/:splat     301
-/filters/*      /plugin/filters/:splat      301
+https://build.blades.ninja/features/*	 /plugin/features/:splat	 301
+https://build.blades.ninja/filters/* 	 /plugin/filters/:splat 	 301
