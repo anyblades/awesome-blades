@@ -1,6 +1,5 @@
 ---
 eleventyNavigation:
-  parent: Pre-configured
   key: Starters
   order: 3
 eleventyComputed:

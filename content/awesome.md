@@ -1,7 +1,5 @@
 ---
-eleventyNavigation:
-  key: Awesome
-  order: 11
+eleventyNavigation: { parent: More, key: Awesome }
 title: Awesome 11ty / Build Awesome
 description: https://github.com/anyblades/awesome-buildawesome
 bricks:

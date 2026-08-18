@@ -1,31 +1,23 @@
-# Core
+# Plugin
 - permalink: false
-  eleventyNavigation:
-    { key: Core, order: 1, url: /plugin/, title: Core package }
+  eleventyNavigation: { key: Plugin, order: 1, url: /plugin/ }
 - permalink: /plugin/
-  eleventyNavigation: { parent: Core, key: Plugin, order: 0 }
-  title: <mark>Core</mark> plugin
+  eleventyNavigation: { parent: Plugin, key: Install, order: 0 }
   bricks:
     - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/README.md
       section: plugin
-    - md: |-
-        ---
-        ## <sup style>Appendix</sup>
+    - md: "--- \n ## <sup style>Appendix</sup>"
     - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/plugin.js
       section: code
 
-# Features
+# Plugin > Features
 - permalink: /plugin/features/
-  eleventyNavigation: { key: Features, order: 2 }
-  title: <mark>Core</mark> features
+  eleventyNavigation: { parent: Plugin, key: Features }
   bricks:
     - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/README.md
       section: features
     - md: "Included features:"
   revised: 2026-03-25
-- permalink: false
-  eleventyNavigation:
-    { parent: Features, key: Features overview, url: /plugin/features/ }
 - permalink: /plugin/features/site-globals/
   eleventyNavigation: { parent: Features, key: Site globals }
   bricks:
@@ -57,18 +49,14 @@
     - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/features/virtualPages.js
       sections: [docs, code]
 
-# Filters
+# Plugin > Filters
 - permalink: /plugin/filters/
-  eleventyNavigation: { key: Filters, order: 3 }
-  title: <mark>Core</mark> filters
+  eleventyNavigation: { parent: Plugin, key: Filters }
   bricks:
     - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/README.md
       section: filters
     - md: "Included filters:"
   revised: 2026-03-24
-- permalink: false
-  eleventyNavigation:
-    { parent: Filters, key: Filters overview, url: /plugin/filters/ }
 - permalink: /plugin/filters/attr_concat/
   eleventyNavigation: { parent: Filters, key: attr_concat }
   bricks:
@@ -136,18 +124,17 @@
     - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/filters/unindent.js
       sections: [docs, code]
 
-# Pre-configured
-- permalink: false
-  eleventyNavigation: { key: Pre-configured, order: 10, url: /config/ }
+# Config
 - permalink: /config/
-  eleventyNavigation:
-    { parent: Pre-configured, key: All-in-one package, order: 2 }
+  eleventyNavigation: { key: Config, order: 2 }
   title: All-in-one <mark>config</mark> package
   bricks:
     - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/README.md
       section: config
-    - md: |-
-        ---
-        ## <sup style>Appendix</sup>
+    - md: "--- \n ## <sup style>Appendix</sup>"
     - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/buildawesome.config.js
       section: code
+
+# More
+- permalink: false
+  eleventyNavigation: { key: More, order: 10 }
