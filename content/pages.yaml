@@ -127,7 +127,7 @@
 # Config
 - permalink: /config/
   eleventyNavigation: { key: Config, order: 2 }
-  title: <sup style>All-in-one</sup> Config package
+  title: <sup style>Managed all-in-one</sup> <mark>Config</mark>uration package
   bricks:
     - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/README.md
       section: config
