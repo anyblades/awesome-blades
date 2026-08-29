@@ -1,0 +1,3 @@
+[build]
+  command = "npm -C .starter/.build/ run build2"
+  publish = ".starter/.build/_site/"
