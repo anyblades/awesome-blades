@@ -4,124 +4,124 @@
 - permalink: /plugin/
   eleventyNavigation: { parent: Plugin, key: Install, order: 0 }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/README.md
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/README.md
       section: plugin
     - md: "--- \n ## <sup style>Appendix</sup>"
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/plugin.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/plugin/index.js
       section: code
 
 # Plugin > Features
 - permalink: /plugin/features/
   eleventyNavigation: { parent: Plugin, key: Features }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/README.md
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/README.md
       section: features
     - md: "Included features:"
   revised: 2026-03-25
 - permalink: /plugin/features/site-globals/
   eleventyNavigation: { parent: Features, key: Site globals }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/features/siteData.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/plugin/features/siteData.js
       sections: [docs, code]
 - permalink: /plugin/features/link-favicons/
   eleventyNavigation: { parent: Features, key: Automatic link favicons }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/features/autoLinkFavicons.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/plugin/features/autoLinkFavicons.js
       sections: [docs, code]
 - permalink: /plugin/features/markdown-newlines/
   eleventyNavigation: { parent: Features, key: Markdown newlines }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/features/mdAutoNl2br.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/plugin/features/mdAutoNl2br.js
       sections: [docs, code]
 - permalink: /plugin/features/markdown-auto-raw/
   eleventyNavigation: { parent: Features, key: Markdown auto-raw tags }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/features/mdAutoRawTags.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/plugin/features/mdAutoRawTags.js
       sections: [docs, code]
 - permalink: /plugin/features/markdown-hidden-attrs/
   eleventyNavigation: { parent: Features, key: Markdown hidden attrs }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/features/mdAutoUncommentAttrs.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/plugin/features/mdAutoUncommentAttrs.js
       sections: [docs, code]
 - permalink: /plugin/features/virtual-pages/
   eleventyNavigation: { parent: Features, key: Virtual pages <mark>NEW</mark> }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/features/virtualPages.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/plugin/features/virtualPages.js
       sections: [docs, code]
 
 # Plugin > Filters
 - permalink: /plugin/filters/
   eleventyNavigation: { parent: Plugin, key: Filters }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/README.md
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/README.md
       section: filters
     - md: "Included filters:"
   revised: 2026-03-24
 - permalink: /plugin/filters/attr_concat/
   eleventyNavigation: { parent: Filters, key: attr_concat }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/filters/attr_concat.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/plugin/filters/attr_concat.js
       sections: [docs, code]
 - permalink: /plugin/filters/attr_includes/
   eleventyNavigation: { parent: Filters, key: attr_includes }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/filters/attr_includes.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/plugin/filters/attr_includes.js
       sections: [docs, code]
 - permalink: /plugin/filters/attr_set/
   eleventyNavigation: { parent: Filters, key: attr_set }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/filters/attr_set.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/plugin/filters/attr_set.js
       sections: [docs, code]
 - permalink: /plugin/filters/date/
   eleventyNavigation: { parent: Filters, key: date }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/filters/date.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/plugin/filters/date.js
       sections: [docs, code]
 - permalink: /plugin/filters/fetch/
   eleventyNavigation: { parent: Filters, key: fetch }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/filters/fetch.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/plugin/filters/fetch.js
       sections: [docs, code]
 - permalink: /plugin/filters/if/
   eleventyNavigation: { parent: Filters, key: if }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/filters/if.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/plugin/filters/if.js
       sections: [docs, code]
 - permalink: /plugin/filters/markdownify/
   eleventyNavigation: { parent: Filters, key: markdownify }
   description: "Included out-of-the-box with https://11ty.blades.ninja/base/ package:"
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/buildawesome.config.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/config/buildawesome.config.js
       section: markdownify
 - permalink: /plugin/filters/merge/
   eleventyNavigation: { parent: Filters, key: merge }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/filters/merge.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/plugin/filters/merge.js
       sections: [docs, code]
 - permalink: /plugin/filters/remove_tag/
   eleventyNavigation: { parent: Filters, key: remove_tag }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/filters/remove_tag.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/plugin/filters/remove_tag.js
       sections: [docs, code]
 - permalink: /plugin/filters/section/
   eleventyNavigation: { parent: Filters, key: section }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/filters/section.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/plugin/filters/section.js
       sections: [docs, code]
 - permalink: /plugin/filters/split/
   eleventyNavigation: { parent: Filters, key: split <mark>NEW</mark> }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/filters/split.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/plugin/filters/split.js
       sections: [docs, code]
 - permalink: /plugin/filters/strip_tag/
   eleventyNavigation: { parent: Filters, key: strip_tag }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/filters/strip_tag.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/plugin/filters/strip_tag.js
       sections: [docs, code]
 - permalink: /plugin/filters/unindent/
   eleventyNavigation: { parent: Filters, key: unindent }
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/filters/unindent.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/plugin/filters/unindent.js
       sections: [docs, code]
 
 # Config
@@ -129,10 +129,10 @@
   eleventyNavigation: { key: Config, order: 2 }
   title: <sup style>Managed all-in-one</sup> <mark>Config</mark>uration package
   bricks:
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/README.md
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/README.md
       section: config
     - md: "--- \n ## <sup style>Appendix</sup>"
-    - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/buildawesome.config.js
+    - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/config/buildawesome.config.js
       section: code
 
 # More

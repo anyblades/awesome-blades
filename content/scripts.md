@@ -1,13 +1,13 @@
 ---
 eleventyNavigation: { parent: More, key: Scripts }
 bricks:
-  - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/README.md
+  - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/README.md
     section: scripts
   - md: |-
       ---
       ## <sup style>Appendix</sup>
       How it works:
-  - path: "https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/core/scripts/package.json"
+  - path: "https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/cli/package.json"
     wrap: ["```json\n", "\n```"]
 ---
 

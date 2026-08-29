@@ -5,7 +5,7 @@ eleventyComputed:
     <meta property="og:image" content="{{ site.base }}/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
   summary: |-
-    {{ ('https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/README.md' if site.prod else '../../buildawesome-kit/README.md')
+    {{ ('https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/README.md' if site.prod else '../../kit/README.md')
       | fetch | section('summary') | markdownify | safe }}
   description: "{{ summary | remove_tag('h1') | safe }}"
   hero: "{{ summary | safe }}"
@@ -16,7 +16,7 @@ bricks:
   - md: "--- \n ## <sup style>Documentation</sup> {#docs}"
   - tpl: "{% include 'sitenav.njk' %}"
   - md: "---"
-  - path: https://raw.githubusercontent.com/anyblades/buildawesome-kit/refs/heads/main/README.md
+  - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/README.md
     section: featured
 revised: 2026-02-28
 ---

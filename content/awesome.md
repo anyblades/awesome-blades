@@ -3,7 +3,7 @@ eleventyNavigation: { parent: More, key: Awesome }
 title: Awesome <i class="fa-brands fa-eleventy"></i><span hidden>11ty</span> / Build&nbsp;Awesome
 description: https://github.com/anyblades/awesome-buildawesome
 bricks:
-  - path: ../README.md
+  - path: https://raw.githubusercontent.com/buildawesome-one/awesome/refs/heads/main/README.md
     section: content
 ---
 
