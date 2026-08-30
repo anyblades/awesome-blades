@@ -145,3 +145,8 @@
 # More
 - permalink: false
   eleventyNavigation: { key: More, order: 10 }
+- permalink: false
+  eleventyNavigation:
+    parent: More
+    key: Examples ↗
+    url: https://github.com/buildawesome-one/examples
