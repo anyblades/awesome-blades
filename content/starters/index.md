@@ -1,7 +1,7 @@
 ---
 eleventyNavigation:
+  parent: More
   key: Starters
-  order: 3
 eleventyComputed:
   content_for_header: |-
     <meta property="og:image" content="{{ site.base }}{{ page.url }}og.png">

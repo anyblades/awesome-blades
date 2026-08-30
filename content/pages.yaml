@@ -135,6 +135,11 @@
     - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/config/buildawesome.config.js
       section: code
 
+# Starter
+- permalink: false
+  eleventyNavigation:
+    { key: Starter ↗, order: 3, url: https://starter.buildawesome.one/ }
+
 # More
 - permalink: false
   eleventyNavigation: { key: More, order: 10 }

@@ -1,5 +1,5 @@
 ---
-eleventyNavigation: { parent: More, key: Scripts }
+eleventyNavigation: { parent: More, key: CLI }
 bricks:
   - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/README.md
     section: scripts
