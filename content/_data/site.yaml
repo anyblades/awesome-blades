@@ -1,6 +1,6 @@
 base: https://buildawesome.one
 title: 11ty / Build Awesome One
-brand: '<big class="mark-brand" style="display: inline-block"><i class="fa-brands fa-build-awesome fa-width-auto"></i>ne</big>'
+brand: '<em class="mark-brand" style="display: inline-block"><i class="fa-brands fa-build-awesome fa-width-auto"></i>ne</em>'
 header_links:
   - url: https://github.com/buildawesome-one
     title: <i class="fa-brands fa-github fa-lg"></i>
