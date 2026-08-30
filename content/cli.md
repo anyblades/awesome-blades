@@ -2,8 +2,8 @@
 eleventyNavigation: { parent: More, key: CLI }
 description: https://github.com/buildawesome-one/kit/tree/main/cli
 bricks:
-  - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/README.md
-    section: scripts
+  - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/cli/README.md
+    section: content
   - md: |-
       ---
       ## <sup style>Appendix</sup>
