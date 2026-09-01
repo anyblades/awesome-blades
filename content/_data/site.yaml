@@ -4,9 +4,9 @@ brand: '<big class="mark-brand" style="display: inline-block"><i class="fa-brand
 header_links:
   - url: https://github.com/buildawesome-one
     title: <i class="fa-brands fa-github fa-lg"></i>
-  - url: https://bsky.app/hashtag/BuildAwesomeOne?author=any.digital
+  - url: https://bsky.app/hashtag/BuildAwesome?author=any.digital
     title: <i class="fa-brands fa-bluesky"></i>
-  - url: https://mastodon.social/@anydigital/tagged/BuildAwesomeOne?boosts=1
+  - url: https://mastodon.social/@anydigital/tagged/BuildAwesome?boosts=1
     title: <i class="fa-brands fa-mastodon fa-lg"></i>
   - url: https://blades.ninja/
     title: <i class="dark-auto">🥷</i>
