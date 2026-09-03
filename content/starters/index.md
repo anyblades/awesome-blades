@@ -10,7 +10,7 @@ title: |-
   <sup style>Best minimal</sup>
   <i class="fa-brands fa-eleventy"></i><span hidden>11ty</span> / Build&nbsp;Awesome
   <mark>starters</mark>
-  <sub style>as of August 2026</sub>
+  <sub style>as of September 2026</sub>
 description: |-
   Eleventy ecosystem offers a [wide variety of starters](/awesome/#starters).
 
