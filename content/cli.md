@@ -1,6 +1,6 @@
 ---
 eleventyNavigation: { parent: More, key: CLI }
-title: One CLI
+title: <em>One</em> CLI
 description: https://github.com/buildawesome-one/kit/tree/main/cli
 bricks:
   - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/cli/README.md

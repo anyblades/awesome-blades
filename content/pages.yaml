@@ -3,6 +3,7 @@
   eleventyNavigation: { key: Plugin, order: 1, url: /plugin/ }
 - permalink: /plugin/
   eleventyNavigation: { parent: Plugin, key: Install, order: 0 }
+  title: <em>One</em> utility Plugin
   description: https://github.com/buildawesome-one/kit/tree/main/plugin
   bricks:
     - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/README.md
@@ -128,7 +129,7 @@
 # Config
 - permalink: /config/
   eleventyNavigation: { key: Config, order: 2 }
-  title: <sup style>All-in-one</sup> <mark>Config</mark> package
+  title: All-in-<em>One</em> Config
   description: https://github.com/buildawesome-one/kit/tree/main/config
   bricks:
     - path: https://raw.githubusercontent.com/buildawesome-one/kit/refs/heads/main/README.md
